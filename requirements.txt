@@ -1,0 +1,10 @@
+# Use the latest stable versions as of development (adjust if newer)
+python-dotenv>=1.0.0
+openai>=1.30.0
+autogen>=0.7.0
+requests>=2.32.0
+spacy>=3.7.0
+streamlit>=1.22.0
+pydantic>=1.10.0
+uvicorn>=0.20.0
+python-dateutil>=2.8.2
