@@ -1,0 +1,11 @@
+/* styles.css — small polish */
+section.main > div { padding-top: .2rem; }
+div[data-testid="stMetric"] {
+  background: #fff;
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+
+/* nicer containers */
+[data-testid="stContainer"] > div:has(> h3, > h4) { margin-top: .4rem; }
