@@ -8,6 +8,25 @@ import plotly.graph_objects as go
 # ---------- Theme ----------
 RISK_COLORS = {"Low": "#2ecc71", "Medium": "#f1c40f", "High": "#e74c3c"}
 
+def navigation_bar():
+    """Creates a navigation bar on the right sidebar"""
+    with st.sidebar:
+        st.markdown("### 📍 Navigation")
+        
+        if st.button("🏠 Home", use_container_width=True):
+            st.session_state.page = "home"
+            
+        if st.button("📊 Risk Assessment", use_container_width=True):
+            st.session_state.page = "risk"
+            
+        if st.button("ℹ️ About", use_container_width=True):
+            st.session_state.page = "about"
+            
+        if st.button("📞 Contact", use_container_width=True):
+            st.session_state.page = "contact"
+        
+        st.divider()
+
 def badge(text, tone="info"):
     tones = {
         "info": "#e9f2ff",
