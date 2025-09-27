@@ -22,13 +22,21 @@ from ui_components import (
     emergency_cards, raw_blocks, navigation_bar
 )
 
+# Initialize session state
+if 'page' not in st.session_state:
+    st.session_state.page = "home"
+
 load_dotenv()
+
+# Show navigation bar
+navigation_bar()
 
 # ----------------- Page Config -----------------
 st.set_page_config(
     page_title="🚦 Trip Safety AI",
-    layout="centered",
-    page_icon="🚌"
+    layout="wide",  # Changed to wide layout for better navigation
+    page_icon="🚌",
+    initial_sidebar_state="expanded"  # Always show sidebar
 )
 
 # Initialize session state for navigation
@@ -111,7 +119,7 @@ login_status = get_login_status()
 
 # Check if user is logged in
 if not login_status['logged_in']:
-    st.markdown("### 🔑 Welcome to Trip Safety AI")
+    st.markdown("### Welcome to Trip Safety AI")
     st.markdown("Please sign in to access the application features.")
     
     # Center the sign-in button
@@ -123,38 +131,86 @@ if not login_status['logged_in']:
             access_type='offline',
             include_granted_scopes='true'
         )
-        if st.button("🔑 Sign in with Google", use_container_width=True):
+        if st.button("Sign in with Google", use_container_width=True):
             st.markdown(f'<meta http-equiv="refresh" content="0;url={auth_url}">', unsafe_allow_html=True)
     st.stop()
 
 # If user is logged in, show the main application
-# ----------------- Header & Navigation -----------------
+# ----------------- Header -----------------
 header(
     title="Trip Safety AI — Multi-Agent System",
-    subtitle="🤖 Risk Assessment • 💡 Advisory • 🚑 Emergency Agents (Demo)",
+    subtitle="• Risk Assessment • Advisory • Emergency Agents (Demo)",
     emoji="🚦"
 )
 
-# Add navigation bar and user profile
-col1, col2 = st.columns([3, 1])
-with col1:
-    navigation_bar()
+# Add minimal navigation for profile access
+col1, col2 = st.columns([6, 1])
 with col2:
     user = login_status['user_info']
-    st.image(user['picture'], width=50)
-    st.caption(f"Welcome, {user['name']}!")
-    if st.button("🚪 Sign Out", key="nav_signout"):
-        logout()
-        st.rerun()
+    if st.button("�", help="View Profile"):
+        st.session_state.page = "profile"
 
 # Handle different pages
-if st.session_state.page == "home":
-    st.markdown("### 👋 Welcome to Trip Safety AI")
+if st.session_state.page == "profile":
+    # Show full navigation in sidebar when in profile
+    with st.sidebar:
+        st.markdown("### Navigation")
+        selected = st.radio(
+            "",
+            [
+                "Profile",
+                "Home",
+                "Risk Assessment",
+                "Price Plan",
+                "About",
+                "Contact"
+            ],
+            label_visibility="collapsed"
+        )
+        
+        if selected == "Profile":
+            st.session_state.page = "profile"
+        elif selected == "Home":
+            st.session_state.page = "home"
+            st.rerun()
+        elif selected == "Risk Assessment":
+            st.session_state.page = "risk"
+            st.rerun()
+        elif selected == "Price Plan":
+            st.session_state.page = "pricing"
+            st.rerun()
+        elif selected == "About":
+            st.session_state.page = "about"
+            st.rerun()
+        elif selected == "Contact":
+            st.session_state.page = "contact"
+            st.rerun()
+    
+    # Profile content
+    st.markdown("### User Profile")
+    if login_status['logged_in']:
+        user = login_status['user_info']
+        col1, col2 = st.columns([1, 3])
+        with col1:
+            st.image(user['picture'], width=150)
+        with col2:
+            st.markdown(f"### {user['name']}")
+            st.markdown(f"**Email:** {user['email']}")
+            st.markdown("---")
+            if st.button("Sign Out", use_container_width=True):
+                logout()
+                st.rerun()
+    else:
+        st.warning("Please sign in to view your profile.")
+
+elif st.session_state.page == "home":
+    st.markdown("### Welcome to Trip Safety AI")
     st.markdown("""
     This application helps you assess and plan for safe travel. Use the navigation 
-    bar above to access different features:
+    bar to access different features:
     
     - **Risk Assessment**: Get detailed safety analysis for your trip
+    - **Price Plan**: View our pricing options
     - **About**: Learn more about our service
     - **Contact**: Get in touch with us
     """)
@@ -172,6 +228,49 @@ elif st.session_state.page == "about":
     Together, these agents provide comprehensive travel safety analysis and recommendations.
     """)
     
+elif st.session_state.page == "pricing":
+    st.markdown("### 💰 Price Plans")
+    
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        st.markdown("""
+        ### 🌟 Basic
+        **$9.99/month**
+        
+        - Basic risk assessment
+        - Standard response time
+        - Email support
+        - 100 trips/month
+        """)
+        st.button("Choose Basic", key="basic_plan", use_container_width=True)
+        
+    with col2:
+        st.markdown("""
+        ### ✨ Premium
+        **$19.99/month**
+        
+        - Advanced risk assessment
+        - Priority response time
+        - 24/7 chat support
+        - Unlimited trips
+        - Weather alerts
+        """)
+        st.button("Choose Premium", key="premium_plan", use_container_width=True)
+        
+    with col3:
+        st.markdown("""
+        ### 💎 Enterprise
+        **Custom pricing**
+        
+        - Custom risk models
+        - Dedicated support
+        - API access
+        - Custom integration
+        - Team management
+        """)
+        st.button("Contact Sales", key="enterprise_plan", use_container_width=True)
+
 elif st.session_state.page == "contact":
     st.markdown("### Contact Us")
     st.markdown("""
@@ -185,34 +284,8 @@ elif st.session_state.page == "contact":
 elif st.session_state.page == "risk":
     # Continue with the original risk assessment functionality
     
-    # ----------------- User Authentication -----------------
+    # Add developer options in sidebar
     with st.sidebar:
-        st.markdown("---")
-        st.markdown("### � User Profile")
-        login_status = get_login_status()
-        
-        if not login_status['logged_in']:
-            flow = init_google_oauth()
-            auth_url, _ = flow.authorization_url(prompt='consent')
-            
-            st.markdown("""
-                ### Welcome!
-                Please sign in to access the Trip Safety AI features.
-            """)
-            
-            if st.button("🔑 Sign in with Google", use_container_width=True):
-                st.markdown(f'<meta http-equiv="refresh" content="0;url={auth_url}">', unsafe_allow_html=True)
-                
-        else:
-            user = login_status['user_info']
-            st.image(user['picture'], width=100)
-            st.markdown(f"### Welcome, {user['name']}!")
-            st.markdown(f"📧 {user['email']}")
-            
-            if st.button("🚪 Sign Out", use_container_width=True):
-                logout()
-                st.rerun()
-                
         st.markdown("---")
         st.info("This is a demo prototype using AI agents for trip safety.")
         show_raw = st.toggle("Developer: show raw data", value=False)
