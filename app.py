@@ -16,11 +16,12 @@ from ui_components import (
 
 # ----------------- Setup -----------------
 st.set_page_config(
-    page_title="🚦 Trip Safety AI",
+    page_title=" Trip Safety AI",
     layout="wide",
-    page_icon="🚌",
+    page_icon="static/images/logo.png",
     initial_sidebar_state="expanded"
 )
+
 
 if 'page' not in st.session_state:
     st.session_state.page = "home"
@@ -50,7 +51,7 @@ def normalize_emergency(obj):
 
 # ----------------- Header -----------------
 header(
-    title="Trip Safety AI — Multi-Agent System",
+    title="Trip Safety AI \nMulti-Agent System",
     subtitle="• Risk Assessment • Advisory • Emergency Agents (Demo)",
     emoji="🚦"
 )
@@ -76,17 +77,76 @@ elif st.session_state.page == "about":
     """)
 
 elif st.session_state.page == "pricing":
-    st.markdown("### 💰 Price Plans")
-    col1, col2, col3 = st.columns(3)
+    st.markdown("###  Pricing Plans")
+
+    # Add custom CSS for gradient hover effects
+    st.markdown("""
+    <style>
+    .pricing-card {
+        padding: 30px;
+        border-radius: 15px;
+        color: white;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+    .pricing-card:hover {
+        transform: scale(1.05);
+        background: linear-gradient(135deg, #6a11cb, #2575fc);
+        box-shadow: 0px 10px 25px rgba(0,0,0,0.4);
+    }
+    .pricing-btn {
+        background: #ff007f;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .pricing-btn:hover {
+        background: linear-gradient(135deg, #ff4b2b, #ff416c);
+        transform: scale(1.1);
+    }
+    ul { list-style: none; padding: 0; text-align: left; margin-top: 20px; }
+    li { margin: 8px 0; }
+    </style>
+    """, unsafe_allow_html=True)
+
+    col1, col2 = st.columns(2)
+
     with col1:
-        st.markdown("**Basic — $9.99/month**\n- Basic risk assessment\n- Email support")
-        st.button("Choose Basic", key="basic")
+        st.markdown("""
+        <div class="pricing-card" style="background-color:#1a1a40;">
+            <h2>Primary</h2>
+            <h3>$0 / week</h3>
+            <ul>
+                <li>✔ Up to 5,000 tokens/week</li>
+                <li>✔ Basic risk score</li>
+                <li>✔ Simple advisory</li>
+                <li>✔ Emergency contacts</li>
+            </ul>
+            <br>
+            <button class="pricing-btn">Get Started</button>
+        </div>
+        """, unsafe_allow_html=True)
+
     with col2:
-        st.markdown("**Premium — $19.99/month**\n- Advanced risk assessment\n- 24/7 support")
-        st.button("Choose Premium", key="premium")
-    with col3:
-        st.markdown("**Enterprise — Custom**\n- Dedicated support\n- API access")
-        st.button("Contact Sales", key="enterprise")
+        st.markdown("""
+        <div class="pricing-card" style="background-color:#4b185f; border:2px solid #ff007f;">
+            <h2>Enterprise</h2>
+            <h3>$10 / week</h3>
+            <ul>
+                <li>✔ Unlimited tokens</li>
+                <li>✔ Full AI advisory</li>
+                <li>✔ PDF trip safety reports</li>
+                <li>✔ API & analytics dashboard</li>
+            </ul>
+            <br>
+            <button class="pricing-btn">Order Now</button>
+        </div>
+        """, unsafe_allow_html=True)
+
+
 
 elif st.session_state.page == "contact":
     st.markdown("### Contact Us")

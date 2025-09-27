@@ -81,7 +81,7 @@ def badge(text, tone="info"):
         """, unsafe_allow_html=True
     )
 
-def header(title, subtitle=None, emoji="🚦", anim=None):
+def header(title, subtitle=None, emoji="", anim=None):
     col1, col2 = st.columns([2, 8])
     with col1:
         try:
