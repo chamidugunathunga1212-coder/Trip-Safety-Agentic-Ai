@@ -13,6 +13,43 @@ def navigation_bar():
     # Initialize page in session state if not present
     if 'page' not in st.session_state:
         st.session_state.page = "home"
+    
+    # Add custom CSS for sidebar styling
+    st.markdown(
+        """
+        <style>
+        [data-testid="stSidebar"] {
+            background-color: #2196f3;
+        }
+        [data-testid="stSidebar"] > div:first-child {
+            background-color: #2196f3;
+        }
+        [data-testid="stSidebar"] [data-testid="stMarkdown"] {
+            color: white !important;
+        }
+        .st-emotion-cache-16txtl3 hr {
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+        section[data-testid="stSidebar"] button[kind="secondary"] {
+            background-color: transparent;
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        section[data-testid="stSidebar"] button[kind="secondary"]:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        section[data-testid="stSidebar"] button[kind="primary"] {
+            background-color: white;
+            color: #2196f3;
+        }
+        section[data-testid="stSidebar"] button[kind="primary"]:hover {
+            background-color: #f0f0f0;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
         
     with st.sidebar:
         st.markdown("### User Profile")
