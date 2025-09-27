@@ -44,12 +44,10 @@ Trip Safety AI is an intelligent system that helps travelers evaluate and manage
 # 🔎 Example Workflow
 
 User input:
-   From: Colombo
-   To: Kandy
-
-Date: Tomorrow
-
-Transport: Bus
+  &nbsp; &nbsp;  From: Colombo
+  &nbsp; &nbsp;  To: Kandy
+  &nbsp; &nbsp;  Date: Tomorrow
+  &nbsp; &nbsp;  Transport: Bus
 
 System checks:
 
