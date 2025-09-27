@@ -16,12 +16,11 @@ from ui_components import (
 
 # ----------------- Setup -----------------
 st.set_page_config(
-    page_title=" Trip Safety AI",
+    page_title="Trip Safety AI",
     layout="wide",
     page_icon="static/images/logo.png",
     initial_sidebar_state="expanded"
 )
-
 
 if 'page' not in st.session_state:
     st.session_state.page = "home"
@@ -29,7 +28,8 @@ if 'page' not in st.session_state:
 load_dotenv()
 navigation_bar()
 
-# Regex for JSON parsing
+# ----------------- JSON helpers -----------------
+_JSON_OBJECT_OR_ARRAY_RE = re.compile(r"(\{.*\}|\[.*\])", re.S)
 _JSON_OBJECT_RE = re.compile(r"\{.*\}", re.S)
 
 def coerce_to_dict(obj):
@@ -42,30 +42,103 @@ def coerce_to_dict(obj):
     try: return json.loads(obj)
     except: return {}
 
-def normalize_emergency(obj):
-    d = coerce_to_dict(obj)
-    for k in ("raw_text", "raw", "emergency_plan"):
-        if isinstance(d.get(k), str):
-            return coerce_to_dict(d[k])
-    return d
+def coerce_json_any(obj):
+    if isinstance(obj, (dict, list)):
+        return obj
+    if not isinstance(obj, str):
+        return {}
+    s = obj.strip()
+    try:
+        return json.loads(s)
+    except:
+        m = _JSON_OBJECT_OR_ARRAY_RE.search(s)
+        if m:
+            try:
+                return json.loads(m.group(1))
+            except:
+                return {}
+        return {}
 
+def normalize_emergency(obj):
+    data = coerce_json_any(obj)
+    if isinstance(data, dict):
+        for k in ("emergency_plan", "raw_text", "raw"):
+            v = data.get(k)
+            if v is not None:
+                data = coerce_json_any(v)
+        if isinstance(data, dict) and isinstance(data.get("locations"), list):
+            return data["locations"]
+        return data
+    if isinstance(data, list):
+        return data
+    return []
 # ----------------- Header -----------------
-header(
-    title="Trip Safety AI \nMulti-Agent System",
-    subtitle="• Risk Assessment • Advisory • Emergency Agents (Demo)",
-    emoji="🚦"
-)
+col1, col2 = st.columns([1, 8])
+
+with col1:
+    st.image("static/images/logo.png", use_container_width=False, width=150)
+
+with col2:
+    st.markdown(
+        """
+        <div style="font-size:50px; font-weight:bold; color:#333; padding-top:20px;">
+                                       
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+
 
 # ----------------- Pages -----------------
 if st.session_state.page == "home":
-    st.markdown("### Welcome to Trip Safety AI")
     st.markdown("""
-    Use the navigation bar to explore:
-    - **Risk Assessment**  
-    - **Price Plan**  
-    - **About**  
-    - **Contact**
-    """)
+    <style>
+    .main-block {
+        background-color: white;
+        padding: 40px;
+        border-radius: 15px;
+    }
+    .home-hero {
+        background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+        background-size: cover;
+        background-position: center;
+        padding: 120px 40px;
+        border-radius: 15px;
+        color: white;
+        font-family: 'Helvetica Neue', sans-serif;
+        text-align: left;
+    }
+    .home-hero h1,
+    .home-hero p,
+    .home-hero li {
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.8); /* black shadow */
+    }
+    .home-hero h1 {
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .home-hero p {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    </style>
+
+    <div class="main-block">
+        <div class="home-hero">
+            <h1>Welcome to Trip Safety AI</h1>
+            <p>Use the navigation bar to explore:</p>
+            <ul>
+                <li><b>Risk Assessment</b></li>
+                <li><b>Price Plan</b></li>
+                <li><b>About</b></li>
+                <li><b>Contact</b></li>
+            </ul>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
 
 elif st.session_state.page == "about":
     st.markdown("### About Trip Safety AI")
@@ -77,7 +150,7 @@ elif st.session_state.page == "about":
     """)
 
 elif st.session_state.page == "pricing":
-    st.markdown("###  Pricing Plans")
+    st.markdown("### Pricing Plans")
 
     # Add custom CSS for gradient hover effects
     st.markdown("""
@@ -134,7 +207,7 @@ elif st.session_state.page == "pricing":
         st.markdown("""
         <div class="pricing-card" style="background-color:#4b185f; border:2px solid #ff007f;">
             <h2>Enterprise</h2>
-            <h3>$10 / week</h3>
+            <h3>$10 / month</h3>
             <ul>
                 <li>✔ Unlimited tokens</li>
                 <li>✔ Full AI advisory</li>
@@ -145,8 +218,6 @@ elif st.session_state.page == "pricing":
             <button class="pricing-btn">Order Now</button>
         </div>
         """, unsafe_allow_html=True)
-
-
 
 elif st.session_state.page == "contact":
     st.markdown("### Contact Us")
@@ -172,8 +243,13 @@ elif st.session_state.page == "risk":
 
         assessment_dict = coerce_to_dict(assessment)
         summary = coerce_to_dict(assessment_dict.get("summary", assessment_dict))
-        weather_data = coerce_to_dict(assessment_dict.get("weather") or {})
-        emergency_data_from_risk = normalize_emergency(assessment_dict.get("emergency_data") or {})
+
+        weather_data = coerce_to_dict(
+            assessment_dict.get("weather_data") or assessment_dict.get("weather") or {}
+        )
+        emergency_data_from_risk = normalize_emergency(
+            assessment_dict.get("emergency_data") or {}
+        )
 
         locations = summary.get("locations", [])
         time_text = summary.get("time", "")
@@ -201,8 +277,12 @@ elif st.session_state.page == "risk":
 
         st.subheader("🚑 Emergency Plan")
         emergency_agent = EmergencyAgent()
-        emergency_plan = normalize_emergency(emergency_agent.handle(summary))
-        merged_emergency = emergency_plan or emergency_data_from_risk
+        emergency_result = emergency_agent.handle(summary)
+        merged_emergency = normalize_emergency(emergency_result)
+
+        if not merged_emergency:
+            merged_emergency = emergency_data_from_risk
+
         if merged_emergency:
             emergency_cards(merged_emergency)
         else:
@@ -212,4 +292,3 @@ elif st.session_state.page == "risk":
             raw_blocks(summary, weather_data, merged_emergency)
 
         st.success("✅ Done!")
-

@@ -1,7 +1,6 @@
 # ui_components.py
 # Reusable Streamlit widgets for a clean, visual UI.
 
-import json
 import streamlit as st
 import plotly.graph_objects as go
 
@@ -9,7 +8,6 @@ import plotly.graph_objects as go
 RISK_COLORS = {"Low": "#2ecc71", "Medium": "#f1c40f", "High": "#e74c3c"}
 
 def navigation_bar():
-    """Creates a navigation bar in the sidebar"""
     if 'page' not in st.session_state:
         st.session_state.page = "home"
     
@@ -63,37 +61,24 @@ def navigation_bar():
                 st.session_state.page = page
                 st.rerun()
 
-def badge(text, tone="info"):
-    tones = {
-        "info": "#e9f2ff",
-        "warn": "#fff5e6",
-        "ok": "#eafaf1",
-        "danger": "#fdecea",
-    }
-    st.markdown(
-        f"""
-        <span style="
-            padding:4px 10px;border-radius:999px;
-            background:{tones.get(tone,'#e9f2ff')};font-size:12px;
-            border:1px solid rgba(0,0,0,0.06);">
-            {text}
-        </span>
-        """, unsafe_allow_html=True
-    )
-
-def header(title, subtitle=None, emoji="", anim=None):
+# ---------- Header ----------
+def header(title=None, subtitle=None, emoji="", anim=None):
     col1, col2 = st.columns([2, 8])
     with col1:
         try:
-            st.image("static/images/logo.png", width=130)
+            st.image("static/images/logo.png", width=200)  # bigger logo
         except Exception:
-            st.markdown(f"<div style='font-size:36px'>{emoji}</div>", unsafe_allow_html=True)
+            if emoji:
+                st.markdown(f"<div style='font-size:36px'>{emoji}</div>", unsafe_allow_html=True)
     with col2:
-        st.markdown(f"## {title}")
-        if subtitle:
+        # Hide title + subtitle on purpose (only logo)
+        if title and st.session_state.page != "home":
+            st.markdown(f"## {title}")
+        if subtitle and st.session_state.page != "home":
             st.caption(subtitle)
     st.divider()
 
+# ---------- Metric Cards ----------
 def metric_cards(score:int, level:str, transport:str, time_text:str):
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Risk Score", f"{int(score)}/100")
@@ -101,6 +86,7 @@ def metric_cards(score:int, level:str, transport:str, time_text:str):
     c3.metric("Transport", transport.capitalize() if transport else "—")
     c4.metric("When", time_text or "—")
 
+# ---------- Risk Gauge ----------
 def risk_gauge(score:int, level:str):
     color = RISK_COLORS.get(level, "#95a5a6")
     fig = go.Figure(go.Indicator(
@@ -120,12 +106,12 @@ def risk_gauge(score:int, level:str):
     fig.update_layout(height=230, margin=dict(l=10, r=10, t=10, b=10))
     st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
 
+# ---------- Icons ----------
 ICON_MAP = {
     "thunder": "⛈️", "storm": "⛈️", "rain": "🌧️", "night": "🌙", "visibility": "👁️",
     "fatigue": "😴", "incident": "🚧", "road": "🛣️", "emergency": "🚑", "wind": "🌬️",
     "heat": "🌡️", "slippery": "⚠️", "default": "📌",
 }
-
 def icon_for(text:str):
     t = (text or "").lower()
     for k, v in ICON_MAP.items():
@@ -133,6 +119,7 @@ def icon_for(text:str):
             return v
     return ICON_MAP["default"]
 
+# ---------- Reasons ----------
 def reasons_list(reasons:list[str]):
     st.subheader("Why this risk?")
     if not reasons:
@@ -141,6 +128,7 @@ def reasons_list(reasons:list[str]):
     for r in reasons:
         st.markdown(f"- {icon_for(r)} {r}")
 
+# ---------- Actions Checklist ----------
 def actions_checklist(actions:list[str]):
     st.subheader("Recommended actions")
     if not actions:
@@ -149,28 +137,63 @@ def actions_checklist(actions:list[str]):
     for a in actions:
         st.checkbox(a, value=False, key=f"action_{hash(a)}")
 
+# ---------- Emergency Cards ----------
 def emergency_cards(emergency_data):
-    st.subheader("Emergency plan")
+    st.subheader("")
+
     if not emergency_data:
         st.info("No emergency data available.")
         return
-    if isinstance(emergency_data, dict):
+
+    if isinstance(emergency_data, list):
+        for plan in emergency_data:
+            if not isinstance(plan, dict):
+                st.write(plan)
+                continue
+
+            location = plan.get("location", "Unknown Location")
+            contacts = plan.get("emergency_contacts", {})
+            steps = plan.get("next_steps", [])
+            checklist = plan.get("3-min_response_checklist", [])
+
+            with st.container(border=True):
+                st.markdown(f"### 📍 {location}")
+
+                if contacts:
+                    st.markdown("**☎️ Emergency Contacts:**")
+                    for label, num in contacts.items():
+                        icon = "🚓" if "police" in label else "🚑" if "ambulance" in label else "🔥" if "fire" in label else "☎️"
+                        st.markdown(f"- {icon} **{label.replace('_',' ').title()}:** {num}")
+
+                if steps:
+                    st.markdown("**✅ Next Steps:**")
+                    for step in steps:
+                        st.markdown(f"- {step}")
+
+                if checklist:
+                    st.markdown("**🕒 3-Minute Response Checklist:**")
+                    for step in checklist:
+                        st.markdown(f"- {step}")
+
+    elif isinstance(emergency_data, dict):
         for city, info in emergency_data.items():
             with st.container(border=True):
-                st.markdown(f"**{city}**")
-                for label, num in (info.get("emergency_contacts") or {}).items():
-                    st.markdown(f"**{label}:** {num}")
-                if info.get("next_steps"):
-                    with st.expander("Next steps (quick)"):
-                        for step in info["next_steps"]:
-                            st.markdown(f"- {step}")
+                st.markdown(f"### 📍 {city}")
+                if isinstance(info, dict):
+                    for label, num in (info.get("emergency_contacts") or {}).items():
+                        st.markdown(f"- **{label}:** {num}")
+                    for step in info.get("next_steps", []):
+                        st.markdown(f"- {step}")
+                else:
+                    st.write(info)
     else:
         st.write(emergency_data)
 
+# ---------- Raw Blocks ----------
 def raw_blocks(summary:dict=None, weather:dict=None, emergency:dict=None):
     with st.expander("Raw summary JSON"):
-        st.code(json.dumps(summary or {}, indent=2))
+        st.json(summary or {})
     with st.expander("Raw weather sources"):
-        st.code(json.dumps(weather or {}, indent=2))
+        st.json(weather or {})
     with st.expander("Raw emergency sources"):
-        st.code(json.dumps(emergency or {}, indent=2))
+        st.json(emergency or {})
