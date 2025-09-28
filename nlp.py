@@ -3,7 +3,7 @@ nlp.py
 spaCy-based NER and simple heuristics for transport & time.
 """
 
-import re
+import re  #Pattern search
 from typing import List, Optional
 import spacy
 from dateutil import parser as date_parser
