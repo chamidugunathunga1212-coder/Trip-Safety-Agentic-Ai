@@ -1,0 +1,29 @@
+cookie:
+  expiry_days: 1
+  key: random_signature_key
+  name: streamlit_auth_cookie
+credentials:
+  usernames:
+    admin:
+      email: admin@tripsafety.ai
+      name: Admin User
+      password: admin123
+    chandre:
+      name: chandra
+      password: $2b$12$SpzZIUeWUrcmyPEilYIA3erKKxU7c/cqmWt8IoslZKR/mNNn7AXQi
+    hasa:
+      name: Hasandi Chandrakeerthi
+      password: $2b$12$SMObtwnDd6kbCPaGvfBxoudPNkQA/FuJsQd3PJ.AzIy4hdz6/Rvs.
+    maheli:
+      email: maheli@tripsafety.ai
+      name: Maheli
+      password: '12345'
+    mahelix:
+      name: Hasandi Chandrakeerthi
+      password: $2b$12$XBzKW1xiwfAoG4I9E2gY8uzCL5vtYOr9QhrlOx.fRmIYzZWGf8/aK
+    mxheli:
+      name: mxheli
+      password: $2b$12$uREJNLG5JuNpDRIHzz.9NeZVsIbC/yDbedJK40rf9ElurgMb.q4Ry
+    nimma:
+      name: nimasara
+      password: $2b$12$ljESivXfA4tLu6Zz8.zHr.XyL1dx6XVZI9blOsmktDjphDqIHChjq
