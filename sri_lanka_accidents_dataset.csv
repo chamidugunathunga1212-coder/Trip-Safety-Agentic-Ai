@@ -1,0 +1,2001 @@
+City,Transport_Mode,Brand,Weather_Condition,Time_of_Day,Emergency_Alert,Speed_Limit_kmh,Past_Accidents_in_Region,accident_probability
+Kurunegala,Bus,Toyota,Clear,Morning (06:00-10:00),None,70,27,0.4365
+Negombo,Car,Toyota,Clear,Morning (06:00-10:00),None,30,26,0.2868
+Colombo,Car,Honda,Clear,Midday (10:00-14:00),None,80,116,0.948
+Anuradhapura,Bus,Toyota,Clear,Morning (06:00-10:00),Police Checkpoint,50,22,0.3159
+Colombo,Bus,Toyota,Light Rain,Evening (18:00-22:00),None,60,94,0.8761
+Trincomalee,Motorcycle,Honda,Heavy Rain,Afternoon (14:00-18:00),Road Work,60,11,0.606
+Kurunegala,Bus,Ashok Leyland,Heavy Rain,Night (22:00-00:00),Flood Alert,80,36,0.8086
+Galle,Motorcycle,Honda,Clear,Midday (10:00-14:00),None,70,30,0.5693
+Kurunegala,Bus,Isuzu,Clear,Evening (18:00-22:00),None,50,20,0.3376
+Trincomalee,Car,Honda,Clear,Midday (10:00-14:00),Accident Nearby,30,15,0.3204
+Batticaloa,Three-Wheeler,TVS,Clear,Morning (06:00-10:00),Police Checkpoint,80,8,0.3305
+Kandy,Car,Suzuki,Windy,Afternoon (14:00-18:00),None,40,39,0.4513
+Anuradhapura,Car,Mitsubishi,Overcast,Evening (18:00-22:00),None,40,15,0.2506
+Trincomalee,Car,Toyota,Heavy Rain,Evening (18:00-22:00),None,40,3,0.2554
+Kurunegala,Car,Suzuki,Clear,Night (22:00-00:00),None,100,10,0.4667
+Batticaloa,Bus,Isuzu,Clear,Evening (18:00-22:00),Accident Nearby,80,8,0.4338
+Galle,Motorcycle,Bajaj,Overcast,Night (22:00-00:00),Road Work,50,17,0.4885
+Negombo,Bus,Ashok Leyland,Fog,Midday (10:00-14:00),None,60,30,0.5362
+Colombo,Three-Wheeler,Bajaj,Overcast,Afternoon (14:00-18:00),None,50,77,0.8197
+Trincomalee,Three-Wheeler,Bajaj,Clear,Evening (18:00-22:00),Police Checkpoint,30,5,0.1652
+Negombo,Bus,Isuzu,Heavy Rain,Morning (06:00-10:00),None,60,40,0.6547
+Kandy,Three-Wheeler,TVS,Storm,Night (22:00-00:00),Accident Nearby,70,42,0.8409
+Kurunegala,Motorcycle,Honda,Clear,Afternoon (14:00-18:00),None,40,24,0.456
+Galle,Car,Nissan,Overcast,Early Morning (00:00-06:00),None,30,14,0.2034
+Colombo,Bus,Toyota,Clear,Morning (06:00-10:00),None,40,86,0.7187
+Colombo,Van,Isuzu,Clear,Afternoon (14:00-18:00),None,30,102,0.8557
+Kurunegala,Motorcycle,Suzuki,Overcast,Evening (18:00-22:00),None,100,14,0.6588
+Colombo,Motorcycle,Honda,Heavy Rain,Morning (06:00-10:00),None,60,109,0.9723
+Colombo,Motorcycle,Suzuki,Clear,Night (22:00-00:00),None,80,84,0.9164
+Negombo,Bus,Isuzu,Fog,Night (22:00-00:00),Police Checkpoint,80,24,0.6028
+Colombo,Car,Nissan,Fog,Night (22:00-00:00),None,30,84,0.8567
+Galle,Van,Isuzu,Clear,Afternoon (14:00-18:00),None,80,38,0.5845
+Kurunegala,Car,Nissan,Clear,Night (22:00-00:00),None,60,23,0.3957
+Anuradhapura,Bus,Isuzu,Overcast,Night (22:00-00:00),None,30,8,0.2059
+Negombo,Three-Wheeler,Bajaj,Overcast,Afternoon (14:00-18:00),None,30,34,0.4436
+Trincomalee,Motorcycle,Yamaha,Light Rain,Midday (10:00-14:00),None,60,6,0.4994
+Trincomalee,Motorcycle,Honda,Clear,Midday (10:00-14:00),None,50,13,0.3795
+Kandy,Car,Toyota,Clear,Afternoon (14:00-18:00),None,30,20,0.2392
+Negombo,Car,Nissan,Windy,Evening (18:00-22:00),Road Work,50,15,0.3906
+Colombo,Three-Wheeler,TVS,Light Rain,Night (22:00-00:00),None,30,104,0.878
+Batticaloa,Motorcycle,Yamaha,Windy,Morning (06:00-10:00),None,30,14,0.3205
+Negombo,Motorcycle,Bajaj,Light Rain,Morning (06:00-10:00),None,50,28,0.5468
+Negombo,Bicycle,Giant,Clear,Midday (10:00-14:00),None,30,26,0.2599
+Anuradhapura,Car,Hyundai,Clear,Midday (10:00-14:00),None,60,12,0.303
+Colombo,Van,Nissan,Overcast,Evening (18:00-22:00),None,40,63,0.6471
+Colombo,Motorcycle,Yamaha,Windy,Morning (06:00-10:00),None,30,82,0.853
+Anuradhapura,Bicycle,Local,Storm,Evening (18:00-22:00),Police Checkpoint,40,11,0.3435
+Colombo,Three-Wheeler,Bajaj,Windy,Early Morning (00:00-06:00),None,50,126,0.96
+Trincomalee,Three-Wheeler,Bajaj,Clear,Evening (18:00-22:00),None,80,14,0.4255
+Batticaloa,Motorcycle,Suzuki,Clear,Evening (18:00-22:00),Road Work,40,3,0.3255
+Kurunegala,Motorcycle,Honda,Fog,Night (22:00-00:00),None,70,26,0.7253
+Galle,Truck,Hino,Clear,Early Morning (00:00-06:00),Road Work,50,22,0.4453
+Matara,Truck,Isuzu,Clear,Midday (10:00-14:00),None,50,13,0.3105
+Matara,Car,Suzuki,Windy,Morning (06:00-10:00),None,50,21,0.3599
+Negombo,Three-Wheeler,Bajaj,Clear,Morning (06:00-10:00),None,50,36,0.4514
+Kandy,Three-Wheeler,TVS,Overcast,Afternoon (14:00-18:00),None,70,56,0.7261
+Negombo,Motorcycle,Suzuki,Light Rain,Night (22:00-00:00),None,50,20,0.4775
+Negombo,Bus,Toyota,Clear,Evening (18:00-22:00),None,50,24,0.3744
+Jaffna,Car,Honda,Overcast,Night (22:00-00:00),Accident Nearby,40,19,0.3925
+Colombo,Car,Mitsubishi,Light Rain,Morning (06:00-10:00),Police Checkpoint,40,124,0.944
+Kandy,Three-Wheeler,Bajaj,Clear,Morning (06:00-10:00),None,80,39,0.6646
+Colombo,Motorcycle,Bajaj,Light Rain,Midday (10:00-14:00),None,40,95,0.9095
+Kurunegala,Bicycle,Giant,Heavy Rain,Morning (06:00-10:00),Accident Nearby,70,15,0.5789
+Jaffna,Car,Toyota,Overcast,Evening (18:00-22:00),None,100,10,0.4613
+Matara,Van,Isuzu,Light Rain,Evening (18:00-22:00),None,80,22,0.5549
+Negombo,Bicycle,Local,Overcast,Evening (18:00-22:00),Flood Alert,50,39,0.6029
+Anuradhapura,Car,Nissan,Clear,Morning (06:00-10:00),None,50,13,0.2173
+Galle,Car,Nissan,Clear,Midday (10:00-14:00),None,40,32,0.3691
+Jaffna,Motorcycle,Suzuki,Clear,Morning (06:00-10:00),None,90,19,0.6271
+Matara,Car,Honda,Clear,Early Morning (00:00-06:00),None,70,13,0.3694
+Batticaloa,Van,Isuzu,Overcast,Evening (18:00-22:00),Accident Nearby,80,12,0.5467
+Negombo,Motorcycle,Suzuki,Clear,Midday (10:00-14:00),None,50,40,0.627
+Colombo,Car,Nissan,Storm,Afternoon (14:00-18:00),Road Work,60,99,0.9574
+Kurunegala,Bus,Toyota,Clear,Afternoon (14:00-18:00),None,50,36,0.4526
+Kandy,Motorcycle,Suzuki,Clear,Night (22:00-00:00),None,80,12,0.4669
+Jaffna,Car,Toyota,Storm,Midday (10:00-14:00),None,80,22,0.625
+Kurunegala,Car,Nissan,Clear,Early Morning (00:00-06:00),None,40,24,0.3283
+Kurunegala,Car,Nissan,Overcast,Morning (06:00-10:00),None,60,21,0.4223
+Trincomalee,Car,Nissan,Storm,Morning (06:00-10:00),None,50,12,0.4208
+Kurunegala,Van,Isuzu,Windy,Morning (06:00-10:00),None,80,8,0.3948
+Kandy,Car,Hyundai,Fog,Afternoon (14:00-18:00),None,100,42,0.8139
+Anuradhapura,Motorcycle,Suzuki,Light Rain,Morning (06:00-10:00),None,30,15,0.3841
+Jaffna,Car,Suzuki,Storm,Afternoon (14:00-18:00),Accident Nearby,70,26,0.6767
+Jaffna,Car,Mitsubishi,Clear,Evening (18:00-22:00),None,60,14,0.2574
+Jaffna,Car,Hyundai,Clear,Morning (06:00-10:00),Police Checkpoint,50,12,0.2426
+Jaffna,Car,Honda,Light Rain,Midday (10:00-14:00),None,80,14,0.4213
+Colombo,Motorcycle,Honda,Clear,Evening (18:00-22:00),None,50,122,0.9558
+Colombo,Van,Toyota,Clear,Midday (10:00-14:00),None,50,108,0.9077
+Jaffna,Car,Suzuki,Heavy Rain,Morning (06:00-10:00),None,70,14,0.4684
+Kandy,Car,Suzuki,Overcast,Midday (10:00-14:00),Traffic Jam,60,51,0.6959
+Galle,Motorcycle,Honda,Clear,Morning (06:00-10:00),None,30,25,0.3922
+Negombo,Three-Wheeler,Bajaj,Clear,Evening (18:00-22:00),None,60,35,0.535
+Anuradhapura,Car,Toyota,Fog,Midday (10:00-14:00),None,50,10,0.4048
+Kurunegala,Bus,Ashok Leyland,Storm,Afternoon (14:00-18:00),None,40,21,0.4238
+Batticaloa,Car,Toyota,Overcast,Afternoon (14:00-18:00),None,40,9,0.2534
+Colombo,Van,Isuzu,Clear,Morning (06:00-10:00),None,60,63,0.7209
+Kurunegala,Bus,Isuzu,Windy,Morning (06:00-10:00),None,60,26,0.4703
+Jaffna,Car,Honda,Clear,Afternoon (14:00-18:00),None,60,19,0.3222
+Batticaloa,Truck,Mitsubishi,Overcast,Morning (06:00-10:00),Police Checkpoint,30,11,0.2183
+Anuradhapura,Car,Hyundai,Light Rain,Morning (06:00-10:00),None,30,12,0.2695
+Colombo,Motorcycle,Suzuki,Clear,Morning (06:00-10:00),None,70,64,0.8275
+Jaffna,Car,Hyundai,Heavy Rain,Afternoon (14:00-18:00),None,90,14,0.5405
+Jaffna,Car,Mitsubishi,Clear,Morning (06:00-10:00),None,30,15,0.2028
+Anuradhapura,Car,Honda,Windy,Midday (10:00-14:00),None,50,9,0.3082
+Galle,Motorcycle,Suzuki,Clear,Afternoon (14:00-18:00),Road Work,70,23,0.574
+Matara,Bus,Ashok Leyland,Storm,Evening (18:00-22:00),None,90,20,0.7005
+Trincomalee,Car,Hyundai,Overcast,Evening (18:00-22:00),None,60,21,0.3622
+Jaffna,Motorcycle,Suzuki,Light Rain,Afternoon (14:00-18:00),None,50,18,0.4941
+Galle,Car,Nissan,Clear,Afternoon (14:00-18:00),None,90,26,0.5239
+Batticaloa,Car,Suzuki,Clear,Morning (06:00-10:00),None,80,10,0.3767
+Batticaloa,Three-Wheeler,Bajaj,Light Rain,Afternoon (14:00-18:00),None,40,2,0.2411
+Galle,Car,Mitsubishi,Clear,Early Morning (00:00-06:00),None,40,24,0.3081
+Kandy,Bicycle,Local,Clear,Night (22:00-00:00),None,40,45,0.4584
+Colombo,Car,Honda,Clear,Morning (06:00-10:00),Flood Alert,30,161,0.9843
+Trincomalee,Car,Nissan,Overcast,Evening (18:00-22:00),None,50,11,0.2937
+Batticaloa,Truck,Isuzu,Overcast,Morning (06:00-10:00),None,60,12,0.3652
+Anuradhapura,Bus,Ashok Leyland,Clear,Evening (18:00-22:00),None,90,13,0.4181
+Negombo,Three-Wheeler,TVS,Light Rain,Evening (18:00-22:00),None,70,17,0.455
+Batticaloa,Motorcycle,Suzuki,Clear,Afternoon (14:00-18:00),None,60,16,0.3603
+Galle,Motorcycle,Bajaj,Overcast,Morning (06:00-10:00),Accident Nearby,30,30,0.5395
+Anuradhapura,Car,Suzuki,Clear,Afternoon (14:00-18:00),Accident Nearby,100,18,0.674
+Negombo,Bus,Isuzu,Storm,Midday (10:00-14:00),None,80,19,0.6322
+Colombo,Van,Toyota,Light Rain,Midday (10:00-14:00),None,40,135,0.9648
+Jaffna,Truck,Mitsubishi,Light Rain,Midday (10:00-14:00),None,50,8,0.3432
+Kurunegala,Car,Hyundai,Light Rain,Evening (18:00-22:00),None,60,28,0.4902
+Matara,Motorcycle,Honda,Storm,Evening (18:00-22:00),None,30,31,0.6249
+Kurunegala,Three-Wheeler,TVS,Clear,Midday (10:00-14:00),None,50,16,0.2995
+Colombo,Motorcycle,Suzuki,Clear,Afternoon (14:00-18:00),None,80,85,0.9266
+Colombo,Bus,Toyota,Light Rain,Morning (06:00-10:00),Police Checkpoint,40,102,0.8952
+Jaffna,Motorcycle,Honda,Light Rain,Evening (18:00-22:00),None,50,14,0.4628
+Negombo,Bus,Toyota,Storm,Midday (10:00-14:00),Police Checkpoint,70,13,0.5191
+Jaffna,Motorcycle,Suzuki,Fog,Morning (06:00-10:00),None,50,17,0.5568
+Kandy,Car,Toyota,Storm,Afternoon (14:00-18:00),None,60,31,0.6434
+Kurunegala,Car,Toyota,Windy,Evening (18:00-22:00),Flood Alert,90,27,0.7349
+Anuradhapura,Motorcycle,Honda,Clear,Morning (06:00-10:00),None,70,8,0.3996
+Anuradhapura,Car,Nissan,Light Rain,Night (22:00-00:00),None,50,22,0.3812
+Jaffna,Car,Mitsubishi,Clear,Night (22:00-00:00),None,50,12,0.2669
+Colombo,Three-Wheeler,TVS,Overcast,Night (22:00-00:00),Flood Alert,50,91,0.9368
+Batticaloa,Car,Hyundai,Light Rain,Midday (10:00-14:00),None,90,14,0.463
+Colombo,Truck,Hino,Light Rain,Night (22:00-00:00),Police Checkpoint,80,69,0.849
+Galle,Three-Wheeler,Bajaj,Clear,Morning (06:00-10:00),None,70,26,0.498
+Kandy,Motorcycle,Honda,Clear,Morning (06:00-10:00),None,80,61,0.8319
+Matara,Van,Nissan,Light Rain,Afternoon (14:00-18:00),None,70,7,0.3852
+Kurunegala,Bus,Ashok Leyland,Windy,Midday (10:00-14:00),None,30,25,0.3278
+Trincomalee,Bus,Toyota,Clear,Night (22:00-00:00),None,60,13,0.3006
+Matara,Car,Suzuki,Light Rain,Evening (18:00-22:00),None,90,22,0.6104
+Kandy,Car,Nissan,Clear,Night (22:00-00:00),Flood Alert,30,29,0.405
+Kurunegala,Car,Mitsubishi,Clear,Midday (10:00-14:00),None,40,13,0.221
+Batticaloa,Motorcycle,Bajaj,Light Rain,Afternoon (14:00-18:00),None,80,13,0.558
+Kandy,Bus,Isuzu,Clear,Evening (18:00-22:00),None,60,48,0.5412
+Batticaloa,Motorcycle,Bajaj,Heavy Rain,Afternoon (14:00-18:00),None,100,12,0.6907
+Trincomalee,Car,Nissan,Clear,Evening (18:00-22:00),None,50,14,0.3195
+Anuradhapura,Car,Toyota,Clear,Early Morning (00:00-06:00),None,60,10,0.2857
+Anuradhapura,Car,Hyundai,Overcast,Morning (06:00-10:00),None,90,15,0.4705
+Colombo,Three-Wheeler,TVS,Overcast,Night (22:00-00:00),None,60,107,0.922
+Galle,Car,Suzuki,Light Rain,Midday (10:00-14:00),Road Work,50,19,0.4278
+Colombo,Bus,Isuzu,Light Rain,Afternoon (14:00-18:00),None,100,146,0.9898
+Negombo,Motorcycle,Suzuki,Clear,Evening (18:00-22:00),Flood Alert,70,31,0.7256
+Anuradhapura,Car,Nissan,Clear,Evening (18:00-22:00),None,80,7,0.3721
+Galle,Car,Hyundai,Clear,Afternoon (14:00-18:00),None,40,29,0.3649
+Trincomalee,Bus,Ashok Leyland,Clear,Morning (06:00-10:00),None,80,7,0.3078
+Negombo,Car,Honda,Overcast,Afternoon (14:00-18:00),None,80,34,0.5873
+Trincomalee,Motorcycle,Yamaha,Storm,Afternoon (14:00-18:00),None,60,18,0.6413
+Kandy,Car,Nissan,Fog,Midday (10:00-14:00),None,30,34,0.5357
+Kandy,Motorcycle,Suzuki,Fog,Night (22:00-00:00),Accident Nearby,60,57,0.9118
+Kurunegala,Bus,Isuzu,Heavy Rain,Morning (06:00-10:00),None,70,27,0.5607
+Kandy,Motorcycle,Yamaha,Clear,Morning (06:00-10:00),None,30,55,0.6075
+Anuradhapura,Truck,Isuzu,Light Rain,Morning (06:00-10:00),None,50,24,0.443
+Galle,Car,Honda,Overcast,Evening (18:00-22:00),None,70,23,0.4385
+Colombo,Bus,Toyota,Light Rain,Afternoon (14:00-18:00),None,50,81,0.8361
+Anuradhapura,Bus,Toyota,Clear,Afternoon (14:00-18:00),None,60,9,0.3028
+Kandy,Motorcycle,Yamaha,Clear,Midday (10:00-14:00),None,40,34,0.4971
+Kandy,Motorcycle,Yamaha,Overcast,Midday (10:00-14:00),None,60,44,0.6746
+Kandy,Car,Mitsubishi,Heavy Rain,Morning (06:00-10:00),Road Work,30,49,0.677
+Colombo,Van,Mitsubishi,Overcast,Afternoon (14:00-18:00),None,50,106,0.9025
+Colombo,Bus,Toyota,Clear,Night (22:00-00:00),None,70,120,0.9613
+Galle,Motorcycle,Yamaha,Clear,Afternoon (14:00-18:00),None,50,25,0.4189
+Kandy,Motorcycle,Honda,Heavy Rain,Morning (06:00-10:00),None,60,63,0.8676
+Colombo,Three-Wheeler,TVS,Light Rain,Evening (18:00-22:00),Accident Nearby,40,93,0.9327
+Colombo,Motorcycle,Bajaj,Heavy Rain,Afternoon (14:00-18:00),None,80,168,0.9968
+Negombo,Car,Honda,Clear,Night (22:00-00:00),None,70,32,0.4929
+Matara,Three-Wheeler,TVS,Clear,Morning (06:00-10:00),None,50,12,0.292
+Kandy,Bus,Isuzu,Clear,Afternoon (14:00-18:00),None,50,31,0.4004
+Kandy,Car,Toyota,Light Rain,Afternoon (14:00-18:00),None,60,51,0.7106
+Anuradhapura,Bicycle,Local,Windy,Afternoon (14:00-18:00),None,60,12,0.2637
+Negombo,Van,Isuzu,Clear,Evening (18:00-22:00),None,70,33,0.575
+Negombo,Bus,Ashok Leyland,Light Rain,Night (22:00-00:00),None,60,31,0.4721
+Galle,Van,Isuzu,Clear,Midday (10:00-14:00),None,80,24,0.4885
+Kurunegala,Bus,Ashok Leyland,Overcast,Midday (10:00-14:00),None,80,17,0.4252
+Trincomalee,Car,Nissan,Clear,Afternoon (14:00-18:00),None,50,5,0.2336
+Trincomalee,Car,Suzuki,Clear,Evening (18:00-22:00),None,60,10,0.2478
+Kurunegala,Motorcycle,Bajaj,Light Rain,Evening (18:00-22:00),None,70,30,0.6687
+Negombo,Car,Suzuki,Overcast,Early Morning (00:00-06:00),None,90,29,0.6385
+Galle,Three-Wheeler,Bajaj,Clear,Morning (06:00-10:00),None,80,15,0.4035
+Colombo,Three-Wheeler,Bajaj,Light Rain,Evening (18:00-22:00),None,60,104,0.9384
+Colombo,Motorcycle,Bajaj,Light Rain,Early Morning (00:00-06:00),None,70,109,0.962
+Trincomalee,Car,Mitsubishi,Heavy Rain,Morning (06:00-10:00),None,90,8,0.5298
+Anuradhapura,Bicycle,Giant,Clear,Night (22:00-00:00),Traffic Jam,60,14,0.3162
+Kandy,Motorcycle,Suzuki,Storm,Evening (18:00-22:00),Accident Nearby,40,45,0.804
+Kandy,Car,Hyundai,Overcast,Morning (06:00-10:00),Flood Alert,80,30,0.6999
+Kandy,Three-Wheeler,TVS,Clear,Afternoon (14:00-18:00),Flood Alert,30,49,0.7065
+Trincomalee,Three-Wheeler,TVS,Windy,Midday (10:00-14:00),None,50,15,0.3579
+Galle,Bus,Ashok Leyland,Clear,Night (22:00-00:00),Flood Alert,70,33,0.6714
+Anuradhapura,Bus,Toyota,Windy,Afternoon (14:00-18:00),Flood Alert,70,19,0.5451
+Jaffna,Car,Toyota,Clear,Morning (06:00-10:00),None,90,8,0.3574
+Matara,Motorcycle,Honda,Clear,Morning (06:00-10:00),None,70,11,0.4485
+Matara,Bus,Toyota,Overcast,Early Morning (00:00-06:00),None,50,20,0.3811
+Colombo,Motorcycle,Honda,Clear,Midday (10:00-14:00),None,30,112,0.924
+Trincomalee,Bus,Isuzu,Overcast,Evening (18:00-22:00),None,30,14,0.2235
+Batticaloa,Bus,Toyota,Storm,Morning (06:00-10:00),None,80,28,0.6794
+Galle,Car,Mitsubishi,Clear,Afternoon (14:00-18:00),Accident Nearby,40,29,0.4083
+Galle,Motorcycle,Bajaj,Fog,Afternoon (14:00-18:00),Traffic Jam,60,33,0.752
+Colombo,Bus,Isuzu,Heavy Rain,Midday (10:00-14:00),None,30,123,0.9536
+Colombo,Bus,Toyota,Overcast,Night (22:00-00:00),None,50,116,0.9254
+Anuradhapura,Motorcycle,Honda,Fog,Early Morning (00:00-06:00),None,50,12,0.5002
+Anuradhapura,Motorcycle,Suzuki,Light Rain,Evening (18:00-22:00),None,100,18,0.6875
+Negombo,Car,Honda,Clear,Morning (06:00-10:00),None,50,20,0.3089
+Trincomalee,Motorcycle,Honda,Clear,Morning (06:00-10:00),None,50,11,0.3511
+Matara,Motorcycle,Suzuki,Clear,Early Morning (00:00-06:00),Road Work,50,14,0.5117
+Trincomalee,Motorcycle,Yamaha,Clear,Afternoon (14:00-18:00),None,80,12,0.478
+Kurunegala,Van,Nissan,Fog,Afternoon (14:00-18:00),None,40,42,0.6211
+Kandy,Car,Hyundai,Clear,Afternoon (14:00-18:00),None,70,21,0.3884
+Trincomalee,Motorcycle,Yamaha,Overcast,Afternoon (14:00-18:00),None,70,15,0.5127
+Kandy,Bus,Isuzu,Clear,Afternoon (14:00-18:00),Police Checkpoint,30,24,0.2625
+Anuradhapura,Car,Nissan,Storm,Midday (10:00-14:00),Police Checkpoint,60,11,0.4273
+Colombo,Three-Wheeler,TVS,Clear,Evening (18:00-22:00),Traffic Jam,80,127,0.9783
+Trincomalee,Truck,Hino,Clear,Morning (06:00-10:00),None,80,12,0.483
+Batticaloa,Car,Mitsubishi,Light Rain,Evening (18:00-22:00),None,40,6,0.2318
+Colombo,Bus,Toyota,Clear,Afternoon (14:00-18:00),None,80,82,0.8358
+Negombo,Car,Toyota,Clear,Midday (10:00-14:00),None,60,33,0.4944
+Jaffna,Motorcycle,Yamaha,Clear,Midday (10:00-14:00),None,60,12,0.3815
+Negombo,Bus,Isuzu,Light Rain,Morning (06:00-10:00),Police Checkpoint,50,29,0.4664
+Trincomalee,Bus,Ashok Leyland,Overcast,Midday (10:00-14:00),None,90,12,0.3815
+Kandy,Van,Mitsubishi,Fog,Morning (06:00-10:00),None,60,36,0.6867
+Colombo,Motorcycle,Yamaha,Overcast,Morning (06:00-10:00),Police Checkpoint,40,153,0.9802
+Kurunegala,Car,Honda,Clear,Night (22:00-00:00),None,80,29,0.538
+Colombo,Van,Mitsubishi,Light Rain,Evening (18:00-22:00),None,70,49,0.7169
+Negombo,Car,Hyundai,Light Rain,Midday (10:00-14:00),None,80,29,0.5548
+Galle,Motorcycle,Yamaha,Clear,Midday (10:00-14:00),None,50,20,0.4129
+Colombo,Three-Wheeler,TVS,Light Rain,Evening (18:00-22:00),Traffic Jam,40,121,0.9574
+Galle,Car,Hyundai,Clear,Morning (06:00-10:00),None,40,19,0.2798
+Colombo,Van,Isuzu,Clear,Evening (18:00-22:00),None,50,97,0.8811
+Matara,Motorcycle,Bajaj,Overcast,Afternoon (14:00-18:00),None,50,20,0.506
+Colombo,Van,Isuzu,Storm,Morning (06:00-10:00),None,30,121,0.9494
+Negombo,Bicycle,Local,Clear,Early Morning (00:00-06:00),None,40,16,0.2778
+Kandy,Motorcycle,Suzuki,Clear,Midday (10:00-14:00),None,40,40,0.5529
+Negombo,Bus,Isuzu,Overcast,Afternoon (14:00-18:00),Accident Nearby,70,23,0.5183
+Matara,Bus,Ashok Leyland,Clear,Evening (18:00-22:00),None,90,13,0.3863
+Anuradhapura,Motorcycle,Suzuki,Overcast,Early Morning (00:00-06:00),None,50,23,0.4664
+Jaffna,Motorcycle,Bajaj,Clear,Afternoon (14:00-18:00),None,100,20,0.6603
+Anuradhapura,Motorcycle,Honda,Overcast,Afternoon (14:00-18:00),None,60,7,0.3787
+Jaffna,Bus,Toyota,Light Rain,Night (22:00-00:00),None,80,23,0.5778
+Kurunegala,Car,Toyota,Overcast,Morning (06:00-10:00),None,100,40,0.6669
+Matara,Motorcycle,Yamaha,Overcast,Morning (06:00-10:00),None,60,23,0.5145
+Batticaloa,Bus,Isuzu,Clear,Afternoon (14:00-18:00),None,40,4,0.166
+Jaffna,Motorcycle,Suzuki,Light Rain,Midday (10:00-14:00),Accident Nearby,90,14,0.7097
+Batticaloa,Car,Toyota,Light Rain,Afternoon (14:00-18:00),None,100,16,0.5856
+Negombo,Motorcycle,Bajaj,Overcast,Afternoon (14:00-18:00),None,70,21,0.5282
+Batticaloa,Car,Mitsubishi,Clear,Afternoon (14:00-18:00),Police Checkpoint,50,12,0.2002
+Kandy,Van,Mitsubishi,Heavy Rain,Evening (18:00-22:00),None,60,54,0.7718
+Negombo,Car,Mitsubishi,Clear,Morning (06:00-10:00),None,50,19,0.3243
+Trincomalee,Three-Wheeler,Bajaj,Clear,Midday (10:00-14:00),None,50,12,0.3113
+Jaffna,Motorcycle,Suzuki,Clear,Evening (18:00-22:00),None,60,0,0.3413
+Kandy,Bus,Isuzu,Overcast,Morning (06:00-10:00),None,60,32,0.4463
+Kurunegala,Bus,Toyota,Clear,Afternoon (14:00-18:00),None,40,21,0.3081
+Trincomalee,Truck,Isuzu,Clear,Night (22:00-00:00),Road Work,60,6,0.4157
+Colombo,Truck,Mitsubishi,Clear,Early Morning (00:00-06:00),Accident Nearby,70,140,0.9836
+Kandy,Car,Toyota,Windy,Morning (06:00-10:00),Road Work,40,27,0.4576
+Trincomalee,Truck,Mitsubishi,Heavy Rain,Morning (06:00-10:00),None,80,10,0.5433
+Kandy,Bus,Toyota,Overcast,Morning (06:00-10:00),Traffic Jam,50,46,0.5753
+Trincomalee,Car,Suzuki,Windy,Morning (06:00-10:00),None,50,19,0.3624
+Batticaloa,Motorcycle,Suzuki,Light Rain,Evening (18:00-22:00),None,50,4,0.3473
+Kandy,Car,Nissan,Clear,Evening (18:00-22:00),Road Work,80,59,0.785
+Negombo,Bus,Isuzu,Clear,Night (22:00-00:00),None,90,27,0.5431
+Colombo,Motorcycle,Suzuki,Heavy Rain,Night (22:00-00:00),None,70,75,0.9092
+Colombo,Car,Mitsubishi,Clear,Afternoon (14:00-18:00),None,40,111,0.8821
+Kurunegala,Van,Mitsubishi,Light Rain,Afternoon (14:00-18:00),Police Checkpoint,50,25,0.4519
+Kandy,Van,Isuzu,Clear,Evening (18:00-22:00),None,50,37,0.4433
+Negombo,Car,Honda,Heavy Rain,Evening (18:00-22:00),Accident Nearby,70,28,0.7067
+Matara,Three-Wheeler,TVS,Overcast,Midday (10:00-14:00),Police Checkpoint,30,15,0.2711
+Batticaloa,Bicycle,Giant,Overcast,Morning (06:00-10:00),None,60,11,0.2512
+Colombo,Motorcycle,Suzuki,Clear,Afternoon (14:00-18:00),Accident Nearby,60,116,0.9684
+Negombo,Motorcycle,Yamaha,Overcast,Afternoon (14:00-18:00),None,30,41,0.5733
+Kandy,Bus,Ashok Leyland,Overcast,Early Morning (00:00-06:00),None,30,29,0.3057
+Trincomalee,Van,Toyota,Storm,Afternoon (14:00-18:00),None,40,22,0.4743
+Colombo,Car,Mitsubishi,Light Rain,Midday (10:00-14:00),Traffic Jam,50,51,0.672
+Batticaloa,Bicycle,Local,Clear,Night (22:00-00:00),Road Work,40,10,0.2774
+Batticaloa,Bus,Isuzu,Clear,Morning (06:00-10:00),Traffic Jam,80,13,0.4002
+Anuradhapura,Truck,Mitsubishi,Light Rain,Afternoon (14:00-18:00),None,80,15,0.5153
+Kandy,Motorcycle,Honda,Clear,Evening (18:00-22:00),Accident Nearby,30,37,0.622
+Kurunegala,Car,Toyota,Clear,Morning (06:00-10:00),None,60,22,0.4242
+Kurunegala,Three-Wheeler,Bajaj,Light Rain,Midday (10:00-14:00),None,40,20,0.4117
+Batticaloa,Bus,Isuzu,Storm,Morning (06:00-10:00),Police Checkpoint,60,8,0.4241
+Matara,Three-Wheeler,TVS,Clear,Evening (18:00-22:00),Traffic Jam,60,22,0.418
+Jaffna,Motorcycle,Bajaj,Light Rain,Midday (10:00-14:00),None,100,19,0.6661
+Trincomalee,Car,Honda,Clear,Midday (10:00-14:00),None,50,9,0.2571
+Anuradhapura,Car,Nissan,Clear,Evening (18:00-22:00),Accident Nearby,90,18,0.5782
+Matara,Truck,Hino,Overcast,Midday (10:00-14:00),None,50,19,0.4357
+Colombo,Motorcycle,Honda,Clear,Evening (18:00-22:00),None,50,120,0.9587
+Kurunegala,Car,Toyota,Clear,Evening (18:00-22:00),None,60,29,0.3873
+Negombo,Three-Wheeler,TVS,Clear,Night (22:00-00:00),None,40,20,0.3502
+Anuradhapura,Car,Suzuki,Windy,Afternoon (14:00-18:00),None,50,10,0.2631
+Kandy,Motorcycle,Honda,Clear,Afternoon (14:00-18:00),None,50,54,0.6893
+Negombo,Car,Toyota,Heavy Rain,Evening (18:00-22:00),Accident Nearby,50,32,0.6506
+Colombo,Motorcycle,Yamaha,Overcast,Morning (06:00-10:00),None,50,99,0.9364
+Trincomalee,Car,Suzuki,Clear,Morning (06:00-10:00),None,60,13,0.3907
+Kandy,Car,Mitsubishi,Clear,Evening (18:00-22:00),None,70,60,0.7332
+Anuradhapura,Car,Mitsubishi,Heavy Rain,Morning (06:00-10:00),None,60,10,0.4012
+Trincomalee,Car,Mitsubishi,Windy,Afternoon (14:00-18:00),Flood Alert,30,15,0.3965
+Batticaloa,Bus,Ashok Leyland,Clear,Evening (18:00-22:00),None,70,10,0.3451
+Colombo,Car,Hyundai,Clear,Afternoon (14:00-18:00),Police Checkpoint,90,94,0.912
+Kurunegala,Bus,Isuzu,Overcast,Early Morning (00:00-06:00),None,50,32,0.4892
+Trincomalee,Bus,Isuzu,Light Rain,Evening (18:00-22:00),Road Work,30,16,0.3468
+Colombo,Bus,Ashok Leyland,Light Rain,Morning (06:00-10:00),None,80,120,0.9696
+Colombo,Van,Isuzu,Overcast,Night (22:00-00:00),None,70,132,0.974
+Batticaloa,Car,Mitsubishi,Heavy Rain,Morning (06:00-10:00),None,60,11,0.4269
+Colombo,Bus,Ashok Leyland,Clear,Evening (18:00-22:00),None,50,117,0.932
+Trincomalee,Truck,Hino,Windy,Morning (06:00-10:00),Road Work,70,11,0.4906
+Matara,Motorcycle,Yamaha,Light Rain,Midday (10:00-14:00),None,70,19,0.5521
+Colombo,Three-Wheeler,Bajaj,Storm,Afternoon (14:00-18:00),Accident Nearby,70,96,0.9651
+Galle,Bus,Ashok Leyland,Overcast,Afternoon (14:00-18:00),Flood Alert,70,25,0.6227
+Negombo,Motorcycle,Bajaj,Heavy Rain,Afternoon (14:00-18:00),None,70,32,0.7461
+Galle,Bus,Ashok Leyland,Fog,Midday (10:00-14:00),Accident Nearby,90,18,0.7212
+Galle,Three-Wheeler,Bajaj,Light Rain,Evening (18:00-22:00),None,40,40,0.5989
+Negombo,Motorcycle,Bajaj,Light Rain,Afternoon (14:00-18:00),None,60,18,0.5176
+Anuradhapura,Car,Toyota,Clear,Midday (10:00-14:00),Accident Nearby,40,7,0.2927
+Galle,Motorcycle,Yamaha,Clear,Midday (10:00-14:00),None,50,33,0.5011
+Colombo,Motorcycle,Suzuki,Overcast,Afternoon (14:00-18:00),None,30,119,0.939
+Negombo,Car,Hyundai,Fog,Early Morning (00:00-06:00),None,80,32,0.7067
+Kurunegala,Car,Nissan,Overcast,Morning (06:00-10:00),None,40,29,0.3943
+Kandy,Car,Toyota,Clear,Morning (06:00-10:00),None,80,44,0.6307
+Galle,Van,Isuzu,Overcast,Morning (06:00-10:00),None,50,18,0.3432
+Trincomalee,Motorcycle,Suzuki,Heavy Rain,Midday (10:00-14:00),None,80,12,0.5743
+Batticaloa,Truck,Isuzu,Clear,Afternoon (14:00-18:00),None,60,7,0.3116
+Colombo,Motorcycle,Honda,Clear,Afternoon (14:00-18:00),None,60,124,0.9701
+Kandy,Motorcycle,Suzuki,Clear,Night (22:00-00:00),None,100,43,0.8019
+Colombo,Three-Wheeler,Bajaj,Windy,Afternoon (14:00-18:00),None,50,79,0.8397
+Kandy,Car,Suzuki,Light Rain,Morning (06:00-10:00),None,50,40,0.5491
+Colombo,Motorcycle,Suzuki,Clear,Night (22:00-00:00),None,50,110,0.9389
+Negombo,Van,Isuzu,Overcast,Evening (18:00-22:00),None,80,22,0.4824
+Negombo,Car,Toyota,Clear,Morning (06:00-10:00),None,40,20,0.3014
+Matara,Car,Mitsubishi,Light Rain,Midday (10:00-14:00),Accident Nearby,90,19,0.6501
+Jaffna,Bus,Toyota,Clear,Evening (18:00-22:00),None,70,19,0.405
+Kandy,Motorcycle,Suzuki,Heavy Rain,Afternoon (14:00-18:00),None,50,38,0.6858
+Colombo,Bus,Toyota,Windy,Morning (06:00-10:00),Flood Alert,70,88,0.9171
+Galle,Motorcycle,Bajaj,Overcast,Midday (10:00-14:00),None,70,26,0.6139
+Jaffna,Bus,Ashok Leyland,Heavy Rain,Morning (06:00-10:00),Flood Alert,70,8,0.5666
+Kurunegala,Bus,Isuzu,Clear,Morning (06:00-10:00),None,60,12,0.2779
+Trincomalee,Motorcycle,Suzuki,Light Rain,Morning (06:00-10:00),None,50,9,0.4205
+Anuradhapura,Bicycle,Local,Overcast,Midday (10:00-14:00),None,40,12,0.2242
+Anuradhapura,Three-Wheeler,Bajaj,Overcast,Evening (18:00-22:00),None,50,15,0.3718
+Colombo,Bus,Isuzu,Fog,Afternoon (14:00-18:00),None,60,136,0.9826
+Matara,Car,Hyundai,Clear,Midday (10:00-14:00),None,70,22,0.4352
+Anuradhapura,Van,Toyota,Light Rain,Midday (10:00-14:00),None,30,13,0.2431
+Galle,Bus,Toyota,Clear,Morning (06:00-10:00),None,40,24,0.3443
+Kurunegala,Car,Mitsubishi,Windy,Morning (06:00-10:00),None,50,15,0.3296
+Colombo,Three-Wheeler,Bajaj,Fog,Night (22:00-00:00),None,40,99,0.9244
+Galle,Car,Mitsubishi,Overcast,Afternoon (14:00-18:00),None,80,22,0.484
+Negombo,Bus,Ashok Leyland,Heavy Rain,Morning (06:00-10:00),None,40,30,0.4352
+Kandy,Three-Wheeler,TVS,Overcast,Morning (06:00-10:00),None,80,34,0.6347
+Batticaloa,Motorcycle,Yamaha,Heavy Rain,Midday (10:00-14:00),None,50,13,0.4694
+Anuradhapura,Car,Nissan,Clear,Night (22:00-00:00),None,50,22,0.2999
+Batticaloa,Motorcycle,Yamaha,Heavy Rain,Morning (06:00-10:00),Accident Nearby,60,10,0.5717
+Galle,Car,Mitsubishi,Clear,Afternoon (14:00-18:00),Accident Nearby,80,28,0.6375
+Anuradhapura,Car,Honda,Clear,Afternoon (14:00-18:00),None,70,17,0.3574
+Kandy,Motorcycle,Yamaha,Clear,Evening (18:00-22:00),None,30,39,0.5445
+Kandy,Car,Mitsubishi,Fog,Morning (06:00-10:00),None,80,47,0.7751
+Anuradhapura,Car,Suzuki,Clear,Afternoon (14:00-18:00),None,50,14,0.2386
+Colombo,Three-Wheeler,Bajaj,Clear,Evening (18:00-22:00),None,80,102,0.929
+Jaffna,Car,Honda,Clear,Evening (18:00-22:00),None,70,12,0.3702
+Jaffna,Car,Hyundai,Fog,Evening (18:00-22:00),None,90,17,0.6089
+Batticaloa,Car,Hyundai,Heavy Rain,Midday (10:00-14:00),None,60,13,0.415
+Negombo,Motorcycle,Yamaha,Clear,Afternoon (14:00-18:00),Flood Alert,30,40,0.6565
+Trincomalee,Bus,Toyota,Clear,Night (22:00-00:00),None,70,17,0.3891
+Colombo,Car,Nissan,Fog,Evening (18:00-22:00),None,50,153,0.989
+Colombo,Car,Mitsubishi,Clear,Midday (10:00-14:00),None,70,80,0.8565
+Kandy,Car,Mitsubishi,Clear,Morning (06:00-10:00),None,60,55,0.6353
+Negombo,Motorcycle,Yamaha,Light Rain,Evening (18:00-22:00),Traffic Jam,50,29,0.5526
+Colombo,Bus,Toyota,Clear,Evening (18:00-22:00),None,50,154,0.9762
+Kandy,Motorcycle,Bajaj,Light Rain,Afternoon (14:00-18:00),None,60,34,0.6551
+Matara,Bus,Toyota,Light Rain,Afternoon (14:00-18:00),None,50,12,0.2956
+Kurunegala,Three-Wheeler,Bajaj,Windy,Morning (06:00-10:00),None,70,19,0.4505
+Galle,Motorcycle,Bajaj,Clear,Afternoon (14:00-18:00),None,60,9,0.3867
+Kurunegala,Motorcycle,Yamaha,Fog,Afternoon (14:00-18:00),None,60,19,0.6128
+Negombo,Car,Hyundai,Light Rain,Evening (18:00-22:00),Accident Nearby,40,20,0.4377
+Galle,Motorcycle,Yamaha,Overcast,Night (22:00-00:00),Traffic Jam,90,26,0.6646
+Colombo,Three-Wheeler,TVS,Clear,Afternoon (14:00-18:00),Accident Nearby,90,108,0.9693
+Anuradhapura,Bus,Ashok Leyland,Clear,Morning (06:00-10:00),Police Checkpoint,90,24,0.4767
+Galle,Motorcycle,Suzuki,Clear,Midday (10:00-14:00),None,60,32,0.5938
+Colombo,Bus,Ashok Leyland,Overcast,Morning (06:00-10:00),Accident Nearby,60,85,0.9024
+Galle,Car,Mitsubishi,Light Rain,Morning (06:00-10:00),None,70,18,0.3943
+Batticaloa,Bus,Ashok Leyland,Windy,Morning (06:00-10:00),None,30,13,0.2204
+Kurunegala,Car,Nissan,Clear,Evening (18:00-22:00),None,40,13,0.2075
+Trincomalee,Car,Mitsubishi,Clear,Midday (10:00-14:00),None,80,21,0.4297
+Anuradhapura,Bus,Ashok Leyland,Clear,Midday (10:00-14:00),None,50,20,0.318
+Trincomalee,Car,Suzuki,Overcast,Midday (10:00-14:00),None,60,10,0.2684
+Galle,Motorcycle,Yamaha,Windy,Afternoon (14:00-18:00),None,70,12,0.46
+Colombo,Three-Wheeler,Bajaj,Clear,Afternoon (14:00-18:00),None,40,133,0.95
+Trincomalee,Three-Wheeler,TVS,Clear,Morning (06:00-10:00),Police Checkpoint,50,11,0.2887
+Batticaloa,Car,Toyota,Overcast,Night (22:00-00:00),None,80,16,0.4316
+Trincomalee,Van,Toyota,Fog,Evening (18:00-22:00),Accident Nearby,50,4,0.4356
+Colombo,Motorcycle,Honda,Clear,Afternoon (14:00-18:00),None,70,85,0.9048
+Jaffna,Car,Suzuki,Storm,Evening (18:00-22:00),None,60,17,0.4929
+Anuradhapura,Bus,Toyota,Clear,Afternoon (14:00-18:00),None,70,14,0.3441
+Colombo,Motorcycle,Suzuki,Fog,Evening (18:00-22:00),None,60,88,0.9522
+Kandy,Car,Toyota,Storm,Morning (06:00-10:00),None,30,52,0.7034
+Kandy,Three-Wheeler,TVS,Light Rain,Midday (10:00-14:00),Traffic Jam,30,31,0.418
+Colombo,Bus,Toyota,Clear,Afternoon (14:00-18:00),None,90,96,0.9305
+Kandy,Motorcycle,Honda,Windy,Midday (10:00-14:00),Flood Alert,50,46,0.8101
+Jaffna,Motorcycle,Bajaj,Clear,Evening (18:00-22:00),None,30,20,0.3135
+Jaffna,Motorcycle,Yamaha,Overcast,Night (22:00-00:00),None,50,21,0.4798
+Kandy,Bus,Ashok Leyland,Heavy Rain,Midday (10:00-14:00),None,60,30,0.6178
+Kandy,Three-Wheeler,Bajaj,Clear,Morning (06:00-10:00),None,60,25,0.4091
+Kurunegala,Motorcycle,Bajaj,Clear,Midday (10:00-14:00),None,70,34,0.5991
+Kandy,Car,Nissan,Clear,Morning (06:00-10:00),Accident Nearby,40,49,0.64
+Colombo,Motorcycle,Yamaha,Overcast,Morning (06:00-10:00),Accident Nearby,30,81,0.8736
+Colombo,Bicycle,Local,Heavy Rain,Morning (06:00-10:00),Flood Alert,80,138,0.9923
+Colombo,Van,Toyota,Clear,Afternoon (14:00-18:00),Accident Nearby,50,102,0.927
+Colombo,Car,Nissan,Clear,Night (22:00-00:00),None,60,129,0.9585
+Colombo,Car,Honda,Clear,Midday (10:00-14:00),None,60,101,0.8797
+Colombo,Motorcycle,Bajaj,Clear,Afternoon (14:00-18:00),Accident Nearby,50,151,0.9904
+Trincomalee,Car,Toyota,Storm,Evening (18:00-22:00),None,60,20,0.5693
+Negombo,Van,Mitsubishi,Clear,Morning (06:00-10:00),None,40,25,0.3333
+Trincomalee,Three-Wheeler,Bajaj,Heavy Rain,Afternoon (14:00-18:00),None,60,17,0.508
+Kandy,Bus,Ashok Leyland,Light Rain,Morning (06:00-10:00),Accident Nearby,90,53,0.8222
+Colombo,Truck,Isuzu,Overcast,Night (22:00-00:00),None,90,134,0.9852
+Trincomalee,Bus,Ashok Leyland,Overcast,Evening (18:00-22:00),None,90,7,0.4142
+Colombo,Car,Honda,Overcast,Afternoon (14:00-18:00),None,100,117,0.9694
+Trincomalee,Car,Hyundai,Clear,Early Morning (00:00-06:00),None,60,17,0.3664
+Colombo,Car,Hyundai,Windy,Morning (06:00-10:00),None,70,56,0.7198
+Trincomalee,Three-Wheeler,TVS,Clear,Morning (06:00-10:00),None,40,6,0.2408
+Colombo,Car,Hyundai,Storm,Midday (10:00-14:00),Police Checkpoint,50,49,0.684
+Colombo,Motorcycle,Bajaj,Storm,Evening (18:00-22:00),None,70,93,0.9615
+Negombo,Motorcycle,Honda,Clear,Afternoon (14:00-18:00),None,50,33,0.5285
+Kurunegala,Bus,Isuzu,Clear,Evening (18:00-22:00),None,80,36,0.5812
+Anuradhapura,Car,Nissan,Light Rain,Night (22:00-00:00),Police Checkpoint,40,14,0.2787
+Matara,Van,Nissan,Clear,Morning (06:00-10:00),None,50,27,0.3911
+Kurunegala,Truck,Hino,Light Rain,Evening (18:00-22:00),None,30,12,0.326
+Kandy,Car,Hyundai,Clear,Morning (06:00-10:00),None,50,23,0.3309
+Anuradhapura,Truck,Mitsubishi,Overcast,Midday (10:00-14:00),None,30,13,0.2378
+Negombo,Three-Wheeler,Bajaj,Clear,Morning (06:00-10:00),Flood Alert,50,30,0.6397
+Galle,Van,Toyota,Clear,Evening (18:00-22:00),None,30,24,0.3307
+Trincomalee,Truck,Mitsubishi,Overcast,Afternoon (14:00-18:00),None,30,2,0.1828
+Trincomalee,Bus,Toyota,Clear,Morning (06:00-10:00),None,40,12,0.2476
+Kurunegala,Car,Mitsubishi,Overcast,Afternoon (14:00-18:00),None,30,13,0.2138
+Galle,Car,Suzuki,Clear,Midday (10:00-14:00),None,50,30,0.4051
+Kurunegala,Car,Nissan,Clear,Morning (06:00-10:00),None,100,26,0.5846
+Jaffna,Bus,Toyota,Overcast,Evening (18:00-22:00),None,70,11,0.3426
+Galle,Motorcycle,Suzuki,Clear,Midday (10:00-14:00),None,60,21,0.4522
+Kandy,Motorcycle,Yamaha,Clear,Afternoon (14:00-18:00),None,70,31,0.5812
+Batticaloa,Motorcycle,Bajaj,Overcast,Evening (18:00-22:00),Accident Nearby,50,10,0.4354
+Negombo,Three-Wheeler,TVS,Overcast,Morning (06:00-10:00),None,50,35,0.4807
+Batticaloa,Bus,Isuzu,Windy,Evening (18:00-22:00),None,70,6,0.3296
+Colombo,Car,Nissan,Windy,Morning (06:00-10:00),None,40,112,0.9064
+Colombo,Bus,Isuzu,Clear,Night (22:00-00:00),None,80,86,0.8877
+Kandy,Van,Toyota,Clear,Afternoon (14:00-18:00),None,80,35,0.6307
+Negombo,Van,Toyota,Heavy Rain,Afternoon (14:00-18:00),None,50,26,0.5024
+Jaffna,Bus,Isuzu,Overcast,Night (22:00-00:00),None,30,11,0.2175
+Anuradhapura,Three-Wheeler,TVS,Fog,Morning (06:00-10:00),None,60,10,0.4878
+Jaffna,Bus,Toyota,Clear,Afternoon (14:00-18:00),None,30,10,0.2016
+Trincomalee,Motorcycle,Bajaj,Clear,Afternoon (14:00-18:00),None,50,21,0.4353
+Galle,Three-Wheeler,TVS,Clear,Afternoon (14:00-18:00),None,30,25,0.3411
+Batticaloa,Bus,Isuzu,Clear,Evening (18:00-22:00),None,50,7,0.2435
+Kurunegala,Motorcycle,Bajaj,Windy,Midday (10:00-14:00),None,60,25,0.5171
+Galle,Bus,Ashok Leyland,Clear,Evening (18:00-22:00),None,80,24,0.5001
+Negombo,Car,Nissan,Clear,Evening (18:00-22:00),Flood Alert,50,25,0.5305
+Jaffna,Van,Nissan,Clear,Evening (18:00-22:00),None,70,21,0.4066
+Colombo,Bus,Toyota,Overcast,Midday (10:00-14:00),Police Checkpoint,60,118,0.9408
+Negombo,Motorcycle,Honda,Light Rain,Afternoon (14:00-18:00),None,50,22,0.5291
+Colombo,Car,Nissan,Fog,Afternoon (14:00-18:00),None,50,85,0.8852
+Jaffna,Bus,Isuzu,Clear,Night (22:00-00:00),None,60,15,0.3495
+Colombo,Motorcycle,Honda,Light Rain,Evening (18:00-22:00),None,80,42,0.8185
+Batticaloa,Motorcycle,Bajaj,Overcast,Afternoon (14:00-18:00),Accident Nearby,50,4,0.3902
+Colombo,Car,Mitsubishi,Storm,Evening (18:00-22:00),None,60,134,0.9784
+Kandy,Car,Suzuki,Clear,Night (22:00-00:00),None,80,65,0.7883
+Kandy,Car,Mitsubishi,Clear,Morning (06:00-10:00),Accident Nearby,80,41,0.7223
+Anuradhapura,Three-Wheeler,TVS,Light Rain,Afternoon (14:00-18:00),None,70,17,0.4778
+Trincomalee,Motorcycle,Suzuki,Clear,Evening (18:00-22:00),None,100,13,0.6207
+Batticaloa,Motorcycle,Bajaj,Light Rain,Afternoon (14:00-18:00),None,90,24,0.6518
+Galle,Motorcycle,Bajaj,Fog,Evening (18:00-22:00),None,30,33,0.6238
+Colombo,Motorcycle,Bajaj,Windy,Evening (18:00-22:00),None,40,96,0.8998
+Kandy,Three-Wheeler,TVS,Heavy Rain,Midday (10:00-14:00),None,50,33,0.6483
+Batticaloa,Car,Mitsubishi,Overcast,Night (22:00-00:00),None,80,3,0.3816
+Negombo,Three-Wheeler,TVS,Overcast,Midday (10:00-14:00),Road Work,40,29,0.4643
+Trincomalee,Motorcycle,Suzuki,Clear,Evening (18:00-22:00),None,30,8,0.2467
+Galle,Truck,Mitsubishi,Light Rain,Early Morning (00:00-06:00),None,80,14,0.5504
+Colombo,Three-Wheeler,TVS,Heavy Rain,Evening (18:00-22:00),None,50,83,0.8854
+Jaffna,Motorcycle,Suzuki,Clear,Early Morning (00:00-06:00),None,50,10,0.344
+Colombo,Motorcycle,Bajaj,Clear,Early Morning (00:00-06:00),None,40,142,0.9744
+Trincomalee,Motorcycle,Yamaha,Clear,Afternoon (14:00-18:00),None,80,16,0.4616
+Kandy,Motorcycle,Honda,Clear,Afternoon (14:00-18:00),None,100,44,0.796
+Negombo,Car,Nissan,Windy,Night (22:00-00:00),None,40,40,0.4618
+Kurunegala,Bus,Isuzu,Clear,Afternoon (14:00-18:00),None,70,24,0.4172
+Anuradhapura,Motorcycle,Honda,Heavy Rain,Afternoon (14:00-18:00),None,30,9,0.4247
+Colombo,Three-Wheeler,Bajaj,Light Rain,Midday (10:00-14:00),None,60,138,0.9758
+Jaffna,Bus,Isuzu,Light Rain,Early Morning (00:00-06:00),None,30,20,0.3256
+Negombo,Car,Mitsubishi,Clear,Evening (18:00-22:00),None,70,18,0.375
+Colombo,Bus,Ashok Leyland,Overcast,Afternoon (14:00-18:00),Accident Nearby,80,95,0.9397
+Trincomalee,Motorcycle,Suzuki,Clear,Early Morning (00:00-06:00),None,40,8,0.3134
+Trincomalee,Motorcycle,Yamaha,Clear,Morning (06:00-10:00),None,60,5,0.3552
+Negombo,Van,Toyota,Light Rain,Morning (06:00-10:00),None,40,35,0.5024
+Trincomalee,Motorcycle,Suzuki,Clear,Evening (18:00-22:00),Road Work,80,21,0.6595
+Galle,Car,Suzuki,Light Rain,Morning (06:00-10:00),Accident Nearby,30,14,0.339
+Batticaloa,Car,Nissan,Clear,Evening (18:00-22:00),Police Checkpoint,50,13,0.2474
+Anuradhapura,Motorcycle,Honda,Clear,Midday (10:00-14:00),Police Checkpoint,50,10,0.3057
+Galle,Three-Wheeler,TVS,Light Rain,Evening (18:00-22:00),None,70,21,0.4936
+Colombo,Van,Nissan,Clear,Night (22:00-00:00),None,60,85,0.8863
+Jaffna,Car,Hyundai,Light Rain,Evening (18:00-22:00),Road Work,70,12,0.5099
+Trincomalee,Car,Suzuki,Clear,Midday (10:00-14:00),None,50,12,0.2342
+Kandy,Car,Mitsubishi,Overcast,Evening (18:00-22:00),None,40,34,0.3726
+Trincomalee,Three-Wheeler,Bajaj,Clear,Evening (18:00-22:00),None,70,13,0.3993
+Kurunegala,Bus,Isuzu,Windy,Afternoon (14:00-18:00),None,90,23,0.5694
+Negombo,Car,Suzuki,Fog,Morning (06:00-10:00),None,50,25,0.5278
+Trincomalee,Bus,Ashok Leyland,Overcast,Midday (10:00-14:00),Accident Nearby,30,8,0.261
+Jaffna,Car,Toyota,Fog,Midday (10:00-14:00),None,60,13,0.4495
+Kurunegala,Bus,Toyota,Clear,Afternoon (14:00-18:00),Accident Nearby,80,30,0.6313
+Trincomalee,Car,Honda,Overcast,Afternoon (14:00-18:00),None,50,14,0.2984
+Batticaloa,Three-Wheeler,TVS,Clear,Evening (18:00-22:00),None,70,6,0.2752
+Galle,Motorcycle,Yamaha,Heavy Rain,Morning (06:00-10:00),None,80,25,0.7094
+Trincomalee,Motorcycle,Honda,Light Rain,Early Morning (00:00-06:00),None,40,16,0.3914
+Kurunegala,Car,Toyota,Clear,Morning (06:00-10:00),None,80,10,0.3648
+Kandy,Three-Wheeler,Bajaj,Light Rain,Morning (06:00-10:00),None,90,51,0.8564
+Batticaloa,Car,Suzuki,Overcast,Afternoon (14:00-18:00),None,90,8,0.4164
+Colombo,Car,Honda,Windy,Evening (18:00-22:00),None,60,114,0.9387
+Trincomalee,Bus,Isuzu,Clear,Evening (18:00-22:00),None,70,8,0.3309
+Matara,Motorcycle,Suzuki,Clear,Afternoon (14:00-18:00),None,50,6,0.3281
+Galle,Motorcycle,Honda,Overcast,Morning (06:00-10:00),None,70,12,0.4777
+Anuradhapura,Motorcycle,Honda,Light Rain,Night (22:00-00:00),None,40,14,0.4173
+Matara,Motorcycle,Honda,Windy,Morning (06:00-10:00),None,100,19,0.7206
+Colombo,Car,Mitsubishi,Clear,Morning (06:00-10:00),None,60,77,0.7693
+Matara,Car,Suzuki,Light Rain,Evening (18:00-22:00),None,80,21,0.5304
+Jaffna,Bus,Ashok Leyland,Clear,Morning (06:00-10:00),None,40,7,0.1864
+Anuradhapura,Bus,Toyota,Light Rain,Morning (06:00-10:00),None,80,13,0.4656
+Colombo,Car,Hyundai,Heavy Rain,Morning (06:00-10:00),Road Work,70,69,0.8778
+Batticaloa,Car,Honda,Clear,Afternoon (14:00-18:00),Accident Nearby,70,8,0.3859
+Kurunegala,Bus,Toyota,Clear,Night (22:00-00:00),Traffic Jam,50,24,0.365
+Negombo,Bus,Toyota,Clear,Evening (18:00-22:00),Road Work,60,19,0.4506
+Kandy,Car,Mitsubishi,Light Rain,Evening (18:00-22:00),None,60,40,0.616
+Anuradhapura,Truck,Mitsubishi,Clear,Night (22:00-00:00),None,90,19,0.5049
+Anuradhapura,Bus,Ashok Leyland,Clear,Afternoon (14:00-18:00),None,60,10,0.2866
+Kandy,Motorcycle,Bajaj,Clear,Night (22:00-00:00),None,80,55,0.7868
+Kurunegala,Three-Wheeler,TVS,Overcast,Afternoon (14:00-18:00),None,80,14,0.4202
+Kandy,Motorcycle,Bajaj,Overcast,Evening (18:00-22:00),None,60,51,0.7266
+Galle,Motorcycle,Bajaj,Light Rain,Midday (10:00-14:00),None,90,35,0.7542
+Matara,Car,Honda,Heavy Rain,Night (22:00-00:00),None,70,2,0.4537
+Jaffna,Bicycle,Giant,Windy,Afternoon (14:00-18:00),None,90,12,0.4514
+Trincomalee,Motorcycle,Honda,Clear,Afternoon (14:00-18:00),Accident Nearby,60,15,0.4837
+Negombo,Car,Hyundai,Windy,Morning (06:00-10:00),None,90,25,0.5532
+Colombo,Van,Toyota,Light Rain,Morning (06:00-10:00),None,40,109,0.9281
+Kurunegala,Three-Wheeler,Bajaj,Overcast,Evening (18:00-22:00),Traffic Jam,80,19,0.5862
+Kurunegala,Van,Nissan,Clear,Evening (18:00-22:00),None,30,24,0.2571
+Colombo,Motorcycle,Yamaha,Overcast,Morning (06:00-10:00),None,50,96,0.8931
+Kurunegala,Motorcycle,Yamaha,Clear,Morning (06:00-10:00),None,70,33,0.6688
+Colombo,Car,Toyota,Light Rain,Morning (06:00-10:00),Police Checkpoint,30,106,0.8879
+Anuradhapura,Motorcycle,Yamaha,Clear,Night (22:00-00:00),None,80,15,0.4846
+Colombo,Bus,Ashok Leyland,Clear,Midday (10:00-14:00),Accident Nearby,60,89,0.901
+Trincomalee,Bus,Isuzu,Windy,Night (22:00-00:00),Road Work,70,10,0.3581
+Trincomalee,Bus,Isuzu,Clear,Early Morning (00:00-06:00),None,50,10,0.2517
+Negombo,Bus,Ashok Leyland,Light Rain,Night (22:00-00:00),None,50,30,0.4734
+Kurunegala,Car,Nissan,Clear,Afternoon (14:00-18:00),None,30,20,0.2719
+Kurunegala,Car,Toyota,Fog,Night (22:00-00:00),Traffic Jam,60,26,0.557
+Negombo,Motorcycle,Yamaha,Clear,Morning (06:00-10:00),None,90,45,0.7748
+Galle,Car,Nissan,Clear,Afternoon (14:00-18:00),Road Work,50,31,0.4518
+Jaffna,Car,Hyundai,Light Rain,Morning (06:00-10:00),None,80,15,0.4734
+Trincomalee,Bus,Toyota,Clear,Morning (06:00-10:00),None,50,18,0.2834
+Batticaloa,Bus,Isuzu,Clear,Afternoon (14:00-18:00),None,80,9,0.3411
+Negombo,Bus,Isuzu,Light Rain,Evening (18:00-22:00),Flood Alert,40,9,0.3671
+Negombo,Motorcycle,Yamaha,Light Rain,Evening (18:00-22:00),Flood Alert,70,18,0.7152
+Batticaloa,Car,Honda,Clear,Early Morning (00:00-06:00),None,80,2,0.3225
+Negombo,Car,Nissan,Clear,Morning (06:00-10:00),Accident Nearby,70,24,0.5241
+Kandy,Car,Honda,Clear,Midday (10:00-14:00),None,40,45,0.4807
+Trincomalee,Truck,Hino,Clear,Afternoon (14:00-18:00),None,40,20,0.304
+Trincomalee,Car,Nissan,Light Rain,Afternoon (14:00-18:00),None,40,14,0.2906
+Negombo,Bus,Toyota,Clear,Afternoon (14:00-18:00),None,80,25,0.481
+Galle,Van,Toyota,Clear,Afternoon (14:00-18:00),None,90,31,0.67
+Kurunegala,Motorcycle,Honda,Overcast,Afternoon (14:00-18:00),None,50,6,0.3061
+Matara,Bicycle,Giant,Overcast,Midday (10:00-14:00),Road Work,60,18,0.4568
+Galle,Three-Wheeler,TVS,Heavy Rain,Evening (18:00-22:00),None,80,30,0.7187
+Jaffna,Motorcycle,Honda,Clear,Morning (06:00-10:00),None,70,8,0.418
+Colombo,Motorcycle,Honda,Light Rain,Afternoon (14:00-18:00),None,40,128,0.9746
+Colombo,Three-Wheeler,Bajaj,Clear,Morning (06:00-10:00),None,40,108,0.9061
+Negombo,Bicycle,Giant,Clear,Morning (06:00-10:00),None,90,23,0.4976
+Matara,Car,Toyota,Fog,Evening (18:00-22:00),Accident Nearby,90,21,0.7291
+Kandy,Car,Suzuki,Fog,Morning (06:00-10:00),Flood Alert,60,73,0.9297
+Anuradhapura,Three-Wheeler,Bajaj,Light Rain,Afternoon (14:00-18:00),None,70,15,0.5007
+Trincomalee,Car,Toyota,Clear,Midday (10:00-14:00),None,40,13,0.2252
+Batticaloa,Car,Suzuki,Heavy Rain,Afternoon (14:00-18:00),None,90,8,0.4775
+Matara,Three-Wheeler,Bajaj,Clear,Afternoon (14:00-18:00),Road Work,60,12,0.4024
+Colombo,Van,Isuzu,Overcast,Midday (10:00-14:00),None,60,120,0.9465
+Kandy,Three-Wheeler,TVS,Clear,Evening (18:00-22:00),Road Work,80,34,0.6694
+Matara,Motorcycle,Honda,Overcast,Morning (06:00-10:00),Flood Alert,50,17,0.6069
+Trincomalee,Motorcycle,Bajaj,Clear,Evening (18:00-22:00),None,60,10,0.372
+Negombo,Motorcycle,Bajaj,Light Rain,Midday (10:00-14:00),None,40,31,0.5402
+Kurunegala,Motorcycle,Suzuki,Overcast,Afternoon (14:00-18:00),Traffic Jam,50,26,0.524
+Colombo,Car,Honda,Overcast,Midday (10:00-14:00),None,50,125,0.9516
+Kandy,Motorcycle,Suzuki,Light Rain,Evening (18:00-22:00),None,70,38,0.6563
+Jaffna,Car,Nissan,Clear,Afternoon (14:00-18:00),Accident Nearby,80,15,0.48
+Matara,Car,Toyota,Clear,Night (22:00-00:00),None,30,11,0.202
+Colombo,Van,Isuzu,Clear,Morning (06:00-10:00),None,60,88,0.8749
+Kurunegala,Van,Isuzu,Light Rain,Afternoon (14:00-18:00),None,60,27,0.4888
+Trincomalee,Three-Wheeler,TVS,Clear,Morning (06:00-10:00),None,80,16,0.3968
+Kandy,Bus,Isuzu,Overcast,Afternoon (14:00-18:00),None,70,33,0.548
+Galle,Car,Nissan,Clear,Morning (06:00-10:00),None,70,31,0.4711
+Galle,Motorcycle,Yamaha,Light Rain,Morning (06:00-10:00),None,50,35,0.5817
+Batticaloa,Van,Mitsubishi,Clear,Evening (18:00-22:00),None,90,12,0.4202
+Jaffna,Motorcycle,Yamaha,Clear,Midday (10:00-14:00),None,30,29,0.4098
+Kandy,Van,Mitsubishi,Fog,Evening (18:00-22:00),None,70,35,0.6776
+Trincomalee,Car,Nissan,Heavy Rain,Night (22:00-00:00),None,60,6,0.3147
+Matara,Bus,Ashok Leyland,Clear,Midday (10:00-14:00),Accident Nearby,40,6,0.2914
+Kurunegala,Three-Wheeler,TVS,Windy,Afternoon (14:00-18:00),None,80,35,0.6857
+Kandy,Bus,Isuzu,Light Rain,Midday (10:00-14:00),None,40,53,0.6309
+Kandy,Motorcycle,Honda,Clear,Evening (18:00-22:00),Police Checkpoint,40,44,0.5369
+Anuradhapura,Motorcycle,Bajaj,Fog,Morning (06:00-10:00),None,50,15,0.5335
+Matara,Bus,Ashok Leyland,Clear,Morning (06:00-10:00),Police Checkpoint,60,10,0.275
+Colombo,Three-Wheeler,Bajaj,Fog,Midday (10:00-14:00),None,80,161,0.9955
+Trincomalee,Car,Hyundai,Overcast,Night (22:00-00:00),Police Checkpoint,50,13,0.2955
+Kandy,Car,Toyota,Overcast,Midday (10:00-14:00),Police Checkpoint,30,46,0.4335
+Galle,Three-Wheeler,Bajaj,Overcast,Morning (06:00-10:00),None,50,30,0.466
+Colombo,Car,Suzuki,Overcast,Midday (10:00-14:00),None,50,112,0.9237
+Negombo,Motorcycle,Suzuki,Windy,Midday (10:00-14:00),None,50,29,0.5878
+Jaffna,Car,Hyundai,Fog,Morning (06:00-10:00),None,40,12,0.3824
+Matara,Motorcycle,Yamaha,Light Rain,Evening (18:00-22:00),None,80,20,0.6401
+Colombo,Three-Wheeler,Bajaj,Overcast,Early Morning (00:00-06:00),None,40,147,0.9743
+Trincomalee,Car,Honda,Light Rain,Evening (18:00-22:00),None,60,18,0.4478
+Matara,Motorcycle,Bajaj,Clear,Evening (18:00-22:00),None,70,27,0.5805
+Jaffna,Motorcycle,Honda,Clear,Afternoon (14:00-18:00),Accident Nearby,50,14,0.448
+Jaffna,Motorcycle,Bajaj,Overcast,Afternoon (14:00-18:00),None,100,11,0.6246
+Kandy,Motorcycle,Suzuki,Heavy Rain,Midday (10:00-14:00),None,60,43,0.7803
+Jaffna,Van,Nissan,Light Rain,Night (22:00-00:00),None,60,17,0.4071
+Galle,Bicycle,Giant,Clear,Morning (06:00-10:00),None,50,33,0.3864
+Kandy,Car,Hyundai,Windy,Evening (18:00-22:00),Police Checkpoint,70,23,0.4642
+Negombo,Motorcycle,Bajaj,Clear,Early Morning (00:00-06:00),None,70,40,0.6834
+Trincomalee,Car,Toyota,Clear,Midday (10:00-14:00),None,90,11,0.4141
+Jaffna,Bus,Toyota,Overcast,Night (22:00-00:00),None,60,14,0.3415
+Colombo,Van,Isuzu,Clear,Morning (06:00-10:00),None,70,74,0.8461
+Colombo,Three-Wheeler,Bajaj,Clear,Midday (10:00-14:00),Police Checkpoint,80,58,0.786
+Jaffna,Three-Wheeler,TVS,Overcast,Morning (06:00-10:00),Police Checkpoint,60,22,0.4326
+Matara,Motorcycle,Suzuki,Overcast,Afternoon (14:00-18:00),None,50,17,0.4499
+Negombo,Three-Wheeler,TVS,Clear,Midday (10:00-14:00),None,30,16,0.236
+Negombo,Car,Nissan,Clear,Afternoon (14:00-18:00),None,90,16,0.4615
+Trincomalee,Car,Toyota,Heavy Rain,Evening (18:00-22:00),None,80,10,0.5452
+Negombo,Motorcycle,Suzuki,Clear,Morning (06:00-10:00),None,50,42,0.6017
+Galle,Motorcycle,Suzuki,Light Rain,Afternoon (14:00-18:00),Accident Nearby,60,23,0.6313
+Kurunegala,Motorcycle,Honda,Clear,Evening (18:00-22:00),None,50,11,0.3352
+Kurunegala,Car,Hyundai,Light Rain,Afternoon (14:00-18:00),None,40,22,0.3279
+Trincomalee,Bus,Ashok Leyland,Clear,Morning (06:00-10:00),None,30,11,0.1834
+Colombo,Bus,Ashok Leyland,Clear,Midday (10:00-14:00),Accident Nearby,100,32,0.7035
+Jaffna,Three-Wheeler,TVS,Clear,Evening (18:00-22:00),None,50,17,0.301
+Galle,Car,Nissan,Clear,Evening (18:00-22:00),Accident Nearby,80,23,0.5657
+Colombo,Three-Wheeler,Bajaj,Clear,Night (22:00-00:00),None,100,117,0.975
+Colombo,Car,Toyota,Overcast,Night (22:00-00:00),None,70,146,0.9785
+Kandy,Motorcycle,Yamaha,Light Rain,Afternoon (14:00-18:00),None,60,59,0.8369
+Kandy,Motorcycle,Yamaha,Fog,Morning (06:00-10:00),None,70,41,0.8083
+Galle,Bus,Toyota,Overcast,Midday (10:00-14:00),None,90,16,0.5029
+Matara,Car,Mitsubishi,Overcast,Midday (10:00-14:00),None,40,33,0.3834
+Colombo,Car,Mitsubishi,Clear,Midday (10:00-14:00),None,60,101,0.9048
+Colombo,Car,Hyundai,Storm,Evening (18:00-22:00),Accident Nearby,80,100,0.9691
+Jaffna,Motorcycle,Suzuki,Clear,Morning (06:00-10:00),Road Work,60,17,0.5434
+Jaffna,Motorcycle,Suzuki,Clear,Morning (06:00-10:00),None,70,18,0.4983
+Kandy,Three-Wheeler,Bajaj,Clear,Morning (06:00-10:00),None,50,43,0.5668
+Galle,Bus,Isuzu,Overcast,Evening (18:00-22:00),Road Work,60,20,0.4176
+Galle,Car,Hyundai,Light Rain,Afternoon (14:00-18:00),None,50,20,0.3565
+Negombo,Car,Honda,Clear,Midday (10:00-14:00),None,50,27,0.3905
+Colombo,Car,Toyota,Fog,Morning (06:00-10:00),Road Work,40,86,0.8925
+Negombo,Bus,Isuzu,Light Rain,Midday (10:00-14:00),None,70,21,0.4873
+Matara,Bus,Ashok Leyland,Light Rain,Morning (06:00-10:00),Police Checkpoint,40,18,0.2817
+Negombo,Bicycle,Giant,Overcast,Afternoon (14:00-18:00),None,70,25,0.4651
+Trincomalee,Three-Wheeler,Bajaj,Heavy Rain,Morning (06:00-10:00),None,30,19,0.3641
+Kandy,Van,Toyota,Clear,Morning (06:00-10:00),None,40,11,0.2551
+Kurunegala,Car,Nissan,Overcast,Afternoon (14:00-18:00),None,80,32,0.582
+Matara,Car,Mitsubishi,Light Rain,Evening (18:00-22:00),None,40,25,0.3614
+Galle,Motorcycle,Bajaj,Overcast,Afternoon (14:00-18:00),Police Checkpoint,90,9,0.5304
+Negombo,Truck,Mitsubishi,Clear,Afternoon (14:00-18:00),Accident Nearby,50,24,0.5208
+Kandy,Car,Suzuki,Heavy Rain,Night (22:00-00:00),None,90,40,0.7469
+Jaffna,Motorcycle,Yamaha,Storm,Afternoon (14:00-18:00),None,100,8,0.6789
+Kandy,Motorcycle,Bajaj,Clear,Midday (10:00-14:00),Accident Nearby,90,35,0.7413
+Batticaloa,Van,Nissan,Clear,Afternoon (14:00-18:00),None,50,6,0.2511
+Trincomalee,Motorcycle,Honda,Heavy Rain,Morning (06:00-10:00),None,90,20,0.6759
+Anuradhapura,Car,Suzuki,Clear,Evening (18:00-22:00),None,60,19,0.3535
+Trincomalee,Car,Hyundai,Clear,Evening (18:00-22:00),None,80,18,0.4164
+Trincomalee,Motorcycle,Suzuki,Clear,Evening (18:00-22:00),Road Work,40,15,0.435
+Kurunegala,Car,Toyota,Light Rain,Afternoon (14:00-18:00),None,60,14,0.3659
+Galle,Car,Hyundai,Overcast,Morning (06:00-10:00),None,70,21,0.4192
+Galle,Motorcycle,Yamaha,Clear,Midday (10:00-14:00),None,40,28,0.4708
+Colombo,Car,Toyota,Overcast,Morning (06:00-10:00),None,50,69,0.7367
+Kurunegala,Three-Wheeler,TVS,Overcast,Afternoon (14:00-18:00),None,40,29,0.4224
+Matara,Car,Nissan,Clear,Morning (06:00-10:00),None,70,15,0.3723
+Matara,Bus,Toyota,Clear,Midday (10:00-14:00),None,60,15,0.282
+Colombo,Motorcycle,Honda,Light Rain,Night (22:00-00:00),None,40,117,0.9591
+Colombo,Three-Wheeler,Bajaj,Light Rain,Morning (06:00-10:00),None,30,111,0.9238
+Anuradhapura,Motorcycle,Bajaj,Fog,Evening (18:00-22:00),None,70,12,0.5691
+Colombo,Motorcycle,Yamaha,Clear,Evening (18:00-22:00),None,60,128,0.9701
+Anuradhapura,Car,Honda,Light Rain,Morning (06:00-10:00),None,30,8,0.2253
+Matara,Car,Toyota,Clear,Morning (06:00-10:00),None,70,21,0.4031
+Kandy,Car,Toyota,Clear,Afternoon (14:00-18:00),None,90,52,0.7411
+Galle,Bus,Toyota,Fog,Afternoon (14:00-18:00),None,50,22,0.529
+Trincomalee,Bus,Toyota,Overcast,Afternoon (14:00-18:00),None,40,14,0.2876
+Trincomalee,Car,Mitsubishi,Clear,Morning (06:00-10:00),None,50,6,0.2006
+Galle,Bus,Toyota,Light Rain,Midday (10:00-14:00),None,100,31,0.6941
+Trincomalee,Motorcycle,Yamaha,Light Rain,Evening (18:00-22:00),Road Work,80,11,0.6542
+Colombo,Car,Hyundai,Clear,Midday (10:00-14:00),None,40,86,0.7936
+Anuradhapura,Car,Mitsubishi,Light Rain,Afternoon (14:00-18:00),None,50,19,0.4047
+Colombo,Truck,Hino,Clear,Afternoon (14:00-18:00),None,40,82,0.8425
+Negombo,Three-Wheeler,Bajaj,Clear,Evening (18:00-22:00),None,40,15,0.3121
+Trincomalee,Truck,Isuzu,Light Rain,Afternoon (14:00-18:00),None,30,5,0.2628
+Negombo,Car,Nissan,Clear,Evening (18:00-22:00),None,80,32,0.5723
+Trincomalee,Motorcycle,Suzuki,Clear,Evening (18:00-22:00),Accident Nearby,70,6,0.4963
+Anuradhapura,Bus,Ashok Leyland,Clear,Morning (06:00-10:00),Accident Nearby,60,23,0.4806
+Kandy,Car,Nissan,Overcast,Morning (06:00-10:00),None,30,18,0.2469
+Anuradhapura,Bus,Isuzu,Overcast,Afternoon (14:00-18:00),None,50,23,0.4075
+Jaffna,Bus,Ashok Leyland,Clear,Evening (18:00-22:00),None,50,18,0.2852
+Jaffna,Car,Nissan,Heavy Rain,Morning (06:00-10:00),Police Checkpoint,100,16,0.6555
+Batticaloa,Car,Hyundai,Fog,Evening (18:00-22:00),None,80,8,0.5117
+Matara,Three-Wheeler,TVS,Clear,Night (22:00-00:00),None,60,19,0.3536
+Kurunegala,Car,Toyota,Overcast,Midday (10:00-14:00),Accident Nearby,30,23,0.3868
+Trincomalee,Car,Suzuki,Storm,Early Morning (00:00-06:00),None,80,17,0.532
+Trincomalee,Motorcycle,Suzuki,Clear,Midday (10:00-14:00),Accident Nearby,60,13,0.5269
+Jaffna,Car,Toyota,Light Rain,Night (22:00-00:00),None,70,18,0.4747
+Colombo,Car,Nissan,Heavy Rain,Night (22:00-00:00),None,40,90,0.8703
+Jaffna,Motorcycle,Bajaj,Overcast,Evening (18:00-22:00),Road Work,80,17,0.626
+Colombo,Motorcycle,Bajaj,Light Rain,Morning (06:00-10:00),None,60,107,0.9646
+Galle,Car,Suzuki,Light Rain,Night (22:00-00:00),None,40,12,0.2719
+Negombo,Bus,Ashok Leyland,Windy,Afternoon (14:00-18:00),None,40,15,0.2611
+Batticaloa,Bus,Isuzu,Clear,Midday (10:00-14:00),None,90,14,0.4771
+Kandy,Motorcycle,Bajaj,Storm,Early Morning (00:00-06:00),Accident Nearby,30,47,0.8348
+Negombo,Car,Toyota,Light Rain,Afternoon (14:00-18:00),None,70,25,0.5072
+Jaffna,Motorcycle,Yamaha,Clear,Afternoon (14:00-18:00),None,60,17,0.4722
+Batticaloa,Bus,Ashok Leyland,Clear,Midday (10:00-14:00),None,30,12,0.2307
+Matara,Car,Hyundai,Windy,Early Morning (00:00-06:00),None,40,14,0.262
+Kurunegala,Car,Mitsubishi,Light Rain,Afternoon (14:00-18:00),None,90,17,0.5108
+Anuradhapura,Motorcycle,Yamaha,Clear,Midday (10:00-14:00),None,50,15,0.4197
+Colombo,Motorcycle,Yamaha,Clear,Morning (06:00-10:00),None,50,75,0.8523
+Negombo,Car,Mitsubishi,Clear,Early Morning (00:00-06:00),None,100,31,0.6324
+Negombo,Bus,Isuzu,Light Rain,Night (22:00-00:00),Traffic Jam,50,12,0.319
+Matara,Motorcycle,Honda,Windy,Afternoon (14:00-18:00),None,70,23,0.6363
+Negombo,Three-Wheeler,Bajaj,Light Rain,Night (22:00-00:00),None,30,31,0.4161
+Kurunegala,Bus,Ashok Leyland,Heavy Rain,Night (22:00-00:00),None,50,26,0.4873
+Matara,Car,Toyota,Light Rain,Afternoon (14:00-18:00),None,30,23,0.3354
+Kandy,Car,Toyota,Clear,Midday (10:00-14:00),None,60,65,0.7543
+Trincomalee,Three-Wheeler,Bajaj,Clear,Midday (10:00-14:00),None,90,17,0.5285
+Anuradhapura,Car,Suzuki,Clear,Afternoon (14:00-18:00),Road Work,80,3,0.3865
+Jaffna,Three-Wheeler,Bajaj,Fog,Midday (10:00-14:00),None,50,9,0.4358
+Negombo,Motorcycle,Honda,Heavy Rain,Evening (18:00-22:00),None,90,22,0.7301
+Kandy,Bus,Toyota,Light Rain,Evening (18:00-22:00),None,50,45,0.6051
+Matara,Three-Wheeler,TVS,Light Rain,Midday (10:00-14:00),None,50,20,0.3529
+Negombo,Motorcycle,Suzuki,Heavy Rain,Midday (10:00-14:00),None,40,21,0.5159
+Galle,Bus,Ashok Leyland,Windy,Midday (10:00-14:00),None,60,26,0.4575
+Negombo,Motorcycle,Suzuki,Light Rain,Afternoon (14:00-18:00),Accident Nearby,40,20,0.5144
+Batticaloa,Three-Wheeler,Bajaj,Clear,Early Morning (00:00-06:00),None,80,8,0.3973
+Colombo,Motorcycle,Yamaha,Light Rain,Afternoon (14:00-18:00),None,60,64,0.8316
+Colombo,Car,Mitsubishi,Light Rain,Early Morning (00:00-06:00),Accident Nearby,70,76,0.9136
+Kandy,Motorcycle,Honda,Clear,Midday (10:00-14:00),None,30,28,0.4533
+Colombo,Motorcycle,Yamaha,Windy,Afternoon (14:00-18:00),None,60,75,0.8637
+Negombo,Motorcycle,Honda,Overcast,Morning (06:00-10:00),None,80,36,0.6948
+Negombo,Bus,Ashok Leyland,Overcast,Afternoon (14:00-18:00),None,30,19,0.2595
+Jaffna,Bus,Isuzu,Windy,Afternoon (14:00-18:00),None,60,33,0.4956
+Galle,Motorcycle,Bajaj,Light Rain,Afternoon (14:00-18:00),None,100,28,0.7535
+Anuradhapura,Car,Nissan,Clear,Evening (18:00-22:00),None,30,15,0.205
+Kandy,Car,Suzuki,Overcast,Night (22:00-00:00),None,80,34,0.5467
+Kandy,Motorcycle,Bajaj,Light Rain,Afternoon (14:00-18:00),Accident Nearby,80,53,0.8878
+Jaffna,Bus,Toyota,Clear,Afternoon (14:00-18:00),Flood Alert,50,13,0.4223
+Galle,Car,Honda,Clear,Evening (18:00-22:00),Accident Nearby,50,25,0.4302
+Kurunegala,Three-Wheeler,TVS,Clear,Midday (10:00-14:00),None,60,44,0.6259
+Trincomalee,Motorcycle,Honda,Clear,Afternoon (14:00-18:00),None,100,12,0.552
+Matara,Motorcycle,Bajaj,Clear,Afternoon (14:00-18:00),None,70,24,0.5511
+Batticaloa,Bus,Isuzu,Overcast,Afternoon (14:00-18:00),Accident Nearby,40,7,0.3156
+Trincomalee,Bus,Ashok Leyland,Light Rain,Afternoon (14:00-18:00),Accident Nearby,50,12,0.4118
+Kurunegala,Bus,Ashok Leyland,Heavy Rain,Evening (18:00-22:00),Road Work,70,38,0.7486
+Colombo,Bus,Ashok Leyland,Overcast,Midday (10:00-14:00),None,60,84,0.8325
+Kandy,Three-Wheeler,TVS,Overcast,Night (22:00-00:00),None,90,67,0.8536
+Jaffna,Truck,Mitsubishi,Storm,Afternoon (14:00-18:00),None,60,21,0.6029
+Batticaloa,Three-Wheeler,Bajaj,Clear,Afternoon (14:00-18:00),None,70,8,0.3265
+Batticaloa,Motorcycle,Honda,Fog,Morning (06:00-10:00),None,50,13,0.5175
+Kandy,Motorcycle,Suzuki,Clear,Morning (06:00-10:00),None,40,57,0.6427
+Negombo,Three-Wheeler,TVS,Fog,Morning (06:00-10:00),Traffic Jam,70,32,0.6996
+Colombo,Bus,Ashok Leyland,Clear,Evening (18:00-22:00),None,100,60,0.8051
+Colombo,Bus,Toyota,Fog,Evening (18:00-22:00),None,90,81,0.9301
+Matara,Motorcycle,Suzuki,Overcast,Midday (10:00-14:00),None,40,15,0.3585
+Matara,Car,Mitsubishi,Clear,Afternoon (14:00-18:00),None,60,17,0.334
+Galle,Truck,Hino,Overcast,Midday (10:00-14:00),None,90,29,0.6578
+Colombo,Car,Honda,Storm,Night (22:00-00:00),Accident Nearby,60,104,0.97
+Colombo,Bicycle,Giant,Clear,Afternoon (14:00-18:00),None,70,66,0.7256
+Kurunegala,Car,Honda,Clear,Early Morning (00:00-06:00),None,80,27,0.4633
+Jaffna,Car,Suzuki,Overcast,Midday (10:00-14:00),None,100,21,0.5257
+Kandy,Bus,Isuzu,Windy,Evening (18:00-22:00),None,60,51,0.6422
+Colombo,Car,Nissan,Overcast,Afternoon (14:00-18:00),None,70,127,0.9625
+Colombo,Car,Nissan,Overcast,Evening (18:00-22:00),None,40,120,0.9201
+Kandy,Three-Wheeler,Bajaj,Light Rain,Afternoon (14:00-18:00),Police Checkpoint,70,50,0.6996
+Kurunegala,Motorcycle,Bajaj,Clear,Evening (18:00-22:00),None,80,23,0.5641
+Batticaloa,Motorcycle,Yamaha,Storm,Afternoon (14:00-18:00),Accident Nearby,80,3,0.6857
+Anuradhapura,Motorcycle,Suzuki,Clear,Midday (10:00-14:00),None,40,16,0.3687
+Anuradhapura,Motorcycle,Honda,Heavy Rain,Morning (06:00-10:00),None,50,15,0.5004
+Kandy,Car,Honda,Clear,Afternoon (14:00-18:00),None,50,48,0.5353
+Negombo,Motorcycle,Honda,Windy,Midday (10:00-14:00),None,90,16,0.5785
+Kurunegala,Bus,Isuzu,Light Rain,Night (22:00-00:00),None,90,15,0.5076
+Batticaloa,Motorcycle,Honda,Heavy Rain,Morning (06:00-10:00),None,60,15,0.5345
+Kurunegala,Motorcycle,Bajaj,Overcast,Afternoon (14:00-18:00),Traffic Jam,50,23,0.5142
+Colombo,Bus,Ashok Leyland,Clear,Morning (06:00-10:00),None,60,117,0.9223
+Kandy,Motorcycle,Bajaj,Clear,Afternoon (14:00-18:00),None,60,45,0.6611
+Trincomalee,Motorcycle,Yamaha,Light Rain,Morning (06:00-10:00),Flood Alert,40,12,0.5404
+Kurunegala,Bicycle,Giant,Windy,Afternoon (14:00-18:00),None,60,31,0.4753
+Trincomalee,Car,Hyundai,Heavy Rain,Afternoon (14:00-18:00),None,80,10,0.5714
+Kandy,Three-Wheeler,TVS,Heavy Rain,Midday (10:00-14:00),None,30,46,0.6324
+Trincomalee,Motorcycle,Suzuki,Clear,Night (22:00-00:00),None,50,10,0.3185
+Kurunegala,Bus,Isuzu,Heavy Rain,Morning (06:00-10:00),None,90,20,0.6133
+Kurunegala,Bus,Ashok Leyland,Clear,Evening (18:00-22:00),Accident Nearby,30,21,0.2942
+Negombo,Car,Toyota,Windy,Afternoon (14:00-18:00),None,70,29,0.5159
+Trincomalee,Car,Honda,Light Rain,Evening (18:00-22:00),None,50,10,0.285
+Anuradhapura,Three-Wheeler,Bajaj,Overcast,Early Morning (00:00-06:00),Police Checkpoint,80,20,0.5228
+Negombo,Car,Hyundai,Clear,Midday (10:00-14:00),None,100,19,0.5011
+Kurunegala,Motorcycle,Honda,Clear,Midday (10:00-14:00),Accident Nearby,70,22,0.6209
+Colombo,Bus,Toyota,Light Rain,Midday (10:00-14:00),None,30,89,0.8059
+Kurunegala,Car,Mitsubishi,Clear,Morning (06:00-10:00),None,30,35,0.4058
+Trincomalee,Motorcycle,Suzuki,Clear,Afternoon (14:00-18:00),None,60,13,0.3999
+Batticaloa,Motorcycle,Yamaha,Clear,Early Morning (00:00-06:00),Accident Nearby,30,15,0.4515
+Colombo,Three-Wheeler,TVS,Windy,Evening (18:00-22:00),None,70,62,0.812
+Kandy,Bus,Isuzu,Clear,Afternoon (14:00-18:00),None,90,48,0.718
+Colombo,Car,Nissan,Clear,Afternoon (14:00-18:00),Road Work,80,122,0.9719
+Colombo,Car,Honda,Clear,Evening (18:00-22:00),None,60,102,0.9029
+Matara,Bus,Ashok Leyland,Clear,Evening (18:00-22:00),Traffic Jam,70,24,0.3997
+Galle,Truck,Hino,Overcast,Midday (10:00-14:00),Police Checkpoint,40,21,0.3511
+Colombo,Bus,Ashok Leyland,Clear,Morning (06:00-10:00),None,70,135,0.9726
+Negombo,Motorcycle,Yamaha,Clear,Evening (18:00-22:00),None,50,47,0.6459
+Colombo,Three-Wheeler,Bajaj,Clear,Morning (06:00-10:00),None,70,90,0.8766
+Trincomalee,Motorcycle,Suzuki,Light Rain,Morning (06:00-10:00),None,60,10,0.4489
+Jaffna,Van,Toyota,Overcast,Evening (18:00-22:00),None,30,26,0.3754
+Batticaloa,Motorcycle,Suzuki,Clear,Morning (06:00-10:00),None,60,18,0.4877
+Colombo,Motorcycle,Bajaj,Overcast,Afternoon (14:00-18:00),None,30,86,0.8404
+Colombo,Bus,Toyota,Overcast,Morning (06:00-10:00),Police Checkpoint,30,89,0.7997
+Galle,Motorcycle,Honda,Clear,Evening (18:00-22:00),Accident Nearby,30,22,0.4446
+Anuradhapura,Van,Nissan,Clear,Early Morning (00:00-06:00),None,30,6,0.1568
+Kandy,Motorcycle,Honda,Clear,Evening (18:00-22:00),Road Work,40,33,0.5381
+Colombo,Motorcycle,Bajaj,Light Rain,Evening (18:00-22:00),None,40,74,0.8586
+Jaffna,Car,Suzuki,Clear,Night (22:00-00:00),None,50,12,0.2582
+Colombo,Car,Mitsubishi,Clear,Morning (06:00-10:00),None,30,99,0.8232
+Matara,Motorcycle,Yamaha,Fog,Midday (10:00-14:00),None,50,18,0.5557
+Trincomalee,Car,Mitsubishi,Windy,Night (22:00-00:00),None,60,19,0.4485
+Kandy,Motorcycle,Suzuki,Fog,Morning (06:00-10:00),None,60,32,0.7499
+Colombo,Motorcycle,Bajaj,Clear,Midday (10:00-14:00),None,90,124,0.9846
+Trincomalee,Van,Toyota,Clear,Early Morning (00:00-06:00),Traffic Jam,70,11,0.3676
+Negombo,Motorcycle,Suzuki,Overcast,Evening (18:00-22:00),Accident Nearby,60,27,0.6525
+Kandy,Car,Toyota,Light Rain,Midday (10:00-14:00),None,50,53,0.61
+Kandy,Truck,Isuzu,Overcast,Midday (10:00-14:00),None,80,30,0.6538
+Anuradhapura,Bus,Toyota,Overcast,Morning (06:00-10:00),None,40,16,0.248
+Batticaloa,Car,Mitsubishi,Light Rain,Evening (18:00-22:00),None,80,11,0.4388
+Galle,Bus,Toyota,Heavy Rain,Afternoon (14:00-18:00),None,60,28,0.5241
+Kandy,Car,Honda,Windy,Evening (18:00-22:00),None,90,48,0.7283
+Kurunegala,Bicycle,Giant,Clear,Afternoon (14:00-18:00),None,50,43,0.4581
+Kurunegala,Car,Honda,Light Rain,Morning (06:00-10:00),Traffic Jam,40,18,0.333
+Colombo,Car,Honda,Fog,Evening (18:00-22:00),Accident Nearby,80,86,0.9503
+Galle,Bicycle,Local,Clear,Morning (06:00-10:00),None,60,20,0.3236
+Negombo,Bus,Isuzu,Overcast,Evening (18:00-22:00),Road Work,60,22,0.494
+Galle,Car,Mitsubishi,Heavy Rain,Night (22:00-00:00),None,80,20,0.5421
+Jaffna,Bus,Ashok Leyland,Clear,Night (22:00-00:00),None,50,24,0.3562
+Kurunegala,Car,Nissan,Overcast,Afternoon (14:00-18:00),None,90,35,0.6625
+Negombo,Bus,Toyota,Clear,Evening (18:00-22:00),None,40,22,0.2852
+Colombo,Three-Wheeler,TVS,Clear,Midday (10:00-14:00),None,50,79,0.7908
+Matara,Car,Honda,Clear,Midday (10:00-14:00),None,80,20,0.4338
+Colombo,Motorcycle,Suzuki,Clear,Midday (10:00-14:00),Flood Alert,40,86,0.9236
+Kandy,Van,Nissan,Light Rain,Midday (10:00-14:00),Traffic Jam,80,52,0.7897
+Kurunegala,Car,Nissan,Clear,Morning (06:00-10:00),Traffic Jam,60,25,0.4069
+Jaffna,Motorcycle,Bajaj,Overcast,Early Morning (00:00-06:00),None,50,8,0.3637
+Galle,Car,Nissan,Overcast,Morning (06:00-10:00),None,90,36,0.6058
+Anuradhapura,Van,Mitsubishi,Clear,Night (22:00-00:00),None,60,23,0.4234
+Kurunegala,Motorcycle,Honda,Storm,Evening (18:00-22:00),Traffic Jam,70,19,0.7058
+Anuradhapura,Car,Suzuki,Clear,Morning (06:00-10:00),None,30,11,0.1921
+Kurunegala,Bus,Ashok Leyland,Clear,Evening (18:00-22:00),None,30,26,0.2701
+Colombo,Car,Honda,Overcast,Evening (18:00-22:00),Accident Nearby,40,108,0.9187
+Colombo,Three-Wheeler,Bajaj,Storm,Midday (10:00-14:00),None,60,116,0.9739
+Negombo,Bus,Isuzu,Clear,Morning (06:00-10:00),Flood Alert,50,45,0.6979
+Galle,Motorcycle,Honda,Clear,Midday (10:00-14:00),None,40,23,0.3894
+Trincomalee,Car,Suzuki,Heavy Rain,Midday (10:00-14:00),Accident Nearby,100,8,0.667
+Jaffna,Bicycle,Giant,Fog,Afternoon (14:00-18:00),None,50,8,0.2957
+Trincomalee,Car,Hyundai,Clear,Night (22:00-00:00),Accident Nearby,30,9,0.2429
+Jaffna,Van,Isuzu,Clear,Afternoon (14:00-18:00),None,90,17,0.4795
+Colombo,Three-Wheeler,TVS,Overcast,Early Morning (00:00-06:00),Accident Nearby,80,144,0.989
+Kandy,Car,Suzuki,Clear,Evening (18:00-22:00),None,50,38,0.4357
+Kurunegala,Car,Toyota,Light Rain,Evening (18:00-22:00),None,60,25,0.4444
+Kurunegala,Motorcycle,Yamaha,Heavy Rain,Afternoon (14:00-18:00),Traffic Jam,60,23,0.6558
+Galle,Car,Suzuki,Fog,Afternoon (14:00-18:00),None,70,33,0.6538
+Colombo,Car,Honda,Clear,Morning (06:00-10:00),None,40,163,0.9741
+Jaffna,Car,Hyundai,Clear,Morning (06:00-10:00),None,90,14,0.3719
+Galle,Motorcycle,Yamaha,Overcast,Evening (18:00-22:00),None,30,21,0.3555
+Anuradhapura,Car,Hyundai,Heavy Rain,Afternoon (14:00-18:00),None,70,19,0.5377
+Kurunegala,Bus,Isuzu,Clear,Morning (06:00-10:00),None,50,29,0.3145
+Anuradhapura,Motorcycle,Bajaj,Clear,Morning (06:00-10:00),None,40,24,0.4014
+Trincomalee,Car,Honda,Fog,Evening (18:00-22:00),None,80,15,0.5398
+Jaffna,Van,Toyota,Heavy Rain,Night (22:00-00:00),None,50,15,0.4688
+Galle,Three-Wheeler,TVS,Clear,Midday (10:00-14:00),None,30,29,0.341
+Colombo,Car,Mitsubishi,Clear,Morning (06:00-10:00),None,30,127,0.928
+Kurunegala,Three-Wheeler,Bajaj,Clear,Afternoon (14:00-18:00),None,40,30,0.4036
+Colombo,Car,Honda,Clear,Morning (06:00-10:00),None,30,112,0.8519
+Kurunegala,Car,Toyota,Windy,Morning (06:00-10:00),Road Work,40,32,0.5131
+Galle,Bus,Isuzu,Windy,Night (22:00-00:00),None,40,33,0.4304
+Negombo,Car,Nissan,Overcast,Morning (06:00-10:00),Accident Nearby,80,39,0.7217
+Negombo,Car,Hyundai,Clear,Evening (18:00-22:00),None,70,33,0.6223
+Trincomalee,Van,Isuzu,Clear,Afternoon (14:00-18:00),None,90,11,0.3703
+Colombo,Motorcycle,Suzuki,Clear,Afternoon (14:00-18:00),None,80,103,0.9614
+Kandy,Car,Honda,Clear,Evening (18:00-22:00),None,60,60,0.6753
+Colombo,Motorcycle,Yamaha,Clear,Midday (10:00-14:00),None,70,79,0.8873
+Batticaloa,Motorcycle,Suzuki,Clear,Evening (18:00-22:00),None,30,12,0.2848
+Batticaloa,Car,Mitsubishi,Clear,Early Morning (00:00-06:00),None,70,9,0.3033
+Galle,Car,Mitsubishi,Clear,Morning (06:00-10:00),None,60,25,0.3819
+Colombo,Van,Nissan,Clear,Night (22:00-00:00),None,60,131,0.9641
+Trincomalee,Bus,Toyota,Light Rain,Morning (06:00-10:00),None,60,13,0.3253
+Kandy,Three-Wheeler,TVS,Clear,Afternoon (14:00-18:00),Police Checkpoint,100,45,0.7626
+Negombo,Bus,Toyota,Clear,Morning (06:00-10:00),None,70,15,0.3478
+Colombo,Bus,Ashok Leyland,Fog,Afternoon (14:00-18:00),None,40,118,0.9465
+Matara,Motorcycle,Honda,Light Rain,Morning (06:00-10:00),None,70,21,0.5719
+Anuradhapura,Three-Wheeler,Bajaj,Clear,Afternoon (14:00-18:00),None,60,25,0.4795
+Batticaloa,Car,Toyota,Windy,Early Morning (00:00-06:00),None,90,9,0.4201
+Galle,Motorcycle,Suzuki,Clear,Early Morning (00:00-06:00),None,70,26,0.5708
+Anuradhapura,Bicycle,Giant,Overcast,Morning (06:00-10:00),None,60,15,0.302
+Colombo,Car,Mitsubishi,Overcast,Afternoon (14:00-18:00),None,60,139,0.9737
+Colombo,Bus,Toyota,Overcast,Night (22:00-00:00),None,50,97,0.8823
+Trincomalee,Motorcycle,Yamaha,Overcast,Morning (06:00-10:00),None,80,13,0.5713
+Matara,Three-Wheeler,TVS,Clear,Midday (10:00-14:00),Traffic Jam,50,21,0.3869
+Colombo,Motorcycle,Bajaj,Light Rain,Afternoon (14:00-18:00),Police Checkpoint,30,104,0.9231
+Kandy,Motorcycle,Yamaha,Overcast,Early Morning (00:00-06:00),None,50,39,0.6081
+Negombo,Motorcycle,Yamaha,Light Rain,Afternoon (14:00-18:00),Traffic Jam,50,29,0.6285
+Galle,Car,Suzuki,Clear,Afternoon (14:00-18:00),None,60,33,0.4428
+Anuradhapura,Motorcycle,Honda,Clear,Midday (10:00-14:00),None,80,8,0.4741
+Anuradhapura,Three-Wheeler,Bajaj,Clear,Early Morning (00:00-06:00),Traffic Jam,50,14,0.3321
+Kandy,Car,Toyota,Light Rain,Afternoon (14:00-18:00),None,50,36,0.5122
+Matara,Car,Suzuki,Clear,Evening (18:00-22:00),None,50,24,0.3527
+Anuradhapura,Motorcycle,Honda,Clear,Midday (10:00-14:00),None,60,5,0.3528
+Anuradhapura,Motorcycle,Yamaha,Light Rain,Afternoon (14:00-18:00),None,60,10,0.4471
+Kurunegala,Three-Wheeler,TVS,Clear,Afternoon (14:00-18:00),Accident Nearby,80,27,0.6463
+Trincomalee,Van,Toyota,Overcast,Midday (10:00-14:00),None,40,19,0.3569
+Kurunegala,Motorcycle,Suzuki,Clear,Evening (18:00-22:00),Police Checkpoint,70,23,0.5521
+Batticaloa,Motorcycle,Honda,Light Rain,Morning (06:00-10:00),None,50,8,0.4175
+Colombo,Motorcycle,Bajaj,Heavy Rain,Midday (10:00-14:00),None,100,147,0.9951
+Jaffna,Bicycle,Giant,Clear,Morning (06:00-10:00),None,80,8,0.3016
+Kurunegala,Bus,Ashok Leyland,Storm,Afternoon (14:00-18:00),None,80,6,0.531
+Colombo,Car,Toyota,Windy,Midday (10:00-14:00),None,70,111,0.9499
+Colombo,Van,Nissan,Clear,Afternoon (14:00-18:00),None,40,87,0.8321
+Kurunegala,Car,Honda,Clear,Evening (18:00-22:00),None,40,15,0.2377
+Anuradhapura,Motorcycle,Suzuki,Heavy Rain,Evening (18:00-22:00),Police Checkpoint,40,17,0.4718
+Colombo,Motorcycle,Honda,Clear,Morning (06:00-10:00),None,60,106,0.9289
+Galle,Van,Mitsubishi,Overcast,Afternoon (14:00-18:00),None,50,20,0.3498
+Anuradhapura,Bus,Toyota,Light Rain,Evening (18:00-22:00),None,90,6,0.4627
+Matara,Three-Wheeler,Bajaj,Light Rain,Evening (18:00-22:00),None,60,22,0.47
+Kandy,Van,Mitsubishi,Windy,Afternoon (14:00-18:00),None,40,53,0.6306
+Jaffna,Bus,Toyota,Windy,Night (22:00-00:00),None,90,16,0.4888
+Anuradhapura,Motorcycle,Bajaj,Windy,Afternoon (14:00-18:00),Road Work,80,24,0.7037
+Galle,Bus,Ashok Leyland,Heavy Rain,Night (22:00-00:00),None,50,16,0.3809
+Batticaloa,Car,Toyota,Heavy Rain,Afternoon (14:00-18:00),None,50,4,0.3225
+Matara,Three-Wheeler,TVS,Overcast,Early Morning (00:00-06:00),None,70,13,0.3241
+Kurunegala,Three-Wheeler,Bajaj,Clear,Morning (06:00-10:00),None,60,23,0.42
+Colombo,Motorcycle,Bajaj,Fog,Afternoon (14:00-18:00),Accident Nearby,50,106,0.9686
+Negombo,Car,Hyundai,Clear,Afternoon (14:00-18:00),None,50,25,0.3918
+Colombo,Motorcycle,Suzuki,Fog,Night (22:00-00:00),Road Work,40,108,0.9711
+Trincomalee,Van,Nissan,Windy,Night (22:00-00:00),None,70,6,0.3645
+Colombo,Motorcycle,Suzuki,Light Rain,Morning (06:00-10:00),Police Checkpoint,40,136,0.9789
+Matara,Bus,Isuzu,Clear,Night (22:00-00:00),None,70,16,0.341
+Colombo,Car,Nissan,Windy,Evening (18:00-22:00),None,70,127,0.973
+Galle,Motorcycle,Bajaj,Light Rain,Night (22:00-00:00),None,70,27,0.6587
+Jaffna,Motorcycle,Bajaj,Clear,Night (22:00-00:00),None,60,20,0.4601
+Kandy,Car,Mitsubishi,Overcast,Early Morning (00:00-06:00),None,50,52,0.6346
+Kurunegala,Car,Mitsubishi,Clear,Midday (10:00-14:00),None,30,27,0.2704
+Matara,Bus,Ashok Leyland,Overcast,Midday (10:00-14:00),None,70,21,0.4048
+Anuradhapura,Car,Toyota,Clear,Afternoon (14:00-18:00),None,100,21,0.5162
+Kurunegala,Bus,Isuzu,Clear,Morning (06:00-10:00),None,60,25,0.3831
+Galle,Car,Toyota,Clear,Afternoon (14:00-18:00),None,30,30,0.292
+Colombo,Bus,Toyota,Light Rain,Night (22:00-00:00),None,80,97,0.9412
+Matara,Three-Wheeler,TVS,Overcast,Midday (10:00-14:00),None,70,26,0.5078
+Negombo,Van,Isuzu,Clear,Morning (06:00-10:00),None,30,21,0.283
+Kandy,Car,Suzuki,Clear,Evening (18:00-22:00),None,60,67,0.7179
+Trincomalee,Car,Suzuki,Overcast,Evening (18:00-22:00),Road Work,40,12,0.2645
+Colombo,Three-Wheeler,Bajaj,Fog,Evening (18:00-22:00),Accident Nearby,60,64,0.8951
+Kurunegala,Motorcycle,Yamaha,Overcast,Afternoon (14:00-18:00),None,30,25,0.3505
+Anuradhapura,Car,Hyundai,Clear,Afternoon (14:00-18:00),None,50,10,0.2501
+Matara,Van,Mitsubishi,Clear,Morning (06:00-10:00),Flood Alert,70,22,0.5456
+Jaffna,Van,Toyota,Clear,Early Morning (00:00-06:00),None,60,13,0.3801
+Trincomalee,Truck,Hino,Clear,Evening (18:00-22:00),Accident Nearby,50,10,0.4229
+Anuradhapura,Car,Honda,Windy,Midday (10:00-14:00),None,40,3,0.2134
+Trincomalee,Three-Wheeler,Bajaj,Clear,Morning (06:00-10:00),None,50,10,0.319
+Kurunegala,Van,Nissan,Clear,Afternoon (14:00-18:00),None,80,4,0.3123
+Kandy,Car,Nissan,Clear,Morning (06:00-10:00),None,40,25,0.3339
+Jaffna,Motorcycle,Honda,Overcast,Midday (10:00-14:00),Accident Nearby,80,22,0.6884
+Matara,Motorcycle,Suzuki,Clear,Afternoon (14:00-18:00),Traffic Jam,70,22,0.5595
+Kurunegala,Car,Suzuki,Overcast,Afternoon (14:00-18:00),None,60,27,0.4743
+Colombo,Three-Wheeler,TVS,Clear,Morning (06:00-10:00),Road Work,80,75,0.8987
+Negombo,Motorcycle,Yamaha,Overcast,Night (22:00-00:00),None,60,27,0.557
+Jaffna,Car,Mitsubishi,Overcast,Morning (06:00-10:00),None,30,17,0.2132
+Negombo,Bus,Isuzu,Overcast,Evening (18:00-22:00),Flood Alert,30,17,0.3493
+Jaffna,Car,Hyundai,Overcast,Midday (10:00-14:00),None,70,26,0.4669
+Kandy,Truck,Isuzu,Clear,Morning (06:00-10:00),Traffic Jam,50,55,0.6917
+Kurunegala,Motorcycle,Yamaha,Clear,Morning (06:00-10:00),None,60,22,0.4502
+Kurunegala,Three-Wheeler,TVS,Clear,Evening (18:00-22:00),None,70,24,0.5484
+Trincomalee,Car,Hyundai,Clear,Morning (06:00-10:00),None,80,13,0.4273
+Kurunegala,Motorcycle,Yamaha,Clear,Afternoon (14:00-18:00),None,50,7,0.3387
+Kurunegala,Three-Wheeler,Bajaj,Clear,Evening (18:00-22:00),None,50,22,0.3783
+Colombo,Bicycle,Local,Storm,Afternoon (14:00-18:00),Flood Alert,60,82,0.9378
+Colombo,Car,Suzuki,Clear,Early Morning (00:00-06:00),None,70,74,0.7851
+Trincomalee,Three-Wheeler,TVS,Clear,Midday (10:00-14:00),None,70,11,0.3719
+Trincomalee,Bicycle,Local,Clear,Morning (06:00-10:00),None,60,21,0.3528
+Negombo,Motorcycle,Suzuki,Windy,Morning (06:00-10:00),None,70,33,0.6246
+Jaffna,Motorcycle,Bajaj,Clear,Morning (06:00-10:00),None,40,13,0.3384
+Kandy,Bicycle,Local,Windy,Evening (18:00-22:00),None,60,52,0.6384
+Trincomalee,Car,Suzuki,Windy,Evening (18:00-22:00),None,70,19,0.3792
+Anuradhapura,Three-Wheeler,Bajaj,Light Rain,Midday (10:00-14:00),None,70,19,0.4757
+Colombo,Motorcycle,Suzuki,Clear,Midday (10:00-14:00),Traffic Jam,50,101,0.9226
+Kandy,Bus,Ashok Leyland,Clear,Morning (06:00-10:00),None,40,36,0.4604
+Batticaloa,Car,Toyota,Clear,Morning (06:00-10:00),None,60,14,0.3281
+Negombo,Truck,Mitsubishi,Heavy Rain,Evening (18:00-22:00),None,80,30,0.6788
+Batticaloa,Three-Wheeler,Bajaj,Light Rain,Night (22:00-00:00),None,60,15,0.4398
+Batticaloa,Bus,Ashok Leyland,Heavy Rain,Afternoon (14:00-18:00),Flood Alert,30,13,0.4067
+Matara,Car,Nissan,Light Rain,Evening (18:00-22:00),Police Checkpoint,40,24,0.3918
+Kandy,Motorcycle,Suzuki,Light Rain,Morning (06:00-10:00),None,50,38,0.6265
+Colombo,Three-Wheeler,TVS,Storm,Evening (18:00-22:00),None,80,132,0.9882
+Jaffna,Motorcycle,Bajaj,Clear,Midday (10:00-14:00),Accident Nearby,50,18,0.547
+Kurunegala,Bus,Isuzu,Clear,Morning (06:00-10:00),Accident Nearby,50,40,0.5416
+Jaffna,Motorcycle,Honda,Windy,Midday (10:00-14:00),Accident Nearby,70,13,0.5539
+Negombo,Bus,Toyota,Clear,Night (22:00-00:00),None,30,42,0.3955
+Anuradhapura,Car,Mitsubishi,Clear,Afternoon (14:00-18:00),Traffic Jam,100,15,0.54
+Anuradhapura,Three-Wheeler,TVS,Clear,Evening (18:00-22:00),None,80,10,0.3594
+Kurunegala,Motorcycle,Honda,Clear,Morning (06:00-10:00),None,90,20,0.5107
+Kurunegala,Motorcycle,Bajaj,Windy,Afternoon (14:00-18:00),None,60,21,0.507
+Galle,Three-Wheeler,TVS,Heavy Rain,Evening (18:00-22:00),None,60,28,0.6164
+Galle,Car,Nissan,Overcast,Afternoon (14:00-18:00),None,60,28,0.4805
+Kandy,Motorcycle,Bajaj,Clear,Evening (18:00-22:00),None,50,37,0.5534
+Batticaloa,Motorcycle,Suzuki,Storm,Morning (06:00-10:00),None,50,10,0.5076
+Kurunegala,Motorcycle,Yamaha,Heavy Rain,Night (22:00-00:00),None,60,41,0.7781
+Colombo,Motorcycle,Bajaj,Heavy Rain,Night (22:00-00:00),None,80,143,0.9907
+Kurunegala,Car,Honda,Clear,Midday (10:00-14:00),None,80,27,0.4877
+Matara,Bus,Toyota,Overcast,Morning (06:00-10:00),None,60,17,0.3613
+Batticaloa,Motorcycle,Yamaha,Clear,Midday (10:00-14:00),None,30,11,0.29
+Jaffna,Bus,Ashok Leyland,Clear,Midday (10:00-14:00),None,60,21,0.3523
+Negombo,Motorcycle,Honda,Overcast,Afternoon (14:00-18:00),Traffic Jam,70,18,0.5416
+Trincomalee,Car,Suzuki,Heavy Rain,Morning (06:00-10:00),None,70,11,0.3841
+Colombo,Car,Honda,Clear,Morning (06:00-10:00),None,70,58,0.6882
+Trincomalee,Motorcycle,Yamaha,Light Rain,Midday (10:00-14:00),None,60,14,0.4977
+Colombo,Bus,Toyota,Clear,Midday (10:00-14:00),None,30,116,0.8831
+Colombo,Three-Wheeler,TVS,Clear,Evening (18:00-22:00),Road Work,40,87,0.8607
+Batticaloa,Car,Toyota,Overcast,Morning (06:00-10:00),None,60,18,0.3763
+Kandy,Motorcycle,Honda,Heavy Rain,Afternoon (14:00-18:00),None,60,29,0.6617
+Anuradhapura,Car,Suzuki,Heavy Rain,Afternoon (14:00-18:00),None,70,5,0.4121
+Colombo,Car,Honda,Clear,Morning (06:00-10:00),None,60,105,0.8973
+Trincomalee,Bicycle,Local,Light Rain,Evening (18:00-22:00),None,60,17,0.3711
+Anuradhapura,Car,Honda,Light Rain,Afternoon (14:00-18:00),None,90,23,0.5932
+Negombo,Car,Honda,Overcast,Evening (18:00-22:00),None,30,23,0.292
+Kurunegala,Car,Toyota,Clear,Morning (06:00-10:00),Accident Nearby,80,32,0.6214
+Matara,Bus,Isuzu,Light Rain,Midday (10:00-14:00),None,80,17,0.4893
+Colombo,Motorcycle,Suzuki,Clear,Afternoon (14:00-18:00),None,30,95,0.8774
+Trincomalee,Car,Hyundai,Clear,Morning (06:00-10:00),None,50,16,0.2435
+Galle,Bus,Isuzu,Storm,Morning (06:00-10:00),None,50,29,0.601
+Colombo,Bus,Toyota,Clear,Night (22:00-00:00),Road Work,30,60,0.6253
+Kandy,Car,Nissan,Overcast,Evening (18:00-22:00),None,30,63,0.6212
+Colombo,Car,Suzuki,Clear,Early Morning (00:00-06:00),None,90,134,0.9805
+Colombo,Car,Honda,Light Rain,Morning (06:00-10:00),None,80,84,0.8833
+Kandy,Motorcycle,Yamaha,Fog,Afternoon (14:00-18:00),Accident Nearby,40,49,0.8097
+Negombo,Bus,Ashok Leyland,Overcast,Midday (10:00-14:00),Police Checkpoint,60,31,0.4488
+Colombo,Car,Honda,Clear,Night (22:00-00:00),None,90,106,0.9392
+Negombo,Car,Mitsubishi,Clear,Midday (10:00-14:00),None,60,22,0.4241
+Negombo,Bus,Isuzu,Overcast,Morning (06:00-10:00),None,70,21,0.4039
+Batticaloa,Car,Hyundai,Fog,Morning (06:00-10:00),None,80,10,0.4969
+Trincomalee,Van,Mitsubishi,Storm,Evening (18:00-22:00),None,70,18,0.5883
+Galle,Motorcycle,Honda,Clear,Afternoon (14:00-18:00),None,30,29,0.3807
+Jaffna,Bicycle,Giant,Clear,Evening (18:00-22:00),None,80,15,0.3671
+Negombo,Three-Wheeler,Bajaj,Overcast,Evening (18:00-22:00),Accident Nearby,60,34,0.6453
+Colombo,Truck,Mitsubishi,Heavy Rain,Midday (10:00-14:00),None,80,28,0.6902
+Kurunegala,Bus,Toyota,Clear,Morning (06:00-10:00),None,70,33,0.5042
+Anuradhapura,Car,Mitsubishi,Clear,Morning (06:00-10:00),None,50,4,0.2049
+Kurunegala,Motorcycle,Suzuki,Storm,Early Morning (00:00-06:00),None,70,21,0.6484
+Matara,Bus,Isuzu,Clear,Evening (18:00-22:00),None,60,10,0.2932
+Negombo,Car,Honda,Light Rain,Afternoon (14:00-18:00),None,60,16,0.4413
+Anuradhapura,Bus,Isuzu,Fog,Evening (18:00-22:00),None,50,20,0.4698
+Batticaloa,Bus,Isuzu,Light Rain,Afternoon (14:00-18:00),None,80,8,0.4143
+Colombo,Motorcycle,Yamaha,Fog,Midday (10:00-14:00),Flood Alert,50,108,0.9816
+Colombo,Car,Suzuki,Clear,Evening (18:00-22:00),Road Work,40,98,0.8644
+Kandy,Motorcycle,Suzuki,Clear,Midday (10:00-14:00),None,80,50,0.8064
+Batticaloa,Truck,Isuzu,Storm,Midday (10:00-14:00),None,50,11,0.4895
+Colombo,Motorcycle,Yamaha,Clear,Midday (10:00-14:00),None,80,67,0.8799
+Trincomalee,Three-Wheeler,Bajaj,Clear,Morning (06:00-10:00),None,30,17,0.2488
+Galle,Three-Wheeler,Bajaj,Heavy Rain,Afternoon (14:00-18:00),Accident Nearby,70,21,0.7235
+Matara,Bus,Ashok Leyland,Windy,Midday (10:00-14:00),Road Work,70,7,0.4316
+Anuradhapura,Bus,Toyota,Clear,Afternoon (14:00-18:00),None,30,11,0.2087
+Colombo,Bus,Toyota,Clear,Afternoon (14:00-18:00),None,80,137,0.9766
+Anuradhapura,Car,Suzuki,Clear,Evening (18:00-22:00),Road Work,60,18,0.4064
+Galle,Van,Toyota,Overcast,Midday (10:00-14:00),None,30,22,0.3308
+Matara,Bus,Ashok Leyland,Windy,Morning (06:00-10:00),None,50,15,0.3264
+Negombo,Car,Nissan,Clear,Evening (18:00-22:00),None,50,24,0.2986
+Jaffna,Van,Mitsubishi,Clear,Evening (18:00-22:00),Accident Nearby,40,30,0.4424
+Kandy,Motorcycle,Honda,Storm,Afternoon (14:00-18:00),None,40,49,0.7687
+Kandy,Three-Wheeler,Bajaj,Clear,Morning (06:00-10:00),None,90,50,0.7615
+Anuradhapura,Motorcycle,Suzuki,Light Rain,Night (22:00-00:00),None,50,19,0.4816
+Matara,Truck,Hino,Clear,Midday (10:00-14:00),None,80,18,0.5275
+Trincomalee,Car,Toyota,Light Rain,Afternoon (14:00-18:00),None,40,11,0.2329
+Negombo,Three-Wheeler,TVS,Heavy Rain,Midday (10:00-14:00),None,80,25,0.6608
+Colombo,Bus,Toyota,Clear,Morning (06:00-10:00),None,40,98,0.8156
+Matara,Three-Wheeler,Bajaj,Storm,Morning (06:00-10:00),None,40,17,0.4914
+Kandy,Bus,Isuzu,Clear,Morning (06:00-10:00),None,50,54,0.5943
+Colombo,Three-Wheeler,Bajaj,Clear,Evening (18:00-22:00),None,90,101,0.9475
+Kandy,Motorcycle,Honda,Light Rain,Night (22:00-00:00),Traffic Jam,100,54,0.8772
+Trincomalee,Three-Wheeler,Bajaj,Clear,Evening (18:00-22:00),None,40,12,0.2972
+Negombo,Car,Hyundai,Overcast,Night (22:00-00:00),None,30,28,0.3518
+Matara,Motorcycle,Honda,Heavy Rain,Midday (10:00-14:00),None,80,5,0.5783
+Batticaloa,Three-Wheeler,TVS,Clear,Morning (06:00-10:00),None,70,15,0.3979
+Colombo,Car,Mitsubishi,Heavy Rain,Midday (10:00-14:00),None,40,108,0.9341
+Kurunegala,Car,Suzuki,Light Rain,Afternoon (14:00-18:00),None,50,31,0.4509
+Trincomalee,Car,Toyota,Clear,Evening (18:00-22:00),None,40,0,0.183
+Kandy,Motorcycle,Suzuki,Overcast,Night (22:00-00:00),None,60,71,0.8671
+Colombo,Bus,Toyota,Overcast,Morning (06:00-10:00),None,60,96,0.9001
+Galle,Motorcycle,Suzuki,Clear,Evening (18:00-22:00),None,50,33,0.5119
+Colombo,Motorcycle,Yamaha,Clear,Morning (06:00-10:00),Flood Alert,60,74,0.9115
+Kurunegala,Three-Wheeler,Bajaj,Clear,Morning (06:00-10:00),None,40,28,0.3475
+Colombo,Motorcycle,Honda,Light Rain,Evening (18:00-22:00),Flood Alert,40,73,0.9047
+Matara,Bus,Isuzu,Light Rain,Night (22:00-00:00),None,50,13,0.3396
+Batticaloa,Three-Wheeler,TVS,Windy,Evening (18:00-22:00),Accident Nearby,30,19,0.3557
+Kurunegala,Truck,Isuzu,Fog,Morning (06:00-10:00),None,40,22,0.4759
+Kandy,Car,Honda,Heavy Rain,Evening (18:00-22:00),None,80,47,0.7645
+Kandy,Motorcycle,Suzuki,Clear,Midday (10:00-14:00),None,50,55,0.6986
+Matara,Bus,Isuzu,Clear,Evening (18:00-22:00),Flood Alert,50,20,0.426
+Jaffna,Car,Suzuki,Heavy Rain,Afternoon (14:00-18:00),None,60,18,0.4844
+Matara,Bus,Ashok Leyland,Clear,Night (22:00-00:00),None,70,19,0.398
+Matara,Car,Suzuki,Storm,Morning (06:00-10:00),None,60,32,0.6271
+Colombo,Bus,Isuzu,Storm,Afternoon (14:00-18:00),None,40,98,0.9117
+Kurunegala,Bus,Isuzu,Light Rain,Early Morning (00:00-06:00),None,90,25,0.6218
+Galle,Motorcycle,Honda,Light Rain,Morning (06:00-10:00),None,60,32,0.6773
+Colombo,Three-Wheeler,TVS,Clear,Night (22:00-00:00),None,50,127,0.9515
+Anuradhapura,Motorcycle,Bajaj,Clear,Morning (06:00-10:00),None,70,20,0.4916
+Jaffna,Car,Hyundai,Overcast,Afternoon (14:00-18:00),None,50,21,0.3612
+Colombo,Bus,Ashok Leyland,Heavy Rain,Afternoon (14:00-18:00),None,50,71,0.812
+Matara,Car,Suzuki,Overcast,Evening (18:00-22:00),None,80,27,0.5176
+Jaffna,Car,Mitsubishi,Heavy Rain,Midday (10:00-14:00),Accident Nearby,80,10,0.6113
+Jaffna,Bus,Isuzu,Light Rain,Midday (10:00-14:00),Police Checkpoint,40,19,0.2754
+Matara,Motorcycle,Yamaha,Clear,Evening (18:00-22:00),None,70,12,0.4821
+Kandy,Van,Nissan,Windy,Midday (10:00-14:00),Accident Nearby,40,44,0.6372
+Galle,Car,Honda,Heavy Rain,Midday (10:00-14:00),None,50,27,0.4934
+Negombo,Car,Toyota,Light Rain,Afternoon (14:00-18:00),None,50,30,0.4609
+Galle,Motorcycle,Yamaha,Clear,Morning (06:00-10:00),Police Checkpoint,50,28,0.4781
+Anuradhapura,Car,Toyota,Clear,Afternoon (14:00-18:00),None,50,22,0.2904
+Jaffna,Motorcycle,Bajaj,Clear,Early Morning (00:00-06:00),None,50,20,0.4691
+Negombo,Motorcycle,Yamaha,Light Rain,Early Morning (00:00-06:00),None,60,25,0.5774
+Colombo,Car,Mitsubishi,Overcast,Midday (10:00-14:00),None,70,124,0.9623
+Negombo,Car,Mitsubishi,Windy,Midday (10:00-14:00),None,30,37,0.4431
+Colombo,Three-Wheeler,Bajaj,Windy,Midday (10:00-14:00),None,30,69,0.6885
+Jaffna,Truck,Mitsubishi,Heavy Rain,Afternoon (14:00-18:00),None,90,21,0.697
+Colombo,Three-Wheeler,Bajaj,Light Rain,Early Morning (00:00-06:00),None,80,117,0.9692
+Galle,Car,Honda,Clear,Afternoon (14:00-18:00),Police Checkpoint,40,22,0.3089
+Kandy,Motorcycle,Bajaj,Clear,Afternoon (14:00-18:00),None,40,62,0.6651
+Kandy,Car,Hyundai,Light Rain,Midday (10:00-14:00),None,40,43,0.5272
+Kandy,Car,Toyota,Light Rain,Evening (18:00-22:00),Police Checkpoint,60,46,0.6089
+Kandy,Bus,Toyota,Storm,Afternoon (14:00-18:00),None,100,42,0.8345
+Kurunegala,Motorcycle,Honda,Storm,Afternoon (14:00-18:00),None,30,24,0.566
+Trincomalee,Motorcycle,Bajaj,Overcast,Evening (18:00-22:00),None,30,7,0.2537
+Anuradhapura,Bus,Ashok Leyland,Light Rain,Evening (18:00-22:00),None,30,6,0.2005
+Galle,Motorcycle,Bajaj,Clear,Afternoon (14:00-18:00),None,70,36,0.6378
+Trincomalee,Motorcycle,Honda,Clear,Midday (10:00-14:00),Accident Nearby,30,8,0.3191
+Anuradhapura,Motorcycle,Honda,Heavy Rain,Morning (06:00-10:00),None,50,8,0.4834
+Kandy,Bus,Isuzu,Storm,Evening (18:00-22:00),None,40,18,0.4216
+Batticaloa,Car,Nissan,Clear,Early Morning (00:00-06:00),Road Work,30,8,0.1752
+Colombo,Car,Nissan,Windy,Morning (06:00-10:00),None,60,66,0.751
+Anuradhapura,Motorcycle,Yamaha,Clear,Afternoon (14:00-18:00),None,40,23,0.378
+Jaffna,Car,Hyundai,Clear,Midday (10:00-14:00),None,50,23,0.2999
+Anuradhapura,Bus,Toyota,Clear,Morning (06:00-10:00),None,60,10,0.2559
+Anuradhapura,Three-Wheeler,TVS,Clear,Midday (10:00-14:00),Flood Alert,70,26,0.6423
+Trincomalee,Car,Nissan,Overcast,Morning (06:00-10:00),None,50,17,0.3533
+Kandy,Car,Suzuki,Clear,Morning (06:00-10:00),None,40,40,0.447
+Colombo,Bus,Isuzu,Light Rain,Midday (10:00-14:00),None,50,37,0.5043
+Galle,Car,Suzuki,Overcast,Afternoon (14:00-18:00),None,50,42,0.5333
+Colombo,Van,Isuzu,Windy,Morning (06:00-10:00),Accident Nearby,90,65,0.8874
+Anuradhapura,Car,Hyundai,Overcast,Afternoon (14:00-18:00),None,70,4,0.2803
+Kurunegala,Van,Nissan,Clear,Early Morning (00:00-06:00),Accident Nearby,70,32,0.5856
+Kurunegala,Car,Mitsubishi,Clear,Afternoon (14:00-18:00),Police Checkpoint,40,43,0.3991
+Kandy,Car,Mitsubishi,Fog,Early Morning (00:00-06:00),Accident Nearby,70,62,0.8796
+Trincomalee,Motorcycle,Yamaha,Overcast,Morning (06:00-10:00),None,80,15,0.5379
+Kandy,Motorcycle,Suzuki,Overcast,Evening (18:00-22:00),Accident Nearby,90,52,0.8743
+Batticaloa,Bus,Isuzu,Heavy Rain,Midday (10:00-14:00),None,70,14,0.4695
+Trincomalee,Motorcycle,Honda,Clear,Morning (06:00-10:00),None,30,16,0.2903
+Anuradhapura,Motorcycle,Suzuki,Light Rain,Evening (18:00-22:00),None,50,15,0.4679
+Kurunegala,Motorcycle,Bajaj,Overcast,Morning (06:00-10:00),None,40,24,0.3995
+Colombo,Car,Nissan,Clear,Night (22:00-00:00),None,70,98,0.9099
+Matara,Three-Wheeler,Bajaj,Clear,Morning (06:00-10:00),None,30,12,0.2132
+Colombo,Motorcycle,Suzuki,Light Rain,Morning (06:00-10:00),None,70,92,0.9338
+Colombo,Car,Toyota,Clear,Afternoon (14:00-18:00),None,60,57,0.62
+Trincomalee,Three-Wheeler,TVS,Overcast,Midday (10:00-14:00),None,50,12,0.3073
+Trincomalee,Truck,Isuzu,Windy,Afternoon (14:00-18:00),None,30,7,0.2755
+Galle,Motorcycle,Yamaha,Clear,Evening (18:00-22:00),None,80,16,0.5345
+Trincomalee,Bus,Ashok Leyland,Fog,Morning (06:00-10:00),None,80,13,0.5678
+Galle,Car,Mitsubishi,Fog,Afternoon (14:00-18:00),None,30,35,0.5256
+Kurunegala,Van,Mitsubishi,Clear,Midday (10:00-14:00),None,80,31,0.5224
+Galle,Motorcycle,Suzuki,Clear,Afternoon (14:00-18:00),None,50,13,0.3592
+Trincomalee,Van,Toyota,Light Rain,Midday (10:00-14:00),None,40,7,0.2504
+Negombo,Car,Mitsubishi,Overcast,Morning (06:00-10:00),Accident Nearby,50,35,0.5992
+Kurunegala,Car,Suzuki,Clear,Midday (10:00-14:00),None,70,16,0.3344
+Kandy,Motorcycle,Yamaha,Clear,Night (22:00-00:00),None,90,42,0.7741
+Galle,Motorcycle,Honda,Clear,Morning (06:00-10:00),None,80,29,0.6506
+Colombo,Bus,Isuzu,Light Rain,Afternoon (14:00-18:00),Accident Nearby,50,75,0.8798
+Kandy,Car,Honda,Clear,Midday (10:00-14:00),Police Checkpoint,70,46,0.5908
+Kurunegala,Car,Honda,Storm,Midday (10:00-14:00),None,50,13,0.4543
+Kandy,Bus,Toyota,Light Rain,Night (22:00-00:00),None,30,37,0.5052
+Galle,Three-Wheeler,TVS,Overcast,Early Morning (00:00-06:00),None,60,27,0.4626
+Batticaloa,Truck,Mitsubishi,Heavy Rain,Evening (18:00-22:00),Police Checkpoint,40,3,0.2846
+Kurunegala,Car,Toyota,Clear,Afternoon (14:00-18:00),None,40,27,0.2862
+Trincomalee,Three-Wheeler,TVS,Light Rain,Morning (06:00-10:00),None,70,12,0.464
+Batticaloa,Three-Wheeler,Bajaj,Overcast,Midday (10:00-14:00),Traffic Jam,40,13,0.2657
+Trincomalee,Car,Suzuki,Light Rain,Morning (06:00-10:00),None,90,13,0.4805
+Colombo,Three-Wheeler,Bajaj,Heavy Rain,Morning (06:00-10:00),None,80,134,0.9876
+Kurunegala,Bus,Ashok Leyland,Fog,Evening (18:00-22:00),None,80,25,0.6415
+Trincomalee,Bus,Ashok Leyland,Overcast,Midday (10:00-14:00),None,100,10,0.477
+Anuradhapura,Motorcycle,Honda,Clear,Night (22:00-00:00),None,60,14,0.4238
+Colombo,Motorcycle,Yamaha,Fog,Evening (18:00-22:00),None,40,113,0.969
+Colombo,Car,Hyundai,Windy,Morning (06:00-10:00),Accident Nearby,40,101,0.9065
+Kurunegala,Motorcycle,Yamaha,Light Rain,Night (22:00-00:00),None,90,24,0.6696
+Jaffna,Three-Wheeler,Bajaj,Clear,Night (22:00-00:00),None,30,13,0.2237
+Trincomalee,Car,Honda,Clear,Morning (06:00-10:00),None,50,9,0.2642
+Colombo,Motorcycle,Honda,Light Rain,Night (22:00-00:00),None,50,64,0.8261
+Kurunegala,Three-Wheeler,Bajaj,Heavy Rain,Evening (18:00-22:00),None,50,37,0.6443
+Kurunegala,Motorcycle,Yamaha,Clear,Morning (06:00-10:00),None,90,14,0.5799
+Kandy,Car,Honda,Overcast,Afternoon (14:00-18:00),None,60,36,0.4766
+Galle,Truck,Hino,Clear,Afternoon (14:00-18:00),None,30,19,0.3409
+Trincomalee,Three-Wheeler,Bajaj,Clear,Evening (18:00-22:00),None,80,16,0.4973
+Anuradhapura,Car,Toyota,Overcast,Afternoon (14:00-18:00),None,80,12,0.4182
+Colombo,Car,Mitsubishi,Windy,Morning (06:00-10:00),None,40,131,0.9612
+Negombo,Three-Wheeler,Bajaj,Clear,Afternoon (14:00-18:00),None,30,21,0.2533
+Kandy,Car,Toyota,Storm,Afternoon (14:00-18:00),None,60,48,0.7348
+Jaffna,Van,Toyota,Clear,Early Morning (00:00-06:00),Police Checkpoint,90,12,0.4049
+Kandy,Car,Nissan,Overcast,Afternoon (14:00-18:00),None,100,71,0.8808
+Galle,Car,Nissan,Light Rain,Afternoon (14:00-18:00),None,30,16,0.2522
+Colombo,Three-Wheeler,Bajaj,Windy,Afternoon (14:00-18:00),None,50,107,0.9328
+Colombo,Car,Toyota,Overcast,Morning (06:00-10:00),None,40,115,0.9264
+Jaffna,Van,Isuzu,Windy,Morning (06:00-10:00),None,70,20,0.4858
+Kandy,Car,Mitsubishi,Clear,Midday (10:00-14:00),None,80,42,0.6311
+Matara,Motorcycle,Bajaj,Clear,Evening (18:00-22:00),None,90,16,0.5323
+Kandy,Motorcycle,Yamaha,Light Rain,Midday (10:00-14:00),None,30,45,0.5903
+Trincomalee,Three-Wheeler,Bajaj,Fog,Morning (06:00-10:00),None,50,11,0.4759
+Trincomalee,Motorcycle,Yamaha,Heavy Rain,Morning (06:00-10:00),None,80,17,0.6778
+Matara,Three-Wheeler,Bajaj,Overcast,Evening (18:00-22:00),Road Work,60,31,0.5877
+Matara,Bicycle,Giant,Clear,Evening (18:00-22:00),None,80,14,0.3587
+Kurunegala,Three-Wheeler,TVS,Overcast,Morning (06:00-10:00),None,60,13,0.312
+Colombo,Bus,Toyota,Overcast,Morning (06:00-10:00),Police Checkpoint,70,97,0.8906
+Galle,Three-Wheeler,TVS,Light Rain,Morning (06:00-10:00),Traffic Jam,80,44,0.7941
+Negombo,Motorcycle,Suzuki,Overcast,Evening (18:00-22:00),Police Checkpoint,40,20,0.3571
+Kurunegala,Bus,Toyota,Clear,Midday (10:00-14:00),None,30,37,0.3775
+Anuradhapura,Van,Nissan,Overcast,Morning (06:00-10:00),None,90,23,0.5829
+Batticaloa,Bus,Toyota,Light Rain,Night (22:00-00:00),None,60,8,0.296
+Kurunegala,Car,Honda,Light Rain,Midday (10:00-14:00),None,90,28,0.6212
+Anuradhapura,Car,Mitsubishi,Overcast,Midday (10:00-14:00),Traffic Jam,70,22,0.49
+Trincomalee,Truck,Hino,Light Rain,Early Morning (00:00-06:00),None,40,10,0.3274
+Trincomalee,Three-Wheeler,Bajaj,Clear,Midday (10:00-14:00),None,50,11,0.37
+Colombo,Car,Nissan,Clear,Morning (06:00-10:00),Police Checkpoint,50,85,0.7663
+Negombo,Three-Wheeler,Bajaj,Clear,Afternoon (14:00-18:00),None,30,18,0.2981
+Kurunegala,Motorcycle,Honda,Windy,Night (22:00-00:00),None,80,18,0.5752
+Trincomalee,Bicycle,Local,Clear,Early Morning (00:00-06:00),None,50,6,0.2275
+Colombo,Motorcycle,Bajaj,Clear,Early Morning (00:00-06:00),None,40,100,0.9068
+Negombo,Bicycle,Local,Clear,Afternoon (14:00-18:00),None,70,20,0.3571
+Kandy,Motorcycle,Honda,Clear,Evening (18:00-22:00),None,50,47,0.6535
+Trincomalee,Car,Suzuki,Clear,Midday (10:00-14:00),None,50,5,0.1852
+Batticaloa,Motorcycle,Bajaj,Clear,Morning (06:00-10:00),None,50,12,0.3775
+Colombo,Car,Suzuki,Windy,Night (22:00-00:00),None,60,120,0.9528
+Negombo,Car,Nissan,Clear,Evening (18:00-22:00),Road Work,60,10,0.3677
+Trincomalee,Three-Wheeler,TVS,Clear,Night (22:00-00:00),Accident Nearby,40,14,0.3966
+Galle,Bus,Isuzu,Clear,Afternoon (14:00-18:00),None,100,34,0.6503
+Anuradhapura,Motorcycle,Honda,Clear,Morning (06:00-10:00),None,60,7,0.3654
+Anuradhapura,Motorcycle,Honda,Heavy Rain,Evening (18:00-22:00),Traffic Jam,50,23,0.5823
+Batticaloa,Motorcycle,Yamaha,Light Rain,Afternoon (14:00-18:00),None,100,12,0.6152
+Matara,Car,Nissan,Clear,Midday (10:00-14:00),None,40,13,0.2654
+Colombo,Bus,Ashok Leyland,Clear,Early Morning (00:00-06:00),None,50,98,0.8858
+Kurunegala,Motorcycle,Honda,Clear,Morning (06:00-10:00),None,30,28,0.4002
+Colombo,Motorcycle,Honda,Light Rain,Morning (06:00-10:00),Road Work,40,101,0.9444
+Colombo,Car,Hyundai,Clear,Afternoon (14:00-18:00),Road Work,30,113,0.9029
+Colombo,Van,Mitsubishi,Clear,Morning (06:00-10:00),None,70,76,0.8466
+Anuradhapura,Bus,Toyota,Light Rain,Midday (10:00-14:00),Accident Nearby,60,14,0.4915
+Galle,Car,Nissan,Overcast,Morning (06:00-10:00),None,70,14,0.4281
+Matara,Bus,Isuzu,Heavy Rain,Morning (06:00-10:00),None,30,16,0.3109
+Trincomalee,Car,Hyundai,Light Rain,Night (22:00-00:00),None,70,8,0.3566
+Colombo,Motorcycle,Honda,Windy,Evening (18:00-22:00),Flood Alert,60,81,0.9389
+Galle,Motorcycle,Yamaha,Windy,Morning (06:00-10:00),None,90,34,0.7525
+Negombo,Bus,Isuzu,Clear,Night (22:00-00:00),None,90,37,0.6177
+Colombo,Truck,Isuzu,Light Rain,Midday (10:00-14:00),None,80,115,0.9677
+Trincomalee,Bus,Isuzu,Clear,Evening (18:00-22:00),None,50,7,0.2525
+Colombo,Bus,Ashok Leyland,Overcast,Early Morning (00:00-06:00),Police Checkpoint,60,92,0.8778
+Negombo,Car,Hyundai,Clear,Morning (06:00-10:00),None,60,38,0.4788
+Colombo,Bus,Ashok Leyland,Clear,Afternoon (14:00-18:00),Police Checkpoint,50,103,0.8964
+Colombo,Three-Wheeler,Bajaj,Light Rain,Morning (06:00-10:00),Accident Nearby,60,157,0.9935
+Colombo,Motorcycle,Honda,Clear,Night (22:00-00:00),Road Work,50,109,0.9532
+Colombo,Bicycle,Local,Clear,Early Morning (00:00-06:00),Accident Nearby,80,104,0.9485
+Kandy,Truck,Isuzu,Clear,Early Morning (00:00-06:00),None,80,41,0.6912
+Trincomalee,Car,Mitsubishi,Light Rain,Midday (10:00-14:00),None,80,13,0.4236
+Kurunegala,Car,Suzuki,Clear,Morning (06:00-10:00),None,80,22,0.4582
+Anuradhapura,Bus,Ashok Leyland,Light Rain,Midday (10:00-14:00),None,60,17,0.3383
+Negombo,Motorcycle,Bajaj,Clear,Afternoon (14:00-18:00),None,70,35,0.6572
+Colombo,Bus,Ashok Leyland,Heavy Rain,Afternoon (14:00-18:00),None,40,80,0.8101
+Jaffna,Motorcycle,Suzuki,Clear,Afternoon (14:00-18:00),None,80,9,0.5052
+Matara,Motorcycle,Yamaha,Clear,Early Morning (00:00-06:00),Flood Alert,90,6,0.6157
+Colombo,Three-Wheeler,TVS,Clear,Afternoon (14:00-18:00),None,90,112,0.9604
+Trincomalee,Bus,Isuzu,Heavy Rain,Evening (18:00-22:00),None,40,7,0.2895
+Anuradhapura,Bicycle,Giant,Clear,Afternoon (14:00-18:00),None,60,2,0.212
+Kandy,Car,Toyota,Heavy Rain,Morning (06:00-10:00),None,60,49,0.7514
+Batticaloa,Bus,Ashok Leyland,Clear,Midday (10:00-14:00),None,70,22,0.345
+Kandy,Three-Wheeler,TVS,Light Rain,Evening (18:00-22:00),Road Work,60,44,0.756
+Trincomalee,Motorcycle,Honda,Clear,Afternoon (14:00-18:00),None,90,16,0.5716
+Trincomalee,Bicycle,Giant,Clear,Afternoon (14:00-18:00),None,70,12,0.2861
+Colombo,Car,Hyundai,Light Rain,Midday (10:00-14:00),Road Work,50,97,0.9075
+Negombo,Motorcycle,Honda,Heavy Rain,Evening (18:00-22:00),None,30,35,0.6459
+Trincomalee,Bus,Isuzu,Clear,Morning (06:00-10:00),None,80,11,0.3417
+Trincomalee,Three-Wheeler,Bajaj,Overcast,Night (22:00-00:00),None,30,13,0.2314
+Trincomalee,Motorcycle,Suzuki,Clear,Afternoon (14:00-18:00),None,100,14,0.6197
+Matara,Car,Nissan,Heavy Rain,Afternoon (14:00-18:00),None,50,13,0.3993
+Negombo,Car,Honda,Overcast,Morning (06:00-10:00),None,70,36,0.5266
+Negombo,Three-Wheeler,Bajaj,Light Rain,Morning (06:00-10:00),None,100,25,0.6789
+Colombo,Car,Nissan,Windy,Early Morning (00:00-06:00),None,80,81,0.867
+Batticaloa,Three-Wheeler,TVS,Overcast,Evening (18:00-22:00),None,90,13,0.5247
+Jaffna,Motorcycle,Bajaj,Clear,Morning (06:00-10:00),Police Checkpoint,70,11,0.4536
+Galle,Bus,Toyota,Clear,Evening (18:00-22:00),None,30,25,0.2966
+Batticaloa,Three-Wheeler,Bajaj,Clear,Morning (06:00-10:00),None,30,10,0.2298
+Batticaloa,Motorcycle,Bajaj,Overcast,Morning (06:00-10:00),None,90,15,0.6261
+Jaffna,Car,Suzuki,Heavy Rain,Afternoon (14:00-18:00),None,40,20,0.4051
+Trincomalee,Bus,Ashok Leyland,Overcast,Early Morning (00:00-06:00),Flood Alert,70,12,0.4671
+Trincomalee,Car,Hyundai,Windy,Afternoon (14:00-18:00),None,50,16,0.3421
+Colombo,Truck,Hino,Clear,Night (22:00-00:00),None,50,134,0.9737
+Colombo,Motorcycle,Yamaha,Heavy Rain,Afternoon (14:00-18:00),None,70,113,0.9732
+Batticaloa,Bus,Toyota,Light Rain,Morning (06:00-10:00),None,30,11,0.2364
+Matara,Three-Wheeler,Bajaj,Clear,Morning (06:00-10:00),None,40,9,0.2563
+Colombo,Bicycle,Giant,Overcast,Afternoon (14:00-18:00),None,50,73,0.7363
+Trincomalee,Car,Honda,Storm,Afternoon (14:00-18:00),None,30,11,0.3106
+Kandy,Truck,Mitsubishi,Windy,Afternoon (14:00-18:00),None,50,37,0.5998
+Galle,Bus,Isuzu,Clear,Midday (10:00-14:00),None,30,23,0.3282
+Batticaloa,Bus,Isuzu,Heavy Rain,Afternoon (14:00-18:00),Road Work,30,11,0.3692
+Colombo,Car,Toyota,Windy,Morning (06:00-10:00),None,80,113,0.9511
+Batticaloa,Car,Mitsubishi,Clear,Night (22:00-00:00),None,70,10,0.2823
+Kurunegala,Van,Mitsubishi,Clear,Morning (06:00-10:00),None,70,27,0.4867
+Trincomalee,Bus,Isuzu,Heavy Rain,Midday (10:00-14:00),None,60,12,0.4554
+Colombo,Bus,Isuzu,Storm,Morning (06:00-10:00),None,80,50,0.8248
+Kandy,Three-Wheeler,Bajaj,Overcast,Midday (10:00-14:00),None,50,33,0.4887
+Colombo,Car,Hyundai,Clear,Morning (06:00-10:00),Accident Nearby,50,96,0.8946
+Jaffna,Motorcycle,Suzuki,Light Rain,Morning (06:00-10:00),None,60,9,0.4101
+Colombo,Three-Wheeler,TVS,Clear,Afternoon (14:00-18:00),None,60,114,0.9462
+Negombo,Car,Hyundai,Clear,Afternoon (14:00-18:00),None,50,40,0.5077
+Trincomalee,Car,Honda,Storm,Early Morning (00:00-06:00),Accident Nearby,70,18,0.6123
+Matara,Bus,Ashok Leyland,Clear,Morning (06:00-10:00),None,30,16,0.2612
+Galle,Car,Toyota,Clear,Afternoon (14:00-18:00),None,80,36,0.5913
+Colombo,Motorcycle,Yamaha,Windy,Night (22:00-00:00),Accident Nearby,40,103,0.9557
+Galle,Motorcycle,Suzuki,Clear,Evening (18:00-22:00),None,60,22,0.4439
+Negombo,Van,Nissan,Light Rain,Midday (10:00-14:00),None,60,22,0.4212
+Galle,Van,Mitsubishi,Heavy Rain,Night (22:00-00:00),None,40,22,0.4391
+Colombo,Car,Suzuki,Clear,Afternoon (14:00-18:00),None,30,90,0.7899
+Galle,Motorcycle,Suzuki,Fog,Afternoon (14:00-18:00),None,50,26,0.6781
+Batticaloa,Bus,Toyota,Clear,Evening (18:00-22:00),None,50,11,0.2746
+Jaffna,Car,Mitsubishi,Heavy Rain,Night (22:00-00:00),None,90,17,0.5848
+Matara,Three-Wheeler,Bajaj,Clear,Afternoon (14:00-18:00),None,50,20,0.3327
+Trincomalee,Van,Mitsubishi,Clear,Evening (18:00-22:00),Police Checkpoint,60,18,0.3867
+Kandy,Three-Wheeler,TVS,Clear,Evening (18:00-22:00),Traffic Jam,90,56,0.7876
+Batticaloa,Car,Mitsubishi,Storm,Morning (06:00-10:00),None,100,4,0.6178
+Jaffna,Car,Nissan,Light Rain,Morning (06:00-10:00),None,40,1,0.2093
+Kurunegala,Van,Mitsubishi,Heavy Rain,Early Morning (00:00-06:00),Road Work,60,31,0.713
+Batticaloa,Car,Mitsubishi,Storm,Midday (10:00-14:00),None,80,4,0.5059
+Jaffna,Truck,Mitsubishi,Clear,Morning (06:00-10:00),None,40,16,0.3088
+Matara,Car,Suzuki,Clear,Afternoon (14:00-18:00),None,70,10,0.308
+Kurunegala,Van,Toyota,Storm,Evening (18:00-22:00),None,70,9,0.497
+Matara,Motorcycle,Suzuki,Light Rain,Afternoon (14:00-18:00),None,70,20,0.5893
+Negombo,Three-Wheeler,TVS,Fog,Morning (06:00-10:00),Accident Nearby,60,34,0.7521
+Colombo,Three-Wheeler,Bajaj,Clear,Evening (18:00-22:00),None,90,85,0.9031
+Kurunegala,Three-Wheeler,TVS,Clear,Midday (10:00-14:00),None,50,3,0.2376
+Trincomalee,Motorcycle,Suzuki,Light Rain,Early Morning (00:00-06:00),Road Work,30,9,0.3924
+Colombo,Three-Wheeler,TVS,Clear,Night (22:00-00:00),Traffic Jam,50,109,0.9065
+Trincomalee,Motorcycle,Suzuki,Heavy Rain,Evening (18:00-22:00),None,40,5,0.4049
+Kurunegala,Truck,Isuzu,Clear,Midday (10:00-14:00),None,40,25,0.3536
+Kurunegala,Bus,Ashok Leyland,Light Rain,Evening (18:00-22:00),Flood Alert,70,23,0.6041
+Kandy,Car,Hyundai,Clear,Morning (06:00-10:00),None,70,52,0.6144
+Matara,Bus,Isuzu,Overcast,Night (22:00-00:00),None,30,18,0.2161
+Anuradhapura,Truck,Hino,Light Rain,Midday (10:00-14:00),None,80,8,0.4339
+Kandy,Car,Nissan,Light Rain,Evening (18:00-22:00),None,50,59,0.6784
+Colombo,Bus,Ashok Leyland,Light Rain,Afternoon (14:00-18:00),None,30,96,0.8776
+Jaffna,Car,Toyota,Clear,Morning (06:00-10:00),None,30,17,0.221
+Batticaloa,Van,Nissan,Clear,Afternoon (14:00-18:00),None,30,6,0.189
+Trincomalee,Bus,Isuzu,Clear,Evening (18:00-22:00),None,60,10,0.2951
+Colombo,Motorcycle,Bajaj,Light Rain,Afternoon (14:00-18:00),Flood Alert,30,77,0.8967
+Galle,Motorcycle,Yamaha,Clear,Evening (18:00-22:00),Police Checkpoint,40,23,0.3935
+Colombo,Bus,Isuzu,Heavy Rain,Morning (06:00-10:00),None,80,142,0.9862
+Colombo,Bus,Ashok Leyland,Light Rain,Night (22:00-00:00),None,60,65,0.7989
+Trincomalee,Motorcycle,Honda,Overcast,Evening (18:00-22:00),None,90,4,0.5375
+Trincomalee,Motorcycle,Bajaj,Light Rain,Evening (18:00-22:00),None,50,19,0.4332
+Matara,Three-Wheeler,TVS,Clear,Morning (06:00-10:00),None,50,16,0.3035
+Jaffna,Car,Hyundai,Heavy Rain,Afternoon (14:00-18:00),None,50,13,0.3817
+Matara,Motorcycle,Yamaha,Clear,Evening (18:00-22:00),Police Checkpoint,50,23,0.4091
+Jaffna,Car,Mitsubishi,Windy,Afternoon (14:00-18:00),None,30,13,0.2514
+Batticaloa,Motorcycle,Bajaj,Clear,Morning (06:00-10:00),None,50,19,0.3955
+Anuradhapura,Bus,Toyota,Light Rain,Evening (18:00-22:00),None,60,17,0.4619
+Galle,Motorcycle,Yamaha,Clear,Afternoon (14:00-18:00),None,30,21,0.3848
+Kandy,Car,Mitsubishi,Clear,Evening (18:00-22:00),None,70,71,0.7916
+Kandy,Motorcycle,Bajaj,Clear,Afternoon (14:00-18:00),None,50,37,0.5971
+Colombo,Motorcycle,Honda,Overcast,Morning (06:00-10:00),None,30,118,0.9469
+Anuradhapura,Car,Toyota,Windy,Midday (10:00-14:00),Flood Alert,50,15,0.4479
+Trincomalee,Van,Toyota,Clear,Early Morning (00:00-06:00),None,80,18,0.4221
+Jaffna,Motorcycle,Honda,Heavy Rain,Midday (10:00-14:00),None,50,27,0.6183
+Matara,Motorcycle,Suzuki,Overcast,Afternoon (14:00-18:00),Police Checkpoint,80,17,0.5631
+Trincomalee,Bus,Ashok Leyland,Clear,Early Morning (00:00-06:00),None,50,8,0.2422
+Kurunegala,Motorcycle,Bajaj,Clear,Evening (18:00-22:00),Accident Nearby,80,27,0.6588
+Negombo,Bus,Isuzu,Fog,Morning (06:00-10:00),Accident Nearby,30,21,0.4679
+Trincomalee,Bus,Toyota,Light Rain,Evening (18:00-22:00),None,70,22,0.4796
+Trincomalee,Car,Toyota,Clear,Evening (18:00-22:00),Accident Nearby,80,13,0.4791
+Trincomalee,Motorcycle,Suzuki,Light Rain,Afternoon (14:00-18:00),None,60,10,0.5095
+Negombo,Motorcycle,Suzuki,Clear,Morning (06:00-10:00),None,30,29,0.3755
+Matara,Three-Wheeler,Bajaj,Light Rain,Morning (06:00-10:00),None,40,9,0.3133
+Kurunegala,Car,Suzuki,Clear,Morning (06:00-10:00),None,60,16,0.3687
+Negombo,Three-Wheeler,TVS,Light Rain,Afternoon (14:00-18:00),Flood Alert,30,38,0.6971
+Colombo,Van,Isuzu,Storm,Evening (18:00-22:00),None,80,83,0.9338
+Colombo,Motorcycle,Bajaj,Light Rain,Night (22:00-00:00),None,30,73,0.813
+Jaffna,Bus,Ashok Leyland,Clear,Evening (18:00-22:00),None,30,20,0.2636
+Kurunegala,Motorcycle,Honda,Clear,Afternoon (14:00-18:00),None,40,33,0.4968
+Galle,Motorcycle,Honda,Clear,Morning (06:00-10:00),None,70,30,0.5903
+Anuradhapura,Motorcycle,Honda,Clear,Morning (06:00-10:00),None,60,19,0.4718
+Negombo,Bus,Ashok Leyland,Light Rain,Night (22:00-00:00),None,30,20,0.2442
+Colombo,Motorcycle,Yamaha,Overcast,Morning (06:00-10:00),Road Work,70,64,0.8803
+Galle,Motorcycle,Bajaj,Light Rain,Evening (18:00-22:00),None,40,36,0.5866
+Anuradhapura,Motorcycle,Honda,Light Rain,Midday (10:00-14:00),None,40,12,0.3774
+Trincomalee,Car,Mitsubishi,Clear,Night (22:00-00:00),None,50,11,0.3077
+Colombo,Motorcycle,Suzuki,Clear,Early Morning (00:00-06:00),None,50,133,0.9685
+Colombo,Motorcycle,Yamaha,Clear,Evening (18:00-22:00),None,50,113,0.9418
+Jaffna,Bus,Ashok Leyland,Overcast,Early Morning (00:00-06:00),None,70,20,0.4797
+Kandy,Motorcycle,Bajaj,Heavy Rain,Evening (18:00-22:00),None,80,72,0.9172
+Galle,Car,Hyundai,Storm,Morning (06:00-10:00),None,50,20,0.4753
+Colombo,Motorcycle,Honda,Windy,Evening (18:00-22:00),Flood Alert,90,123,0.9902
+Matara,Bus,Isuzu,Overcast,Afternoon (14:00-18:00),None,50,17,0.34
+Kandy,Truck,Mitsubishi,Overcast,Morning (06:00-10:00),None,100,48,0.8074
+Galle,Car,Nissan,Windy,Midday (10:00-14:00),None,50,36,0.4529
+Kurunegala,Car,Suzuki,Storm,Evening (18:00-22:00),None,90,28,0.7024
+Galle,Motorcycle,Suzuki,Windy,Morning (06:00-10:00),None,60,29,0.5693
+Kurunegala,Three-Wheeler,Bajaj,Clear,Midday (10:00-14:00),Police Checkpoint,80,32,0.5711
+Kandy,Truck,Mitsubishi,Windy,Morning (06:00-10:00),None,60,40,0.6442
+Kandy,Car,Nissan,Clear,Midday (10:00-14:00),Accident Nearby,30,34,0.4567
+Colombo,Motorcycle,Yamaha,Clear,Midday (10:00-14:00),None,70,73,0.8339
+Colombo,Motorcycle,Honda,Fog,Evening (18:00-22:00),None,90,50,0.8958
+Matara,Van,Mitsubishi,Clear,Evening (18:00-22:00),None,90,30,0.5963
+Kandy,Bus,Toyota,Clear,Afternoon (14:00-18:00),None,50,31,0.4462
+Trincomalee,Bicycle,Local,Overcast,Morning (06:00-10:00),None,80,11,0.3802
+Anuradhapura,Bus,Ashok Leyland,Clear,Midday (10:00-14:00),None,50,12,0.291
+Kandy,Van,Isuzu,Overcast,Midday (10:00-14:00),Road Work,50,48,0.6741
+Colombo,Motorcycle,Honda,Overcast,Afternoon (14:00-18:00),None,50,120,0.9651
+Jaffna,Truck,Mitsubishi,Clear,Afternoon (14:00-18:00),Police Checkpoint,50,22,0.4006
+Anuradhapura,Car,Hyundai,Heavy Rain,Afternoon (14:00-18:00),None,70,10,0.4455
+Trincomalee,Three-Wheeler,Bajaj,Heavy Rain,Midday (10:00-14:00),None,30,11,0.3997
+Batticaloa,Three-Wheeler,TVS,Fog,Morning (06:00-10:00),None,100,12,0.6794
+Colombo,Car,Hyundai,Overcast,Afternoon (14:00-18:00),Road Work,40,93,0.8803
+Matara,Car,Mitsubishi,Clear,Morning (06:00-10:00),None,70,27,0.4189
+Negombo,Motorcycle,Bajaj,Clear,Midday (10:00-14:00),Traffic Jam,30,31,0.4183
+Negombo,Car,Toyota,Clear,Morning (06:00-10:00),Road Work,60,33,0.5478
+Kandy,Bus,Ashok Leyland,Fog,Midday (10:00-14:00),None,40,53,0.6975
+Galle,Truck,Isuzu,Fog,Afternoon (14:00-18:00),Accident Nearby,70,33,0.7781
+Batticaloa,Car,Suzuki,Clear,Early Morning (00:00-06:00),None,70,11,0.3326
+Kandy,Car,Mitsubishi,Overcast,Afternoon (14:00-18:00),None,70,28,0.535
+Trincomalee,Car,Mitsubishi,Clear,Midday (10:00-14:00),Accident Nearby,60,14,0.4255
+Batticaloa,Bus,Toyota,Overcast,Afternoon (14:00-18:00),None,50,8,0.2307
+Kurunegala,Bicycle,Local,Clear,Night (22:00-00:00),Police Checkpoint,60,19,0.3168
+Kurunegala,Motorcycle,Bajaj,Clear,Evening (18:00-22:00),None,50,28,0.4676
+Kurunegala,Motorcycle,Yamaha,Clear,Morning (06:00-10:00),None,60,33,0.5647
+Jaffna,Three-Wheeler,Bajaj,Clear,Evening (18:00-22:00),None,50,17,0.3266
+Trincomalee,Car,Suzuki,Storm,Afternoon (14:00-18:00),None,70,13,0.5041
+Negombo,Car,Hyundai,Clear,Midday (10:00-14:00),Police Checkpoint,50,42,0.4472
+Matara,Motorcycle,Yamaha,Clear,Evening (18:00-22:00),None,70,19,0.4977
+Negombo,Car,Hyundai,Heavy Rain,Night (22:00-00:00),Accident Nearby,70,50,0.8136
+Kandy,Bicycle,Giant,Light Rain,Midday (10:00-14:00),Traffic Jam,90,52,0.7191
+Colombo,Motorcycle,Yamaha,Fog,Morning (06:00-10:00),Accident Nearby,60,55,0.9109
+Batticaloa,Van,Mitsubishi,Clear,Midday (10:00-14:00),None,70,14,0.4033
+Negombo,Motorcycle,Suzuki,Clear,Midday (10:00-14:00),None,40,30,0.4545
+Batticaloa,Three-Wheeler,Bajaj,Clear,Early Morning (00:00-06:00),Police Checkpoint,30,16,0.25
+Colombo,Bus,Ashok Leyland,Clear,Midday (10:00-14:00),None,30,116,0.8807
+Colombo,Car,Mitsubishi,Light Rain,Afternoon (14:00-18:00),Flood Alert,60,96,0.9549
+Jaffna,Motorcycle,Bajaj,Heavy Rain,Midday (10:00-14:00),None,80,9,0.6475
+Matara,Bus,Isuzu,Clear,Morning (06:00-10:00),None,60,16,0.3323
+Galle,Motorcycle,Honda,Windy,Morning (06:00-10:00),None,30,18,0.3988
+Batticaloa,Truck,Isuzu,Overcast,Morning (06:00-10:00),None,60,8,0.3532
+Kandy,Car,Honda,Light Rain,Morning (06:00-10:00),None,90,52,0.7542
+Kandy,Bus,Toyota,Clear,Morning (06:00-10:00),Road Work,30,65,0.6619
+Colombo,Three-Wheeler,TVS,Windy,Afternoon (14:00-18:00),Road Work,40,109,0.94
+Colombo,Van,Toyota,Clear,Morning (06:00-10:00),None,70,70,0.7876
+Trincomalee,Bicycle,Local,Windy,Morning (06:00-10:00),None,30,14,0.2254
+Negombo,Car,Suzuki,Overcast,Evening (18:00-22:00),Road Work,40,37,0.5069
+Trincomalee,Bus,Ashok Leyland,Overcast,Evening (18:00-22:00),None,70,9,0.3317
+Negombo,Bus,Toyota,Light Rain,Midday (10:00-14:00),None,40,26,0.3903
+Jaffna,Bicycle,Local,Clear,Midday (10:00-14:00),Police Checkpoint,40,17,0.2154
+Colombo,Bus,Toyota,Light Rain,Evening (18:00-22:00),Accident Nearby,60,80,0.8834
+Trincomalee,Bus,Isuzu,Clear,Early Morning (00:00-06:00),None,50,15,0.2543
+Kandy,Motorcycle,Bajaj,Storm,Morning (06:00-10:00),None,70,43,0.8392
+Kurunegala,Bus,Isuzu,Clear,Evening (18:00-22:00),Accident Nearby,80,27,0.5361
+Batticaloa,Motorcycle,Honda,Windy,Evening (18:00-22:00),None,70,7,0.48
+Negombo,Motorcycle,Yamaha,Clear,Night (22:00-00:00),None,70,23,0.5762
+Kandy,Motorcycle,Bajaj,Fog,Afternoon (14:00-18:00),None,60,54,0.8332
+Colombo,Car,Nissan,Clear,Morning (06:00-10:00),None,80,90,0.8592
+Trincomalee,Bus,Ashok Leyland,Clear,Afternoon (14:00-18:00),None,90,20,0.4724
+Colombo,Three-Wheeler,TVS,Overcast,Evening (18:00-22:00),None,30,90,0.8214
+Kandy,Motorcycle,Suzuki,Overcast,Afternoon (14:00-18:00),None,80,47,0.7484
+Trincomalee,Van,Mitsubishi,Windy,Night (22:00-00:00),Accident Nearby,60,16,0.473
+Anuradhapura,Motorcycle,Suzuki,Fog,Evening (18:00-22:00),Police Checkpoint,70,6,0.5821
+Batticaloa,Car,Mitsubishi,Windy,Midday (10:00-14:00),Traffic Jam,60,3,0.3111
+Jaffna,Car,Honda,Clear,Night (22:00-00:00),None,100,7,0.3906
+Kandy,Bicycle,Local,Heavy Rain,Night (22:00-00:00),None,50,60,0.7013
+Negombo,Motorcycle,Suzuki,Clear,Morning (06:00-10:00),None,50,22,0.4317
+Kurunegala,Three-Wheeler,Bajaj,Clear,Afternoon (14:00-18:00),None,50,44,0.5524
+Colombo,Car,Suzuki,Clear,Early Morning (00:00-06:00),None,70,85,0.863
+Negombo,Motorcycle,Yamaha,Clear,Afternoon (14:00-18:00),None,30,29,0.3997
+Colombo,Three-Wheeler,TVS,Clear,Afternoon (14:00-18:00),None,40,138,0.9642
+Batticaloa,Car,Nissan,Clear,Early Morning (00:00-06:00),None,80,20,0.4984
+Matara,Bus,Isuzu,Clear,Night (22:00-00:00),Traffic Jam,100,30,0.6545
+Colombo,Three-Wheeler,TVS,Overcast,Early Morning (00:00-06:00),None,30,130,0.9467
+Negombo,Bus,Ashok Leyland,Clear,Midday (10:00-14:00),None,80,36,0.5692
+Jaffna,Car,Hyundai,Clear,Midday (10:00-14:00),Accident Nearby,50,21,0.4105
+Galle,Car,Suzuki,Windy,Midday (10:00-14:00),None,50,30,0.4765
+Kandy,Bus,Isuzu,Clear,Afternoon (14:00-18:00),Accident Nearby,60,38,0.5866
+Anuradhapura,Car,Honda,Light Rain,Night (22:00-00:00),None,60,9,0.3369
+Kurunegala,Bus,Isuzu,Clear,Morning (06:00-10:00),Police Checkpoint,40,23,0.2958
+Negombo,Car,Honda,Light Rain,Afternoon (14:00-18:00),None,80,26,0.5432
+Anuradhapura,Car,Mitsubishi,Overcast,Midday (10:00-14:00),None,80,11,0.3505
+Kandy,Motorcycle,Bajaj,Heavy Rain,Night (22:00-00:00),None,50,53,0.8003
+Trincomalee,Car,Suzuki,Light Rain,Evening (18:00-22:00),None,50,17,0.3563
+Negombo,Van,Isuzu,Light Rain,Midday (10:00-14:00),None,60,28,0.527
+Batticaloa,Bus,Isuzu,Clear,Night (22:00-00:00),None,70,17,0.36
+Matara,Three-Wheeler,TVS,Clear,Morning (06:00-10:00),None,100,10,0.5234
+Matara,Car,Nissan,Windy,Evening (18:00-22:00),None,40,16,0.272
+Kandy,Car,Suzuki,Light Rain,Morning (06:00-10:00),None,50,36,0.5651
+Kurunegala,Truck,Isuzu,Overcast,Afternoon (14:00-18:00),None,50,9,0.2742
+Colombo,Car,Nissan,Light Rain,Morning (06:00-10:00),Road Work,80,97,0.9516
+Matara,Car,Mitsubishi,Clear,Evening (18:00-22:00),None,60,16,0.3409
+Galle,Motorcycle,Suzuki,Clear,Afternoon (14:00-18:00),None,40,36,0.4924
+Anuradhapura,Van,Toyota,Clear,Early Morning (00:00-06:00),None,70,17,0.4085
+Jaffna,Motorcycle,Bajaj,Overcast,Afternoon (14:00-18:00),Police Checkpoint,30,11,0.3196
+Kandy,Motorcycle,Suzuki,Clear,Midday (10:00-14:00),Accident Nearby,90,68,0.8942
+Colombo,Van,Nissan,Clear,Morning (06:00-10:00),Road Work,50,130,0.9679
+Galle,Bus,Toyota,Clear,Midday (10:00-14:00),Road Work,50,29,0.3896
+Trincomalee,Truck,Isuzu,Windy,Afternoon (14:00-18:00),None,40,11,0.2904
+Batticaloa,Car,Toyota,Overcast,Early Morning (00:00-06:00),Road Work,60,6,0.3851
+Colombo,Car,Toyota,Clear,Midday (10:00-14:00),Police Checkpoint,50,90,0.8156
+Jaffna,Bus,Toyota,Clear,Morning (06:00-10:00),None,80,24,0.4391
+Jaffna,Motorcycle,Honda,Clear,Morning (06:00-10:00),None,70,29,0.5792
+Trincomalee,Three-Wheeler,Bajaj,Light Rain,Midday (10:00-14:00),None,50,19,0.4779
+Kurunegala,Car,Toyota,Light Rain,Midday (10:00-14:00),Police Checkpoint,50,20,0.3202
+Trincomalee,Three-Wheeler,TVS,Clear,Afternoon (14:00-18:00),Flood Alert,70,7,0.4515
+Trincomalee,Car,Nissan,Clear,Midday (10:00-14:00),Police Checkpoint,70,13,0.3737
+Kandy,Bus,Ashok Leyland,Light Rain,Midday (10:00-14:00),None,80,22,0.5797
+Trincomalee,Three-Wheeler,Bajaj,Clear,Morning (06:00-10:00),None,40,14,0.2771
+Colombo,Motorcycle,Honda,Light Rain,Afternoon (14:00-18:00),None,50,96,0.9153
+Negombo,Van,Mitsubishi,Fog,Evening (18:00-22:00),None,60,23,0.6204
+Kurunegala,Car,Honda,Overcast,Morning (06:00-10:00),None,80,11,0.4352
+Anuradhapura,Motorcycle,Suzuki,Clear,Afternoon (14:00-18:00),None,60,16,0.4539
+Galle,Bus,Isuzu,Clear,Morning (06:00-10:00),Road Work,80,21,0.4994
+Batticaloa,Car,Mitsubishi,Clear,Midday (10:00-14:00),None,80,5,0.3208
+Anuradhapura,Bus,Toyota,Clear,Midday (10:00-14:00),None,60,0,0.2184
+Galle,Van,Mitsubishi,Overcast,Morning (06:00-10:00),None,30,24,0.3227
+Jaffna,Motorcycle,Bajaj,Overcast,Evening (18:00-22:00),None,90,28,0.7143
+Matara,Bus,Isuzu,Clear,Evening (18:00-22:00),Accident Nearby,30,27,0.4123
+Kurunegala,Van,Toyota,Light Rain,Afternoon (14:00-18:00),None,40,20,0.3332
+Colombo,Car,Mitsubishi,Clear,Evening (18:00-22:00),Police Checkpoint,50,84,0.8205
+Kandy,Car,Toyota,Clear,Early Morning (00:00-06:00),Police Checkpoint,30,50,0.4758
+Galle,Car,Nissan,Clear,Early Morning (00:00-06:00),None,70,17,0.3944
+Colombo,Car,Suzuki,Light Rain,Morning (06:00-10:00),None,50,107,0.9325
+Colombo,Bus,Isuzu,Light Rain,Evening (18:00-22:00),None,70,119,0.9554
+Negombo,Van,Toyota,Light Rain,Evening (18:00-22:00),None,60,38,0.5941
+Kandy,Motorcycle,Yamaha,Clear,Midday (10:00-14:00),None,90,43,0.7492
+Matara,Motorcycle,Suzuki,Clear,Night (22:00-00:00),None,60,16,0.3883
+Trincomalee,Car,Nissan,Clear,Night (22:00-00:00),None,90,8,0.3941
+Anuradhapura,Car,Suzuki,Clear,Night (22:00-00:00),None,40,9,0.2702
+Galle,Car,Mitsubishi,Clear,Morning (06:00-10:00),None,30,23,0.2287
+Matara,Motorcycle,Suzuki,Overcast,Morning (06:00-10:00),None,80,19,0.5656
+Negombo,Three-Wheeler,Bajaj,Clear,Afternoon (14:00-18:00),None,70,35,0.5872
+Batticaloa,Bus,Isuzu,Overcast,Midday (10:00-14:00),None,70,7,0.3222
+Anuradhapura,Three-Wheeler,TVS,Clear,Afternoon (14:00-18:00),None,70,22,0.456
+Negombo,Three-Wheeler,Bajaj,Windy,Midday (10:00-14:00),None,40,25,0.3655
+Colombo,Car,Toyota,Clear,Midday (10:00-14:00),Traffic Jam,30,99,0.8449
+Jaffna,Bus,Isuzu,Overcast,Evening (18:00-22:00),None,50,12,0.2644
+Kandy,Motorcycle,Honda,Light Rain,Evening (18:00-22:00),None,50,14,0.378
+Trincomalee,Car,Nissan,Clear,Afternoon (14:00-18:00),None,60,16,0.3605
+Kurunegala,Car,Hyundai,Overcast,Morning (06:00-10:00),None,70,29,0.5245
+Trincomalee,Van,Nissan,Overcast,Evening (18:00-22:00),None,50,11,0.2952
+Colombo,Bus,Ashok Leyland,Clear,Morning (06:00-10:00),None,60,101,0.8981
+Galle,Bus,Toyota,Overcast,Morning (06:00-10:00),None,80,28,0.5621
+Galle,Bus,Ashok Leyland,Clear,Evening (18:00-22:00),Road Work,60,13,0.3798
+Kandy,Car,Suzuki,Windy,Afternoon (14:00-18:00),None,40,38,0.4927
+Matara,Bus,Ashok Leyland,Clear,Morning (06:00-10:00),None,80,22,0.4484
+Matara,Three-Wheeler,TVS,Overcast,Evening (18:00-22:00),None,90,9,0.4973
+Anuradhapura,Car,Suzuki,Clear,Early Morning (00:00-06:00),None,40,15,0.2584
+Trincomalee,Car,Nissan,Clear,Evening (18:00-22:00),None,80,6,0.3346
+Colombo,Car,Suzuki,Clear,Afternoon (14:00-18:00),None,80,111,0.9356
+Kandy,Motorcycle,Suzuki,Light Rain,Midday (10:00-14:00),Flood Alert,50,44,0.8038
+Colombo,Car,Nissan,Windy,Night (22:00-00:00),Flood Alert,70,59,0.8299
+Batticaloa,Car,Suzuki,Light Rain,Morning (06:00-10:00),None,80,16,0.4551
+Kurunegala,Bus,Toyota,Fog,Evening (18:00-22:00),None,50,18,0.4284
+Matara,Three-Wheeler,Bajaj,Clear,Morning (06:00-10:00),None,30,12,0.2119
+Jaffna,Car,Toyota,Overcast,Midday (10:00-14:00),Police Checkpoint,90,18,0.54
+Negombo,Bus,Toyota,Clear,Morning (06:00-10:00),None,30,37,0.4102
+Kurunegala,Motorcycle,Yamaha,Storm,Evening (18:00-22:00),Road Work,90,15,0.8122
+Trincomalee,Car,Suzuki,Clear,Evening (18:00-22:00),None,60,12,0.2693
+Colombo,Motorcycle,Bajaj,Light Rain,Morning (06:00-10:00),Flood Alert,30,110,0.9633
+Batticaloa,Bus,Toyota,Light Rain,Morning (06:00-10:00),None,60,14,0.3387
+Trincomalee,Motorcycle,Yamaha,Clear,Afternoon (14:00-18:00),Road Work,80,13,0.5478
+Colombo,Truck,Hino,Windy,Afternoon (14:00-18:00),Police Checkpoint,50,90,0.8695
+Batticaloa,Car,Toyota,Clear,Evening (18:00-22:00),None,50,7,0.2607
+Colombo,Bus,Isuzu,Clear,Afternoon (14:00-18:00),None,70,102,0.9094
+Batticaloa,Bus,Toyota,Overcast,Morning (06:00-10:00),None,80,6,0.3793
+Colombo,Van,Toyota,Clear,Morning (06:00-10:00),None,40,26,0.3636
+Matara,Truck,Isuzu,Heavy Rain,Morning (06:00-10:00),None,30,20,0.4976
+Kurunegala,Motorcycle,Bajaj,Light Rain,Evening (18:00-22:00),None,50,31,0.54
+Kandy,Motorcycle,Honda,Clear,Evening (18:00-22:00),None,40,15,0.3795
+Trincomalee,Motorcycle,Suzuki,Clear,Afternoon (14:00-18:00),None,50,7,0.3535
+Kurunegala,Motorcycle,Bajaj,Clear,Evening (18:00-22:00),None,60,28,0.5053
+Kandy,Car,Hyundai,Light Rain,Afternoon (14:00-18:00),None,50,70,0.7897
+Trincomalee,Car,Mitsubishi,Heavy Rain,Morning (06:00-10:00),Accident Nearby,50,12,0.4894
+Jaffna,Bus,Ashok Leyland,Overcast,Afternoon (14:00-18:00),None,60,12,0.3125
+Galle,Car,Mitsubishi,Overcast,Early Morning (00:00-06:00),None,70,23,0.4212
+Batticaloa,Bus,Toyota,Overcast,Midday (10:00-14:00),Road Work,40,17,0.327
+Galle,Bus,Isuzu,Clear,Early Morning (00:00-06:00),Accident Nearby,60,20,0.5161
+Matara,Motorcycle,Suzuki,Overcast,Morning (06:00-10:00),None,60,12,0.4228
+Negombo,Motorcycle,Yamaha,Storm,Evening (18:00-22:00),Accident Nearby,90,23,0.8452
+Negombo,Motorcycle,Honda,Windy,Midday (10:00-14:00),None,60,19,0.48
+Trincomalee,Bicycle,Giant,Windy,Afternoon (14:00-18:00),None,70,13,0.3431
+Anuradhapura,Bus,Ashok Leyland,Clear,Evening (18:00-22:00),Accident Nearby,60,22,0.5039
+Colombo,Bus,Ashok Leyland,Clear,Morning (06:00-10:00),None,40,108,0.8676
+Batticaloa,Motorcycle,Bajaj,Clear,Afternoon (14:00-18:00),Accident Nearby,30,9,0.3393
+Colombo,Bus,Isuzu,Light Rain,Afternoon (14:00-18:00),Police Checkpoint,70,92,0.9039
+Batticaloa,Car,Toyota,Clear,Midday (10:00-14:00),Police Checkpoint,50,3,0.2038
+Galle,Motorcycle,Suzuki,Overcast,Afternoon (14:00-18:00),None,70,31,0.6176
+Trincomalee,Bus,Isuzu,Clear,Morning (06:00-10:00),None,60,12,0.3092
+Colombo,Car,Suzuki,Windy,Afternoon (14:00-18:00),None,40,95,0.8661
+Kandy,Motorcycle,Honda,Clear,Morning (06:00-10:00),None,50,84,0.8746
+Kurunegala,Car,Hyundai,Windy,Midday (10:00-14:00),None,70,26,0.4635
+Batticaloa,Car,Toyota,Clear,Evening (18:00-22:00),None,50,7,0.227
+Batticaloa,Bus,Ashok Leyland,Overcast,Midday (10:00-14:00),None,60,9,0.3276
+Trincomalee,Motorcycle,Yamaha,Clear,Morning (06:00-10:00),None,60,17,0.4687
+Anuradhapura,Motorcycle,Honda,Heavy Rain,Evening (18:00-22:00),Flood Alert,100,14,0.7904
+Colombo,Bus,Toyota,Overcast,Midday (10:00-14:00),None,40,64,0.6662
+Galle,Van,Mitsubishi,Clear,Evening (18:00-22:00),None,60,31,0.4114
+Colombo,Motorcycle,Yamaha,Fog,Afternoon (14:00-18:00),None,60,83,0.9326
+Galle,Motorcycle,Honda,Heavy Rain,Early Morning (00:00-06:00),None,50,39,0.7512
+Jaffna,Motorcycle,Honda,Light Rain,Afternoon (14:00-18:00),None,30,24,0.4122
+Anuradhapura,Motorcycle,Yamaha,Overcast,Morning (06:00-10:00),None,60,11,0.3905
+Trincomalee,Motorcycle,Suzuki,Light Rain,Morning (06:00-10:00),Accident Nearby,80,18,0.7121
+Anuradhapura,Car,Suzuki,Clear,Midday (10:00-14:00),None,60,14,0.2751
+Kurunegala,Three-Wheeler,Bajaj,Clear,Night (22:00-00:00),None,90,30,0.5924
+Anuradhapura,Motorcycle,Yamaha,Clear,Evening (18:00-22:00),None,70,16,0.4942
+Colombo,Van,Toyota,Heavy Rain,Afternoon (14:00-18:00),Traffic Jam,60,78,0.8836
+Negombo,Three-Wheeler,Bajaj,Clear,Afternoon (14:00-18:00),Accident Nearby,50,21,0.4582
+Anuradhapura,Three-Wheeler,TVS,Overcast,Early Morning (00:00-06:00),None,40,19,0.3546
+Kandy,Bus,Ashok Leyland,Clear,Midday (10:00-14:00),None,50,40,0.4929
+Matara,Truck,Mitsubishi,Clear,Morning (06:00-10:00),None,40,14,0.3048
+Matara,Car,Honda,Heavy Rain,Afternoon (14:00-18:00),None,50,11,0.3642
+Galle,Van,Toyota,Clear,Midday (10:00-14:00),Accident Nearby,40,28,0.47
+Batticaloa,Car,Honda,Light Rain,Afternoon (14:00-18:00),None,30,20,0.3014
+Batticaloa,Truck,Hino,Overcast,Night (22:00-00:00),None,70,6,0.3853
+Negombo,Motorcycle,Honda,Overcast,Afternoon (14:00-18:00),None,60,27,0.5336
+Matara,Car,Suzuki,Storm,Early Morning (00:00-06:00),Traffic Jam,60,26,0.6032
+Negombo,Motorcycle,Bajaj,Clear,Night (22:00-00:00),None,50,26,0.4453
+Kandy,Bus,Toyota,Clear,Morning (06:00-10:00),Accident Nearby,70,50,0.7304
+Galle,Motorcycle,Bajaj,Clear,Afternoon (14:00-18:00),None,50,17,0.3772
+Colombo,Bicycle,Local,Overcast,Afternoon (14:00-18:00),None,50,110,0.8954
+Anuradhapura,Motorcycle,Suzuki,Clear,Evening (18:00-22:00),None,30,12,0.2923
+Batticaloa,Three-Wheeler,Bajaj,Light Rain,Morning (06:00-10:00),None,50,15,0.3903
+Jaffna,Motorcycle,Yamaha,Light Rain,Morning (06:00-10:00),None,100,24,0.7413
+Matara,Car,Toyota,Clear,Morning (06:00-10:00),None,60,33,0.4514
+Colombo,Motorcycle,Suzuki,Overcast,Evening (18:00-22:00),Flood Alert,40,114,0.9687
+Galle,Three-Wheeler,Bajaj,Overcast,Evening (18:00-22:00),None,40,27,0.4128
+Colombo,Bus,Isuzu,Overcast,Morning (06:00-10:00),None,100,104,0.956
+Anuradhapura,Truck,Hino,Light Rain,Evening (18:00-22:00),Flood Alert,80,12,0.6301
+Trincomalee,Motorcycle,Yamaha,Clear,Early Morning (00:00-06:00),None,80,14,0.5067
+Trincomalee,Three-Wheeler,Bajaj,Heavy Rain,Night (22:00-00:00),Road Work,60,11,0.5446
+Kurunegala,Car,Honda,Light Rain,Midday (10:00-14:00),Accident Nearby,30,25,0.4362
+Batticaloa,Three-Wheeler,Bajaj,Clear,Evening (18:00-22:00),None,70,16,0.3508
+Jaffna,Bus,Ashok Leyland,Fog,Evening (18:00-22:00),None,80,11,0.5268
+Kurunegala,Motorcycle,Honda,Clear,Morning (06:00-10:00),None,50,33,0.5989
+Galle,Car,Suzuki,Windy,Afternoon (14:00-18:00),None,50,34,0.464
+Kandy,Motorcycle,Suzuki,Light Rain,Afternoon (14:00-18:00),None,80,43,0.763
+Colombo,Motorcycle,Bajaj,Windy,Afternoon (14:00-18:00),None,50,46,0.6896
+Kurunegala,Car,Hyundai,Overcast,Midday (10:00-14:00),None,70,19,0.4216
+Kurunegala,Bus,Toyota,Fog,Morning (06:00-10:00),None,80,34,0.7323
+Matara,Bus,Ashok Leyland,Clear,Evening (18:00-22:00),None,100,17,0.4631
+Galle,Car,Nissan,Storm,Afternoon (14:00-18:00),None,60,17,0.5312
+Negombo,Motorcycle,Suzuki,Light Rain,Evening (18:00-22:00),None,60,23,0.577
+Galle,Car,Toyota,Clear,Midday (10:00-14:00),None,50,31,0.4015
+Anuradhapura,Three-Wheeler,Bajaj,Clear,Midday (10:00-14:00),Police Checkpoint,90,17,0.5006
+Batticaloa,Three-Wheeler,Bajaj,Light Rain,Midday (10:00-14:00),None,70,9,0.4483
+Trincomalee,Car,Hyundai,Overcast,Afternoon (14:00-18:00),None,80,10,0.4059
+Trincomalee,Bus,Isuzu,Overcast,Morning (06:00-10:00),Accident Nearby,40,10,0.2873
+Trincomalee,Three-Wheeler,Bajaj,Light Rain,Midday (10:00-14:00),None,60,8,0.3923
+Negombo,Bus,Ashok Leyland,Light Rain,Night (22:00-00:00),Road Work,40,41,0.5856
+Kandy,Motorcycle,Bajaj,Overcast,Afternoon (14:00-18:00),None,60,40,0.6551
+Anuradhapura,Motorcycle,Yamaha,Clear,Morning (06:00-10:00),None,40,20,0.3857
+Negombo,Motorcycle,Suzuki,Clear,Early Morning (00:00-06:00),None,90,40,0.7386
+Kurunegala,Motorcycle,Bajaj,Overcast,Afternoon (14:00-18:00),Accident Nearby,100,31,0.8261
+Kandy,Motorcycle,Honda,Overcast,Morning (06:00-10:00),None,60,39,0.6431
+Trincomalee,Motorcycle,Bajaj,Clear,Afternoon (14:00-18:00),None,70,14,0.4264
+Colombo,Car,Nissan,Overcast,Midday (10:00-14:00),Traffic Jam,60,99,0.9024
+Colombo,Bus,Toyota,Light Rain,Morning (06:00-10:00),Road Work,50,77,0.8532
+Kurunegala,Three-Wheeler,Bajaj,Heavy Rain,Evening (18:00-22:00),None,60,26,0.6197
+Galle,Car,Toyota,Light Rain,Night (22:00-00:00),None,70,16,0.4495
+Galle,Motorcycle,Suzuki,Heavy Rain,Evening (18:00-22:00),None,40,33,0.5991
+Trincomalee,Truck,Hino,Overcast,Midday (10:00-14:00),None,40,10,0.3536
+Kandy,Van,Mitsubishi,Clear,Midday (10:00-14:00),None,80,47,0.6885
+Kandy,Motorcycle,Suzuki,Heavy Rain,Early Morning (00:00-06:00),Police Checkpoint,30,48,0.7193
+Galle,Car,Nissan,Storm,Evening (18:00-22:00),None,70,23,0.597
+Kandy,Car,Hyundai,Fog,Early Morning (00:00-06:00),None,50,52,0.7349
+Matara,Car,Nissan,Light Rain,Midday (10:00-14:00),None,30,14,0.2835
+Colombo,Car,Mitsubishi,Overcast,Night (22:00-00:00),Police Checkpoint,80,121,0.9662
+Galle,Van,Isuzu,Clear,Night (22:00-00:00),None,30,14,0.2533
+Colombo,Motorcycle,Honda,Clear,Midday (10:00-14:00),None,80,103,0.9575
+Colombo,Truck,Hino,Clear,Morning (06:00-10:00),None,50,148,0.978
+Colombo,Bus,Ashok Leyland,Clear,Afternoon (14:00-18:00),None,60,74,0.7632
+Batticaloa,Car,Nissan,Heavy Rain,Morning (06:00-10:00),Accident Nearby,70,7,0.5328
+Kandy,Three-Wheeler,TVS,Light Rain,Morning (06:00-10:00),None,40,51,0.6643
+Galle,Motorcycle,Honda,Clear,Evening (18:00-22:00),None,30,26,0.3845
+Jaffna,Motorcycle,Suzuki,Heavy Rain,Evening (18:00-22:00),None,100,19,0.7664
+Galle,Car,Toyota,Windy,Evening (18:00-22:00),None,60,28,0.5106
+Kandy,Motorcycle,Yamaha,Light Rain,Afternoon (14:00-18:00),Traffic Jam,80,52,0.8249
+Negombo,Three-Wheeler,Bajaj,Overcast,Afternoon (14:00-18:00),None,40,37,0.4547
+Colombo,Car,Hyundai,Overcast,Evening (18:00-22:00),Traffic Jam,40,110,0.9074
+Galle,Motorcycle,Honda,Overcast,Evening (18:00-22:00),None,90,23,0.6481
+Trincomalee,Motorcycle,Honda,Clear,Evening (18:00-22:00),None,40,15,0.3305
+Jaffna,Motorcycle,Bajaj,Overcast,Evening (18:00-22:00),None,70,29,0.6446
+Colombo,Three-Wheeler,TVS,Windy,Evening (18:00-22:00),None,40,96,0.8858
+Colombo,Motorcycle,Yamaha,Clear,Afternoon (14:00-18:00),Flood Alert,80,75,0.9352
+Negombo,Van,Mitsubishi,Fog,Night (22:00-00:00),None,40,37,0.5489
+Colombo,Truck,Isuzu,Windy,Morning (06:00-10:00),None,40,96,0.8732
+Trincomalee,Motorcycle,Suzuki,Clear,Evening (18:00-22:00),Flood Alert,40,2,0.39
+Colombo,Motorcycle,Bajaj,Clear,Midday (10:00-14:00),Accident Nearby,30,121,0.948
+Colombo,Van,Toyota,Clear,Morning (06:00-10:00),Police Checkpoint,70,86,0.8783
+Galle,Truck,Mitsubishi,Clear,Night (22:00-00:00),Accident Nearby,50,24,0.5082
+Kandy,Bus,Toyota,Clear,Midday (10:00-14:00),None,90,49,0.7857
+Colombo,Motorcycle,Honda,Fog,Midday (10:00-14:00),Flood Alert,50,104,0.9826
+Trincomalee,Bus,Isuzu,Heavy Rain,Evening (18:00-22:00),None,90,15,0.5701
+Anuradhapura,Bicycle,Giant,Clear,Morning (06:00-10:00),None,40,11,0.2091
+Colombo,Car,Toyota,Clear,Evening (18:00-22:00),Road Work,70,112,0.9573
+Galle,Motorcycle,Bajaj,Clear,Morning (06:00-10:00),None,40,23,0.4579
+Batticaloa,Car,Hyundai,Fog,Morning (06:00-10:00),None,60,14,0.4133
+Kandy,Car,Hyundai,Light Rain,Early Morning (00:00-06:00),None,30,52,0.5096
+Jaffna,Car,Nissan,Windy,Early Morning (00:00-06:00),None,60,11,0.3144
+Negombo,Bus,Ashok Leyland,Clear,Morning (06:00-10:00),None,30,37,0.3887
+Trincomalee,Car,Suzuki,Fog,Afternoon (14:00-18:00),None,60,9,0.4347
+Kurunegala,Motorcycle,Suzuki,Windy,Morning (06:00-10:00),None,60,30,0.6257
+Trincomalee,Car,Toyota,Overcast,Evening (18:00-22:00),Flood Alert,40,14,0.3588
+Kandy,Bus,Ashok Leyland,Clear,Morning (06:00-10:00),None,50,67,0.6349
+Trincomalee,Bus,Ashok Leyland,Clear,Evening (18:00-22:00),None,70,11,0.3519
+Jaffna,Car,Honda,Overcast,Evening (18:00-22:00),Accident Nearby,40,15,0.3313
+Jaffna,Car,Honda,Light Rain,Evening (18:00-22:00),None,80,17,0.4226
+Kurunegala,Three-Wheeler,Bajaj,Clear,Afternoon (14:00-18:00),Flood Alert,40,21,0.4767
+Galle,Bus,Toyota,Overcast,Midday (10:00-14:00),None,80,30,0.5704
+Matara,Motorcycle,Bajaj,Overcast,Morning (06:00-10:00),None,70,7,0.42
+Kurunegala,Car,Hyundai,Clear,Evening (18:00-22:00),None,80,15,0.3865
+Negombo,Car,Mitsubishi,Clear,Evening (18:00-22:00),Accident Nearby,50,18,0.3919
+Anuradhapura,Motorcycle,Yamaha,Storm,Morning (06:00-10:00),None,60,19,0.6249
+Colombo,Car,Hyundai,Clear,Midday (10:00-14:00),None,60,142,0.9667
+Trincomalee,Truck,Hino,Clear,Evening (18:00-22:00),Road Work,60,12,0.4093
+Colombo,Car,Toyota,Clear,Evening (18:00-22:00),None,80,95,0.9131
+Matara,Car,Toyota,Heavy Rain,Midday (10:00-14:00),None,90,17,0.6011
+Negombo,Motorcycle,Yamaha,Light Rain,Afternoon (14:00-18:00),Flood Alert,40,37,0.7288
+Trincomalee,Car,Honda,Windy,Afternoon (14:00-18:00),Flood Alert,50,8,0.3783
+Trincomalee,Van,Mitsubishi,Clear,Afternoon (14:00-18:00),None,60,13,0.321
+Galle,Car,Hyundai,Clear,Morning (06:00-10:00),None,50,32,0.3521
+Trincomalee,Car,Toyota,Clear,Midday (10:00-14:00),None,80,14,0.3966
+Anuradhapura,Three-Wheeler,Bajaj,Clear,Morning (06:00-10:00),None,60,15,0.4016
+Kandy,Motorcycle,Bajaj,Storm,Morning (06:00-10:00),Road Work,40,57,0.8342
+Anuradhapura,Van,Nissan,Clear,Morning (06:00-10:00),None,50,0,0.1966
+Kurunegala,Car,Honda,Clear,Afternoon (14:00-18:00),None,70,29,0.4832
+Kandy,Bus,Isuzu,Light Rain,Morning (06:00-10:00),Road Work,70,36,0.7005
+Kurunegala,Three-Wheeler,Bajaj,Clear,Evening (18:00-22:00),None,60,9,0.3045
+Matara,Three-Wheeler,TVS,Heavy Rain,Morning (06:00-10:00),None,100,20,0.6772
+Matara,Car,Hyundai,Clear,Evening (18:00-22:00),None,70,26,0.3908
+Jaffna,Bus,Ashok Leyland,Fog,Midday (10:00-14:00),None,50,16,0.439
+Kandy,Car,Suzuki,Light Rain,Morning (06:00-10:00),None,30,56,0.6531
+Kurunegala,Car,Honda,Overcast,Afternoon (14:00-18:00),None,30,36,0.3934
+Anuradhapura,Car,Honda,Light Rain,Afternoon (14:00-18:00),None,80,21,0.5156
+Kurunegala,Bus,Ashok Leyland,Overcast,Evening (18:00-22:00),Police Checkpoint,60,37,0.5175
+Colombo,Three-Wheeler,TVS,Overcast,Evening (18:00-22:00),None,80,118,0.9656
+Kurunegala,Bus,Isuzu,Heavy Rain,Evening (18:00-22:00),None,60,24,0.4989
+Trincomalee,Three-Wheeler,TVS,Light Rain,Early Morning (00:00-06:00),None,30,4,0.2523
+Trincomalee,Bus,Toyota,Heavy Rain,Evening (18:00-22:00),Flood Alert,50,11,0.5277
+Batticaloa,Motorcycle,Bajaj,Clear,Evening (18:00-22:00),None,70,7,0.4022
+Kurunegala,Three-Wheeler,Bajaj,Clear,Evening (18:00-22:00),None,50,41,0.5045
+Galle,Motorcycle,Bajaj,Fog,Evening (18:00-22:00),None,60,23,0.6805
+Anuradhapura,Three-Wheeler,Bajaj,Clear,Midday (10:00-14:00),Police Checkpoint,30,14,0.2519
+Galle,Car,Mitsubishi,Clear,Midday (10:00-14:00),None,70,29,0.4568
+Galle,Three-Wheeler,TVS,Heavy Rain,Night (22:00-00:00),None,30,25,0.4782
+Matara,Bicycle,Local,Heavy Rain,Afternoon (14:00-18:00),None,70,28,0.5621
+Colombo,Bus,Isuzu,Windy,Afternoon (14:00-18:00),Flood Alert,40,84,0.872
+Galle,Motorcycle,Bajaj,Windy,Morning (06:00-10:00),Police Checkpoint,80,26,0.6112
+Trincomalee,Motorcycle,Yamaha,Clear,Morning (06:00-10:00),Accident Nearby,50,8,0.3729
+Colombo,Truck,Isuzu,Overcast,Evening (18:00-22:00),Traffic Jam,50,66,0.7882
+Kandy,Car,Nissan,Clear,Midday (10:00-14:00),Police Checkpoint,80,37,0.5161
+Negombo,Motorcycle,Bajaj,Clear,Evening (18:00-22:00),None,70,27,0.5321
+Trincomalee,Truck,Hino,Clear,Evening (18:00-22:00),None,80,10,0.3647
+Jaffna,Motorcycle,Bajaj,Clear,Midday (10:00-14:00),Police Checkpoint,40,13,0.3163
+Batticaloa,Truck,Isuzu,Heavy Rain,Afternoon (14:00-18:00),None,90,4,0.5462
+Trincomalee,Car,Honda,Clear,Evening (18:00-22:00),None,70,12,0.3276
+Kurunegala,Car,Honda,Heavy Rain,Morning (06:00-10:00),None,80,11,0.4682
+Jaffna,Motorcycle,Suzuki,Clear,Night (22:00-00:00),None,60,22,0.449
+Kurunegala,Bicycle,Local,Fog,Morning (06:00-10:00),None,30,24,0.4097
+Kurunegala,Car,Mitsubishi,Clear,Afternoon (14:00-18:00),None,80,12,0.3602
+Colombo,Motorcycle,Suzuki,Clear,Afternoon (14:00-18:00),None,40,92,0.8798
+Anuradhapura,Car,Suzuki,Clear,Afternoon (14:00-18:00),None,50,9,0.2262
+Colombo,Car,Mitsubishi,Heavy Rain,Afternoon (14:00-18:00),Accident Nearby,30,107,0.9426
+Colombo,Motorcycle,Bajaj,Light Rain,Morning (06:00-10:00),None,70,133,0.9863
+Colombo,Motorcycle,Suzuki,Light Rain,Midday (10:00-14:00),None,50,53,0.7595
+Kurunegala,Car,Suzuki,Clear,Afternoon (14:00-18:00),Flood Alert,40,24,0.4405
+Kandy,Bus,Toyota,Fog,Afternoon (14:00-18:00),None,50,42,0.6569
+Kandy,Truck,Hino,Clear,Midday (10:00-14:00),None,50,53,0.6458
+Trincomalee,Bus,Isuzu,Clear,Midday (10:00-14:00),None,90,13,0.425
+Negombo,Bus,Toyota,Clear,Evening (18:00-22:00),None,50,20,0.3117
+Colombo,Bus,Isuzu,Light Rain,Morning (06:00-10:00),None,50,92,0.8726
+Batticaloa,Van,Mitsubishi,Overcast,Evening (18:00-22:00),None,80,7,0.3843
+Colombo,Bus,Toyota,Clear,Early Morning (00:00-06:00),None,90,126,0.9673
+Trincomalee,Three-Wheeler,TVS,Windy,Morning (06:00-10:00),None,60,12,0.3513
+Colombo,Bus,Ashok Leyland,Light Rain,Night (22:00-00:00),Police Checkpoint,90,147,0.9862
+Trincomalee,Car,Suzuki,Heavy Rain,Night (22:00-00:00),None,30,12,0.2655
+Kandy,Bus,Toyota,Clear,Midday (10:00-14:00),None,90,36,0.5808
+Trincomalee,Three-Wheeler,Bajaj,Fog,Morning (06:00-10:00),None,90,5,0.5637
+Matara,Car,Honda,Clear,Afternoon (14:00-18:00),None,50,6,0.2088
+Jaffna,Motorcycle,Suzuki,Clear,Midday (10:00-14:00),None,60,7,0.3756
+Galle,Car,Suzuki,Clear,Night (22:00-00:00),Accident Nearby,80,27,0.599
+Kurunegala,Car,Toyota,Clear,Morning (06:00-10:00),Road Work,70,28,0.4808
+Matara,Bus,Toyota,Light Rain,Afternoon (14:00-18:00),None,50,7,0.301
+Colombo,Truck,Isuzu,Heavy Rain,Afternoon (14:00-18:00),None,60,122,0.9773
+Batticaloa,Car,Mitsubishi,Light Rain,Night (22:00-00:00),None,90,8,0.4204
+Trincomalee,Car,Toyota,Light Rain,Afternoon (14:00-18:00),None,60,13,0.3782
+Colombo,Motorcycle,Yamaha,Windy,Early Morning (00:00-06:00),None,80,140,0.987
+Batticaloa,Truck,Mitsubishi,Heavy Rain,Midday (10:00-14:00),Flood Alert,30,15,0.5393
+Colombo,Motorcycle,Honda,Windy,Midday (10:00-14:00),None,80,93,0.937
+Kurunegala,Motorcycle,Honda,Clear,Early Morning (00:00-06:00),Accident Nearby,50,16,0.4371
+Batticaloa,Motorcycle,Suzuki,Clear,Early Morning (00:00-06:00),None,30,1,0.2088
+Anuradhapura,Bus,Isuzu,Clear,Afternoon (14:00-18:00),None,90,10,0.3967
+Negombo,Motorcycle,Honda,Clear,Evening (18:00-22:00),Police Checkpoint,70,25,0.5276
+Kurunegala,Motorcycle,Honda,Clear,Afternoon (14:00-18:00),None,30,16,0.2844
+Batticaloa,Bicycle,Giant,Overcast,Afternoon (14:00-18:00),None,100,10,0.4302
+Jaffna,Bus,Ashok Leyland,Clear,Midday (10:00-14:00),None,70,17,0.3825
+Colombo,Motorcycle,Honda,Clear,Morning (06:00-10:00),None,30,94,0.8633
+Trincomalee,Three-Wheeler,Bajaj,Heavy Rain,Evening (18:00-22:00),None,30,9,0.3264
+Colombo,Three-Wheeler,TVS,Windy,Midday (10:00-14:00),None,70,104,0.9371
+Galle,Bus,Toyota,Overcast,Morning (06:00-10:00),None,50,28,0.4372
+Kurunegala,Bus,Toyota,Clear,Morning (06:00-10:00),None,60,15,0.2909
+Colombo,Truck,Isuzu,Clear,Morning (06:00-10:00),None,30,135,0.9573
+Kurunegala,Car,Hyundai,Clear,Morning (06:00-10:00),None,40,23,0.3359
+Galle,Car,Suzuki,Heavy Rain,Morning (06:00-10:00),None,70,25,0.5881
+Matara,Bus,Isuzu,Heavy Rain,Afternoon (14:00-18:00),None,50,21,0.4493
+Kurunegala,Motorcycle,Bajaj,Light Rain,Afternoon (14:00-18:00),None,100,25,0.7169
+Jaffna,Van,Nissan,Overcast,Evening (18:00-22:00),None,50,23,0.414
+Anuradhapura,Truck,Mitsubishi,Storm,Evening (18:00-22:00),None,30,15,0.3905
+Anuradhapura,Bus,Toyota,Clear,Evening (18:00-22:00),Flood Alert,100,10,0.5623
+Colombo,Car,Nissan,Windy,Midday (10:00-14:00),None,70,109,0.9383
+Jaffna,Motorcycle,Honda,Clear,Afternoon (14:00-18:00),None,60,10,0.4206
+Kandy,Car,Honda,Clear,Evening (18:00-22:00),None,60,46,0.5843
+Trincomalee,Car,Suzuki,Clear,Midday (10:00-14:00),None,60,12,0.2754
+Negombo,Motorcycle,Suzuki,Clear,Morning (06:00-10:00),None,40,25,0.4151
+Galle,Car,Nissan,Windy,Early Morning (00:00-06:00),None,60,24,0.4157
+Colombo,Truck,Hino,Overcast,Morning (06:00-10:00),None,80,52,0.753
+Colombo,Motorcycle,Suzuki,Clear,Evening (18:00-22:00),Accident Nearby,60,86,0.9315
+Matara,Three-Wheeler,Bajaj,Light Rain,Evening (18:00-22:00),None,30,18,0.2936
+Batticaloa,Bus,Ashok Leyland,Clear,Night (22:00-00:00),None,40,11,0.2622
+Kandy,Three-Wheeler,TVS,Light Rain,Midday (10:00-14:00),Road Work,60,32,0.662
+Galle,Bus,Toyota,Clear,Afternoon (14:00-18:00),Road Work,40,34,0.4946
+Jaffna,Car,Honda,Clear,Afternoon (14:00-18:00),None,70,12,0.324
+Kandy,Three-Wheeler,Bajaj,Storm,Afternoon (14:00-18:00),None,60,57,0.8246
+Anuradhapura,Bus,Toyota,Overcast,Afternoon (14:00-18:00),Accident Nearby,60,16,0.4017
+Trincomalee,Motorcycle,Suzuki,Overcast,Morning (06:00-10:00),Road Work,100,9,0.6249
+Trincomalee,Car,Hyundai,Storm,Evening (18:00-22:00),None,40,20,0.4638
+Kandy,Motorcycle,Bajaj,Clear,Night (22:00-00:00),Police Checkpoint,40,30,0.492
+Kurunegala,Motorcycle,Yamaha,Clear,Night (22:00-00:00),None,70,31,0.569
+Matara,Truck,Mitsubishi,Fog,Morning (06:00-10:00),None,60,23,0.5928
+Trincomalee,Car,Nissan,Clear,Morning (06:00-10:00),None,60,9,0.2748
+Jaffna,Bus,Isuzu,Storm,Afternoon (14:00-18:00),None,50,26,0.5004
+Colombo,Three-Wheeler,Bajaj,Light Rain,Early Morning (00:00-06:00),None,90,93,0.9486
+Galle,Bus,Isuzu,Clear,Midday (10:00-14:00),None,60,27,0.3935
+Trincomalee,Motorcycle,Honda,Clear,Midday (10:00-14:00),None,40,13,0.3244
+Kandy,Bus,Toyota,Windy,Morning (06:00-10:00),None,50,43,0.5369
+Negombo,Bus,Ashok Leyland,Heavy Rain,Morning (06:00-10:00),None,50,34,0.541
+Colombo,Three-Wheeler,Bajaj,Fog,Early Morning (00:00-06:00),None,80,119,0.9803
+Batticaloa,Car,Nissan,Overcast,Night (22:00-00:00),Police Checkpoint,70,3,0.2751
+Galle,Car,Honda,Clear,Evening (18:00-22:00),None,70,34,0.5043
+Colombo,Bus,Ashok Leyland,Clear,Evening (18:00-22:00),None,30,58,0.5244
+Colombo,Motorcycle,Bajaj,Overcast,Morning (06:00-10:00),Traffic Jam,60,125,0.9743
+Colombo,Motorcycle,Yamaha,Clear,Afternoon (14:00-18:00),None,100,128,0.9878
+Kandy,Three-Wheeler,Bajaj,Light Rain,Evening (18:00-22:00),None,40,31,0.4783
+Galle,Truck,Isuzu,Clear,Evening (18:00-22:00),None,50,21,0.4183
+Kurunegala,Motorcycle,Honda,Heavy Rain,Evening (18:00-22:00),None,70,15,0.5608
+Trincomalee,Motorcycle,Bajaj,Clear,Morning (06:00-10:00),None,70,11,0.4392
+Matara,Three-Wheeler,Bajaj,Light Rain,Evening (18:00-22:00),None,100,15,0.5631
+Kurunegala,Motorcycle,Honda,Light Rain,Afternoon (14:00-18:00),Police Checkpoint,60,30,0.5618
+Kurunegala,Motorcycle,Honda,Light Rain,Afternoon (14:00-18:00),None,80,34,0.7036
+Kandy,Truck,Isuzu,Clear,Morning (06:00-10:00),None,50,62,0.7457
+Trincomalee,Motorcycle,Suzuki,Overcast,Evening (18:00-22:00),None,40,9,0.345
+Anuradhapura,Motorcycle,Yamaha,Fog,Evening (18:00-22:00),None,80,12,0.6458
+Colombo,Motorcycle,Suzuki,Heavy Rain,Afternoon (14:00-18:00),None,60,57,0.8133
+Colombo,Bus,Toyota,Overcast,Morning (06:00-10:00),None,60,79,0.8136
+Colombo,Three-Wheeler,TVS,Clear,Afternoon (14:00-18:00),None,50,124,0.9511
+Trincomalee,Bus,Isuzu,Clear,Night (22:00-00:00),None,50,20,0.3248
+Jaffna,Motorcycle,Bajaj,Overcast,Afternoon (14:00-18:00),None,60,9,0.3467
+Trincomalee,Car,Hyundai,Light Rain,Afternoon (14:00-18:00),None,40,9,0.2438
+Colombo,Motorcycle,Honda,Heavy Rain,Evening (18:00-22:00),None,100,99,0.977
+Colombo,Motorcycle,Suzuki,Clear,Night (22:00-00:00),None,90,107,0.9671
+Trincomalee,Car,Suzuki,Heavy Rain,Afternoon (14:00-18:00),None,50,8,0.293
+Colombo,Bus,Toyota,Heavy Rain,Afternoon (14:00-18:00),Police Checkpoint,70,110,0.9566
+Matara,Three-Wheeler,Bajaj,Overcast,Afternoon (14:00-18:00),None,60,14,0.3783
+Colombo,Car,Honda,Clear,Afternoon (14:00-18:00),None,90,99,0.9369
+Trincomalee,Car,Toyota,Clear,Evening (18:00-22:00),Accident Nearby,50,15,0.3921
+Colombo,Three-Wheeler,Bajaj,Overcast,Morning (06:00-10:00),None,50,100,0.9075
+Matara,Car,Hyundai,Windy,Afternoon (14:00-18:00),None,80,14,0.4117
+Colombo,Three-Wheeler,Bajaj,Windy,Afternoon (14:00-18:00),None,70,97,0.9102
+Anuradhapura,Motorcycle,Honda,Clear,Midday (10:00-14:00),None,80,13,0.4821
+Kandy,Motorcycle,Honda,Clear,Afternoon (14:00-18:00),Accident Nearby,30,40,0.6338
+Jaffna,Bicycle,Giant,Clear,Midday (10:00-14:00),None,60,15,0.3379
+Kandy,Van,Isuzu,Clear,Evening (18:00-22:00),None,40,64,0.6757
+Colombo,Van,Toyota,Clear,Midday (10:00-14:00),None,40,114,0.9157
+Batticaloa,Motorcycle,Yamaha,Light Rain,Afternoon (14:00-18:00),None,50,9,0.4114
+Batticaloa,Bus,Toyota,Clear,Evening (18:00-22:00),None,60,14,0.2993
+Kurunegala,Car,Suzuki,Clear,Morning (06:00-10:00),None,60,21,0.3627
+Trincomalee,Motorcycle,Honda,Storm,Midday (10:00-14:00),None,70,18,0.7095
+Negombo,Car,Honda,Clear,Evening (18:00-22:00),None,60,30,0.4115
+Colombo,Motorcycle,Bajaj,Clear,Night (22:00-00:00),None,40,97,0.9101
+Kurunegala,Car,Toyota,Light Rain,Afternoon (14:00-18:00),None,30,27,0.3478
+Anuradhapura,Van,Nissan,Overcast,Midday (10:00-14:00),Accident Nearby,70,5,0.4559
+Colombo,Three-Wheeler,TVS,Clear,Evening (18:00-22:00),None,30,71,0.6535
+Colombo,Bus,Ashok Leyland,Overcast,Early Morning (00:00-06:00),None,60,70,0.7797
+Galle,Bicycle,Giant,Clear,Morning (06:00-10:00),None,70,26,0.4046
+Matara,Motorcycle,Honda,Overcast,Morning (06:00-10:00),None,60,28,0.5146
+Galle,Motorcycle,Honda,Clear,Afternoon (14:00-18:00),None,60,41,0.6462
+Trincomalee,Car,Suzuki,Clear,Morning (06:00-10:00),None,30,15,0.2417
+Trincomalee,Motorcycle,Honda,Fog,Afternoon (14:00-18:00),Road Work,80,14,0.698
+Galle,Bus,Isuzu,Clear,Evening (18:00-22:00),Flood Alert,40,11,0.3084
+Colombo,Bus,Ashok Leyland,Fog,Morning (06:00-10:00),Police Checkpoint,50,86,0.885
+Galle,Truck,Hino,Heavy Rain,Night (22:00-00:00),None,60,19,0.5459
+Anuradhapura,Car,Nissan,Clear,Morning (06:00-10:00),None,30,10,0.2031
+Colombo,Bus,Toyota,Windy,Midday (10:00-14:00),None,60,95,0.9038
+Colombo,Bus,Ashok Leyland,Light Rain,Night (22:00-00:00),None,50,88,0.8584
+Kandy,Car,Hyundai,Heavy Rain,Evening (18:00-22:00),None,50,20,0.5024
+Trincomalee,Bicycle,Giant,Clear,Afternoon (14:00-18:00),Police Checkpoint,80,16,0.3807
+Trincomalee,Van,Nissan,Clear,Morning (06:00-10:00),None,80,7,0.3479
+Matara,Car,Hyundai,Clear,Afternoon (14:00-18:00),None,70,18,0.3383
+Kandy,Motorcycle,Suzuki,Clear,Afternoon (14:00-18:00),Flood Alert,50,70,0.8755
+Trincomalee,Car,Toyota,Light Rain,Night (22:00-00:00),Road Work,70,8,0.4292
+Kurunegala,Motorcycle,Honda,Clear,Morning (06:00-10:00),Road Work,40,3,0.347
+Jaffna,Bus,Isuzu,Clear,Afternoon (14:00-18:00),Flood Alert,60,15,0.4764
+Kurunegala,Three-Wheeler,Bajaj,Clear,Morning (06:00-10:00),None,80,32,0.5509
+Negombo,Motorcycle,Honda,Light Rain,Afternoon (14:00-18:00),None,70,44,0.7576
+Galle,Car,Hyundai,Overcast,Midday (10:00-14:00),None,80,15,0.4411
+Anuradhapura,Car,Honda,Clear,Night (22:00-00:00),None,50,16,0.3308
+Colombo,Van,Isuzu,Overcast,Afternoon (14:00-18:00),None,80,88,0.9121
+Galle,Van,Nissan,Overcast,Afternoon (14:00-18:00),Flood Alert,40,24,0.5204
+Anuradhapura,Bus,Ashok Leyland,Heavy Rain,Midday (10:00-14:00),Accident Nearby,80,28,0.7267
+Trincomalee,Car,Honda,Clear,Early Morning (00:00-06:00),Police Checkpoint,70,5,0.2851
+Colombo,Motorcycle,Honda,Overcast,Midday (10:00-14:00),Flood Alert,50,106,0.9688
+Trincomalee,Car,Suzuki,Clear,Midday (10:00-14:00),None,70,14,0.316
+Colombo,Car,Suzuki,Clear,Afternoon (14:00-18:00),Accident Nearby,70,127,0.9722
+Trincomalee,Truck,Isuzu,Overcast,Night (22:00-00:00),None,50,12,0.3197
+Anuradhapura,Motorcycle,Bajaj,Overcast,Morning (06:00-10:00),Accident Nearby,30,15,0.4307
+Colombo,Bus,Ashok Leyland,Heavy Rain,Afternoon (14:00-18:00),None,60,90,0.9217
+Colombo,Van,Isuzu,Clear,Afternoon (14:00-18:00),None,50,106,0.897
+Kandy,Car,Suzuki,Light Rain,Afternoon (14:00-18:00),None,100,40,0.6817
+Negombo,Motorcycle,Honda,Light Rain,Evening (18:00-22:00),None,60,32,0.6209
+Colombo,Car,Honda,Windy,Night (22:00-00:00),None,100,90,0.9401
+Galle,Truck,Isuzu,Overcast,Afternoon (14:00-18:00),None,70,27,0.5623
+Kurunegala,Van,Isuzu,Clear,Midday (10:00-14:00),None,60,23,0.416
+Galle,Car,Mitsubishi,Fog,Morning (06:00-10:00),None,30,33,0.4847
+Colombo,Three-Wheeler,Bajaj,Windy,Midday (10:00-14:00),None,60,98,0.905
+Kurunegala,Motorcycle,Yamaha,Clear,Morning (06:00-10:00),None,40,9,0.3136
+Jaffna,Three-Wheeler,Bajaj,Clear,Midday (10:00-14:00),None,40,25,0.3372
+Batticaloa,Motorcycle,Suzuki,Clear,Midday (10:00-14:00),None,70,6,0.4576
+Colombo,Motorcycle,Honda,Clear,Midday (10:00-14:00),None,80,83,0.9171
+Kandy,Motorcycle,Yamaha,Clear,Morning (06:00-10:00),None,90,37,0.7081
+Matara,Motorcycle,Honda,Heavy Rain,Midday (10:00-14:00),None,80,26,0.7069
+Galle,Car,Suzuki,Overcast,Morning (06:00-10:00),None,50,8,0.2538
+Colombo,Motorcycle,Honda,Overcast,Afternoon (14:00-18:00),None,90,178,0.9969
+Colombo,Bus,Ashok Leyland,Overcast,Afternoon (14:00-18:00),None,100,126,0.9802
+Galle,Motorcycle,Yamaha,Storm,Afternoon (14:00-18:00),None,30,26,0.5741
+Colombo,Motorcycle,Honda,Clear,Evening (18:00-22:00),None,30,98,0.8694
+Anuradhapura,Bus,Isuzu,Clear,Afternoon (14:00-18:00),None,80,15,0.455
+Galle,Motorcycle,Suzuki,Heavy Rain,Morning (06:00-10:00),None,60,28,0.6646
+Colombo,Motorcycle,Yamaha,Clear,Morning (06:00-10:00),None,80,116,0.9718
+Colombo,Car,Toyota,Overcast,Morning (06:00-10:00),Accident Nearby,80,113,0.9649
+Galle,Motorcycle,Honda,Clear,Evening (18:00-22:00),None,50,25,0.4773
+Galle,Motorcycle,Honda,Clear,Afternoon (14:00-18:00),Road Work,70,23,0.6174
+Colombo,Car,Honda,Windy,Afternoon (14:00-18:00),Accident Nearby,40,96,0.8798
+Matara,Motorcycle,Yamaha,Clear,Early Morning (00:00-06:00),None,30,16,0.3685
+Trincomalee,Bus,Isuzu,Clear,Morning (06:00-10:00),None,70,17,0.4118
+Trincomalee,Motorcycle,Honda,Windy,Evening (18:00-22:00),None,60,15,0.4582
+Anuradhapura,Three-Wheeler,Bajaj,Overcast,Morning (06:00-10:00),None,50,0,0.216
+Negombo,Car,Hyundai,Light Rain,Night (22:00-00:00),Road Work,60,33,0.615
+Kandy,Van,Mitsubishi,Windy,Afternoon (14:00-18:00),None,50,47,0.6077
+Batticaloa,Car,Suzuki,Clear,Afternoon (14:00-18:00),None,40,10,0.2281
+Matara,Three-Wheeler,TVS,Clear,Afternoon (14:00-18:00),None,60,15,0.3665
+Colombo,Car,Honda,Clear,Evening (18:00-22:00),Road Work,70,128,0.9732
+Kandy,Three-Wheeler,TVS,Clear,Afternoon (14:00-18:00),None,50,56,0.693
+Negombo,Motorcycle,Suzuki,Overcast,Morning (06:00-10:00),None,50,20,0.4639
+Trincomalee,Three-Wheeler,TVS,Clear,Morning (06:00-10:00),Police Checkpoint,90,14,0.434
+Jaffna,Truck,Hino,Heavy Rain,Afternoon (14:00-18:00),None,50,11,0.4793
+Trincomalee,Car,Suzuki,Overcast,Afternoon (14:00-18:00),None,30,5,0.2117
+Colombo,Motorcycle,Yamaha,Clear,Morning (06:00-10:00),None,60,84,0.9171
+Colombo,Bus,Isuzu,Light Rain,Morning (06:00-10:00),Road Work,60,121,0.963
+Colombo,Motorcycle,Honda,Clear,Morning (06:00-10:00),None,60,123,0.9667
+Anuradhapura,Van,Mitsubishi,Fog,Morning (06:00-10:00),None,50,16,0.3971
+Kandy,Three-Wheeler,TVS,Clear,Afternoon (14:00-18:00),Police Checkpoint,30,54,0.5613
+Anuradhapura,Truck,Mitsubishi,Heavy Rain,Morning (06:00-10:00),None,50,16,0.4642
+Kandy,Car,Nissan,Windy,Morning (06:00-10:00),None,70,36,0.6318
+Jaffna,Three-Wheeler,TVS,Clear,Morning (06:00-10:00),Flood Alert,50,20,0.4835
+Jaffna,Bus,Toyota,Fog,Evening (18:00-22:00),None,80,22,0.5637
+Kandy,Car,Suzuki,Heavy Rain,Afternoon (14:00-18:00),None,60,54,0.7404
+Matara,Three-Wheeler,Bajaj,Clear,Evening (18:00-22:00),None,70,24,0.4177
+Galle,Three-Wheeler,Bajaj,Clear,Midday (10:00-14:00),None,70,30,0.5491
+Trincomalee,Motorcycle,Suzuki,Storm,Afternoon (14:00-18:00),None,70,14,0.5768
+Colombo,Car,Toyota,Clear,Midday (10:00-14:00),None,60,126,0.9523
+Kurunegala,Bicycle,Giant,Clear,Midday (10:00-14:00),None,90,23,0.4242
+Kandy,Bus,Ashok Leyland,Fog,Afternoon (14:00-18:00),None,80,33,0.6881
+Batticaloa,Truck,Mitsubishi,Clear,Morning (06:00-10:00),None,40,10,0.3112
+Matara,Car,Hyundai,Clear,Night (22:00-00:00),None,50,12,0.273
