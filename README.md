@@ -37,8 +37,24 @@ Trip Safety AI is an intelligent system that helps travelers evaluate and manage
 "Hello\n\n\n\nWorld"  
 → "Hello\nWorld"
 
-# Risk Scoring Formula
-<img width="794" height="63" alt="image" src="https://github.com/user-attachments/assets/50201306-1dbd-4962-91af-af3963b096be" />
+## ⚙️ Risk Scoring Formula
+
+The Trip Safety AI system calculates the **final risk score (0–100)** by combining both
+machine learning predictions and manual heuristic adjustments based on real-world conditions.
+
+\[
+\textbf{Risk Score} = W_w \times Weather + W_e \times Emergency + W_t \times Transport
+\]
+
+Where:
+
+| Symbol | Factor | Description |
+|:--:|:--|:--|
+| **Ww** | Weather Weight | Increases score during heavy rain, fog, or storms. |
+| **We** | Emergency Weight | Adds extra risk for accidents, floods, or road closures nearby. |
+| **Wt** | Transport Weight | Adjusts score based on vehicle type (bike > car > train). |
+
+---
 
 
 # 🔎 Example Workflow
